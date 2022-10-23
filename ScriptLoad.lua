@@ -442,6 +442,7 @@ function CreateSupportList(list_game)
 		TextLabel.TextTransparency = 0.500
 		TextLabel.TextWrapped = true
 		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+		RainbowText(TextLabel)
 	end
 	
 	CloseButton.MouseButton1Click:Connect(function()
@@ -525,7 +526,7 @@ local listPre = {
 	[1451439645] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/KingPiece.lua'))()",
 
 	--Blox Fruit
-	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHubPre.lua'))()",
+	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/BloxFruitPre.lua'))()",
 
 	--Pet Simulator X
 	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/PetXfolder/PetSimXMobile.lua'))()",
