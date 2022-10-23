@@ -442,7 +442,6 @@ function CreateSupportList(list_game)
 		TextLabel.TextTransparency = 0.500
 		TextLabel.TextWrapped = true
 		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-		RainbowText(TextLabel)
 	end
 	
 	CloseButton.MouseButton1Click:Connect(function()
