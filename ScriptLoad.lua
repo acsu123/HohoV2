@@ -587,6 +587,7 @@ CreateSupportList({"Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tow
 })
 
 if getgenv().Key and listPre[game.GameId] ~= nil then
+	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
 elseif not getgenv().Key and list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
