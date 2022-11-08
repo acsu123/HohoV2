@@ -100,7 +100,7 @@ function MakePrGui()
 	ShopDomain.Size = UDim2.new(0.512133896, 0, 0.129692838, 0)
 	ShopDomain.ZIndex = 2
 	ShopDomain.Font = Enum.Font.LuckiestGuy
-	ShopDomain.Text = "shophohohub.com"
+	ShopDomain.Text = "en.shophohohub.com"
 	ShopDomain.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ShopDomain.TextScaled = true
 	ShopDomain.TextSize = 14.000
@@ -135,7 +135,7 @@ function MakePrGui()
 	eggo.Size = UDim2.new(0.388284504, 0, 0.105802044, 0)
 	eggo.ZIndex = 2
 	eggo.Font = Enum.Font.Cartoon
-	eggo.Text = "Dich vu Robux,Cay thue,Exploit gia re"
+	eggo.Text = "Cheap Robux, Scripts & Game Services"
 	eggo.TextColor3 = Color3.fromRGB(255, 255, 255)
 	eggo.TextScaled = true
 	eggo.TextSize = 14.000
@@ -153,7 +153,7 @@ function MakePrGui()
 	eggo2.Size = UDim2.new(0.388284504, 0, 0.0904436857, 0)
 	eggo2.ZIndex = 2
 	eggo2.Font = Enum.Font.Cartoon
-	eggo2.Text = "Vong quay may man nhan toi 9999 robux"
+	eggo2.Text = "Lucky wheel give you up to 9999 robux"
 	eggo2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	eggo2.TextScaled = true
 	eggo2.TextSize = 14.000
@@ -198,7 +198,7 @@ function MakePrGui()
 	eggo2_2.Size = UDim2.new(0.388284504, 0, 0.0904436857, 0)
 	eggo2_2.ZIndex = 2
 	eggo2_2.Font = Enum.Font.Cartoon
-	eggo2_2.Text = "Server support 24/7 tai discord.gg/hohohub"
+	eggo2_2.Text = "Server support 24/7 in discord.gg/hohohub"
 	eggo2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	eggo2_2.TextScaled = true
 	eggo2_2.TextSize = 14.000
