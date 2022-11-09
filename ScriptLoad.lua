@@ -100,7 +100,7 @@ function MakePrGui()
 	ShopDomain.Size = UDim2.new(0.512133896, 0, 0.129692838, 0)
 	ShopDomain.ZIndex = 2
 	ShopDomain.Font = Enum.Font.LuckiestGuy
-	ShopDomain.Text = "en.shophohohub.com"
+	ShopDomain.Text = "english.shophohohub.com"
 	ShopDomain.TextColor3 = Color3.fromRGB(255, 255, 255)
 	ShopDomain.TextScaled = true
 	ShopDomain.TextSize = 14.000
