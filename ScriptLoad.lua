@@ -587,7 +587,7 @@ local listPre = {
 }
 
 MakePrGui()
-CreateSupportList({"Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
+CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
