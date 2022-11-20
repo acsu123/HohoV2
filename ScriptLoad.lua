@@ -513,6 +513,9 @@ local list = {
 
 	--Collect All Pets
 	[3359505957]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/CollectAllPetsFree.lua', true))()",
+	
+	--GPO
+	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/GPOFree.lua', true))()",
 }
 
 local listPre = {
@@ -578,6 +581,9 @@ local listPre = {
 	
 	--Collect All Pets
 	[3359505957]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/CollectAllPetsPre.lua', true))()",
+	
+	--GPO
+	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/GPOPre.lua', true))()",
 }
 
 MakePrGui()
