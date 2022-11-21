@@ -591,7 +591,7 @@ CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fru
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
-
+_G.HoHoLoaded = true
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
