@@ -584,10 +584,14 @@ local listPre = {
 	
 	--GPO
 	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/GPOPre.lua', true))()",
+
+        --Murder Party (New)
+        [5611648039]="loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/artas01/c50dad68804d1656a15f5357f9333daa4a4f15af/MurderParty_bylolProplayerlol'))()",
+
 }
 
 MakePrGui()
-CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
+CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Murder Party (Made by fun4ng4mez)","Break In","Arsenal",
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
@@ -598,5 +602,5 @@ if getgenv().Key and listPre[game.GameId] ~= nil then
 elseif not getgenv().Key and list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
-	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
+	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub & https://discord.gg/aYkRMW4w")
 end
