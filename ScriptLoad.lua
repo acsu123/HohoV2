@@ -40,6 +40,77 @@ local function MakeDraggable(topbarobject, object)
 	end)
 end
 
+function YtPr()
+	local YoutubeGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local ImageLabel = Instance.new("ImageLabel")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local TextButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+
+	MakeDraggable(Frame,Frame)
+
+	YoutubeGui.Name = "YoutubeGui"
+	YoutubeGui.Parent = game.CoreGui
+	YoutubeGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Frame.Parent = YoutubeGui
+	Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Frame.Position = UDim2.new(0.0937950909, 0, 0.497589529, 0)
+	Frame.Size = UDim2.new(0.259740233, 0, 0.172176316, 0)
+
+	UICorner.Parent = Frame
+
+	ImageLabel.Parent = Frame
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.Position = UDim2.new(0.057500001, 0, 0.0700000003, 0)
+	ImageLabel.Size = UDim2.new(0.295138925, 0, 0.850000024, 0)
+	ImageLabel.Image = "http://www.roblox.com/asset/?id=12130059538"
+
+	UICorner_2.CornerRadius = UDim.new(0, 60)
+	UICorner_2.Parent = ImageLabel
+
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderSizePixel = 0
+	TextLabel.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
+	TextLabel.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
+	TextLabel.Font = Enum.Font.Highway
+	TextLabel.Text = " acsu123"
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+	TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+	TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
+
+	TextButton.Parent = Frame
+	TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	TextButton.Position = UDim2.new(0.401250005, 0, 0.479999989, 0)
+	TextButton.Size = UDim2.new(0.534722269, 0, 0.349999994, 0)
+	TextButton.Font = Enum.Font.SourceSans
+	TextButton.Text = "Subcribe"
+	TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton.TextScaled = true
+	TextButton.TextSize = 14.000
+	TextButton.TextWrapped = true
+
+	UICorner_3.Parent = TextButton
+
+	local uistroke = Instance.new("UIStroke",ImageLabel)
+	uistroke.Color =Color3.fromRGB(255, 0, 0)
+	uistroke.Thickness = 3
+
+	game.Debris:AddItem(YoutubeGui,30)
+
+	TextButton.MouseButton1Click:Connect(function()
+		game.Debris:AddItem(YoutubeGui,0)
+	end)
+end
+
 function MakePrGui()
 	local PrEz = Instance.new("ScreenGui")
 	local Back = Instance.new("ImageLabel")
@@ -587,6 +658,7 @@ local listPre = {
 }
 
 --MakePrGui()
+YtPr()
 CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
