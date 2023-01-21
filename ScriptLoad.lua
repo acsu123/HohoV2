@@ -587,6 +587,9 @@ local list = {
 	
 	--GPO
 	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/GPOFree.lua', true))()",
+
+	--Anime Defense Simulator
+	[4205109410]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/AnimeDefenseSimulatorFree.lua', true))()",
 }
 
 local listPre = {
@@ -655,11 +658,14 @@ local listPre = {
 	
 	--GPO
 	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/GPOPre.lua', true))()",
+
+	--Anime Defense Simulator
+	[4205109410]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeDefenseSimulatorPre.lua', true))()",
 }
 
 --MakePrGui()
 YtPr()
-CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
+CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
