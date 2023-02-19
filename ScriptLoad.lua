@@ -684,3 +684,6 @@ elseif not getgenv().Key and list[game.GameId] ~= nil then
 else
 	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
 end
+
+local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
+queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()")
