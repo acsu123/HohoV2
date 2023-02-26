@@ -1,3 +1,5 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
 local UserInputService = game:GetService("UserInputService")
 
 local function MakeDraggable(topbarobject, object)
@@ -38,6 +40,203 @@ local function MakeDraggable(topbarobject, object)
 			Update(input)
 		end
 	end)
+end
+
+function ttytPr()
+	local _2in1Gui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local yt = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local ImageLabel = Instance.new("ImageLabel")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local TextButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local ImageLabel_2 = Instance.new("ImageLabel")
+	local tt = Instance.new("Frame")
+	local UICorner_4 = Instance.new("UICorner")
+	local ImageLabel_3 = Instance.new("ImageLabel")
+	local UICorner_5 = Instance.new("UICorner")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextButton_2 = Instance.new("TextButton")
+	local UICorner_6 = Instance.new("UICorner")
+	local ImageLabel_4 = Instance.new("ImageLabel")
+	local UICorner_7 = Instance.new("UICorner")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local UICorner_8 = Instance.new("UICorner")
+	local TextLabel_4 = Instance.new("TextLabel")
+
+	_2in1Gui.Name = "2in1Gui"
+	_2in1Gui.Parent = game.CoreGui
+	_2in1Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Frame.Parent = _2in1Gui
+	Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Frame.Position = UDim2.new(0.0554142408, 0, 0.237603292, 0)
+	Frame.Size = UDim2.new(0.297056675, 0, 0.413223147, 0)
+	
+	MakeDraggable(Frame,Frame)
+
+	yt.Name = "yt"
+	yt.Parent = Frame
+	yt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	yt.Position = UDim2.new(0.170247674, 0, 0, 0)
+	yt.Size = UDim2.new(0.829752326, 0, 0.412499815, 0)
+
+	UICorner.Parent = yt
+
+	ImageLabel.Parent = yt
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.Position = UDim2.new(0.057500001, 0, 0.0700000003, 0)
+	ImageLabel.Size = UDim2.new(0.295138925, 0, 0.850000024, 0)
+	ImageLabel.Image = "http://www.roblox.com/asset/?id=12130059538"
+
+	UICorner_2.CornerRadius = UDim.new(0, 60)
+	UICorner_2.Parent = ImageLabel
+
+	TextLabel.Parent = yt
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderSizePixel = 0
+	TextLabel.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
+	TextLabel.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
+	TextLabel.Font = Enum.Font.Highway
+	TextLabel.Text = "@acsu123"
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+	TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+	TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
+
+	TextButton.Parent = yt
+	TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	TextButton.Position = UDim2.new(0.401250005, 0, 0.479999989, 0)
+	TextButton.Size = UDim2.new(0.534722269, 0, 0.349999994, 0)
+	TextButton.Font = Enum.Font.SourceSans
+	TextButton.Text = "Subcribe"
+	TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton.TextScaled = true
+	TextButton.TextSize = 14.000
+	TextButton.TextWrapped = true
+
+	UICorner_3.Parent = TextButton
+
+	ImageLabel_2.Parent = yt
+	ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel_2.BackgroundTransparency = 1.000
+	ImageLabel_2.Position = UDim2.new(0.158479184, 0, 0.719192386, 0)
+	ImageLabel_2.Size = UDim2.new(0.143736929, 0, 0.393939584, 0)
+	ImageLabel_2.Image = "rbxassetid://1275974017"
+
+	tt.Name = "tt"
+	tt.Parent = Frame
+	tt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	tt.Position = UDim2.new(0.170247674, 0, 0.429166675, 0)
+	tt.Size = UDim2.new(0.829752326, 0, 0.412499815, 0)
+
+	UICorner_4.Parent = tt
+
+	ImageLabel_3.Parent = tt
+	ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel_3.BackgroundTransparency = 1.000
+	ImageLabel_3.Position = UDim2.new(0.0832989365, 0, 0.0801010132, 0)
+	ImageLabel_3.Size = UDim2.new(0.295138925, 0, 0.850000024, 0)
+	ImageLabel_3.ZIndex = 2
+	ImageLabel_3.Image = "http://www.roblox.com/asset/?id=12618286804"
+
+	UICorner_5.CornerRadius = UDim.new(0, 60)
+	UICorner_5.Parent = ImageLabel_3
+
+	TextLabel_2.Parent = tt
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.BorderSizePixel = 0
+	TextLabel_2.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
+	TextLabel_2.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
+	TextLabel_2.Font = Enum.Font.Highway
+	TextLabel_2.Text = "@imwuangnek"
+	TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+	TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+	TextLabel_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+	TextButton_2.Parent = tt
+	TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 85, 127)
+	TextButton_2.Position = UDim2.new(0.401250005, 0, 0.823434472, 0)
+	TextButton_2.Size = UDim2.new(0.534722269, 0, 0.349999994, 0)
+	TextButton_2.Font = Enum.Font.SourceSans
+	TextButton_2.Text = "Follow"
+	TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_2.TextScaled = true
+	TextButton_2.TextSize = 14.000
+	TextButton_2.TextWrapped = true
+
+	UICorner_6.Parent = TextButton_2
+
+	ImageLabel_4.Parent = tt
+	ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel_4.BackgroundTransparency = 1.000
+	ImageLabel_4.Position = UDim2.new(-0.178874627, 0, -0.0354799405, 0)
+	ImageLabel_4.Size = UDim2.new(0.405411869, 0, 1.03030348, 0)
+	ImageLabel_4.Image = "rbxassetid://7711529444"
+
+	UICorner_7.CornerRadius = UDim.new(0, 60)
+	UICorner_7.Parent = ImageLabel_4
+
+	TextLabel_3.Parent = tt
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.BorderSizePixel = 0
+	TextLabel_3.Position = UDim2.new(0.401250005, 0, 0.473030418, 0)
+	TextLabel_3.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
+	TextLabel_3.Font = Enum.Font.Highway
+	TextLabel_3.Text = "(Quang Wuang)"
+	TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_3.TextScaled = true
+	TextLabel_3.TextSize = 14.000
+	TextLabel_3.TextWrapped = true
+	TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+	TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+
+	UICorner_8.CornerRadius = UDim.new(0, 16)
+	UICorner_8.Parent = Frame
+
+	TextLabel_4.Parent = Frame
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel_4.BorderSizePixel = 0
+	TextLabel_4.Position = UDim2.new(0, 0, 0.961666644, 0)
+	TextLabel_4.Size = UDim2.new(1, 0, 0.184999987, 0)
+	TextLabel_4.ZIndex = 2
+	TextLabel_4.Font = Enum.Font.Highway
+	TextLabel_4.Text = "Dont forget to subcribe my youtube channel & follow my tiktok! Perm key giveaway soon!!!"
+	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 14.000
+	TextLabel_4.TextWrapped = true
+
+	local uistroke = Instance.new("UIStroke",ImageLabel)
+	uistroke.Color = Color3.fromRGB(255, 0, 0)
+	uistroke.Thickness = 3
+
+	local uistroke = Instance.new("UIStroke",ImageLabel_4)
+	uistroke.Color = Color3.fromRGB(0, 255, 255)
+	uistroke.Thickness = 3
+
+	local uistroke = Instance.new("UIStroke",ImageLabel_3)
+	uistroke.Color = Color3.fromRGB(85, 0, 255)
+	uistroke.Thickness = 3
+
+	TextButton.MouseButton1Click:Connect(function()
+		game.Debris:AddItem(_2in1Gui,0)
+	end)
+	TextButton_2.MouseButton1Click:Connect(function()
+		game.Debris:AddItem(_2in1Gui,0)
+	end)
+
+	game.Debris:AddItem(_2in1Gui,30)
 end
 
 function YtPr()
@@ -670,7 +869,7 @@ local listPre = {
 }
 
 --MakePrGui()
-YtPr()
+ttytPr()
 CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
 	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
