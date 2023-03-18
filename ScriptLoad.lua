@@ -755,7 +755,7 @@ local list = {
 	[111958650]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/Arsenal.lua'))()",
 
 	--Break In
-	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
+	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/JCWALTth', true))()",
 
 	--Tower of Hell
 	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
@@ -829,7 +829,7 @@ local listPre = {
 	[111958650]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/Arsenal.lua'))()",
 
 	--Break In
-	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
+	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/JCWALTth', true))()",
 
 	--Tower of Hell
 	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
