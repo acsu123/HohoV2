@@ -734,7 +734,7 @@ local list = {
 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFree.lua'))()",
 
 	--Pet Simulator X
-	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/PetXfolder/PetSimXMobile.lua'))()",
+	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
 
 	--Zombie Attack
 	[504035427]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/ZombieAtack.lua'))()",
@@ -808,7 +808,7 @@ local listPre = {
 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/BloxFruitPre.lua'))()",
 
 	--Pet Simulator X
-	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/PetXfolder/PetSimXMobile.lua'))()",
+	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
 
 	--Zombie Attack
 	[504035427]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/ZombieAtack.lua'))()",
@@ -870,8 +870,8 @@ local listPre = {
 
 --MakePrGui()
 ttytPr()
-CreateSupportList({"GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
-	"Pet Simulator X","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
+CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
+"Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
 _G.HoHoLoaded = true
