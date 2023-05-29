@@ -1,5 +1,5 @@
 local module
-function module:a(txt)
+function a(txt)
   return txt
 end
 return module
