@@ -1,7 +1,4 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-if _G.HohoVersion == "v3" then
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/hohotest-obfuscated.lua'))()	
-end
 
 local UserInputService = game:GetService("UserInputService")
 
@@ -878,6 +875,10 @@ CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Ki
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
 _G.HoHoLoaded = true
+if _G.HohoVersion == "v3" then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/hohotest-obfuscated.lua'))()
+	return
+end
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
