@@ -1,4 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+if _G.HohoVersion == "v3" then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/hohotest-obfuscated.lua'))()	
+end
 
 local UserInputService = game:GetService("UserInputService")
 
