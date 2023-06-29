@@ -874,6 +874,13 @@ CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Ki
 "Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
+if tonumber(game.GameId) == 994732206 then
+	-- bypass anti cheat blox kid 100%
+	spawn(function()
+		repeat wait() until game.Players.LocalPlayer.Neutral == false
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/quang_dep_trai_qua.lua'))()
+	end)
+end
 _G.HoHoLoaded = true
 if _G.HohoVersion == "v3" then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/hohotest-obfuscated.lua'))()
@@ -888,10 +895,12 @@ else
 	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
 end
 
+if _G["HoHo Config | A Click To Max [AKA] kaitun/cut tay"] or _G.HOHO_autoBounty or getgenv().Raid_Config or getgenv().SearchHopConfig or getgenv().Chest_Config or getgenv().Fruit_Config or getgenv().PVP_SUPPORT then
+	return
+end
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 if getgenv().Key then
 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 end
-
 local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
 queueteleport(path)
