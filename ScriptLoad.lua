@@ -877,7 +877,7 @@ CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Ki
 if tonumber(game.GameId) == 994732206 then
 	-- bypass anti cheat blox kid 100%
 	spawn(function()
-		repeat wait() until game.Players.LocalPlayer.Neutral == false
+		repeat wait() until game.Players.LocalPlayer.Neutral == false and false
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/quang_dep_trai_qua.lua'))()
 	end)
 end
