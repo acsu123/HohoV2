@@ -888,7 +888,7 @@ else
 	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
 end
 
-if _G["HoHo Config | A Click To Max [AKA] kaitun/cut tay"] or _G.HOHO_autoBounty or getgenv().Raid_Config or getgenv().SearchHopConfig or getgenv().Chest_Config or getgenv().Fruit_Config or getgenv().PVP_SUPPORT or _G.HohoVersion == "v3" then
+if _G["HoHo Hub Auto Bounty V3"] then
 	return
 end
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
