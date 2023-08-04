@@ -884,6 +884,8 @@ else
 	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
 end
 
+if _G["HoHo Hub Auto Bounty V3"] then return end
+
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 if getgenv().Key then
 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
