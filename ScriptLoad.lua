@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 _G.HOHO_AD = {
-	[1] = {link="https://i.ibb.co/2cSXRsb/Shark-Marketplace-3.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
+	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 }
 
 local UserInputService = game:GetService("UserInputService")
