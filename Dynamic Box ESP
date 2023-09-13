@@ -96,4 +96,4 @@ local function DrawESP(plr)
     coroutine.wrap(Update)()
 end
 
-return "loadded"
+return "Loadded"
