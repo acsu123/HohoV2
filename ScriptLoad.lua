@@ -878,6 +878,10 @@ CreateSupportList({"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Ki
 "Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
 	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
 })
+_G.GameSupport = {"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal",
+"Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!",
+	"Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"
+}
 _G.HoHoLoaded = true
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
