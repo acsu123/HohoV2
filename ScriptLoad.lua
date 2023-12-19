@@ -1,4 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+if _G.HOHO_RAN then return end
+_G.HOHO_RAN = true
+
 _G.HOHO_AD = {
 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 }
