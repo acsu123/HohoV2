@@ -159,7 +159,9 @@ if getgenv().Key and listPre[game.GameId] ~= nil then
 elseif not getgenv().Key and list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
-	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
+	notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+	notify.New("This game is not supported by hohohub :(", 60)
+	notify.New("Please join discord.gg/hohohub to see what game r supported by us!", 60)
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
 -- local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
