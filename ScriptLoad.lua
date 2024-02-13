@@ -160,8 +160,7 @@ _G.GameSupport = {"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","Kin
 _G.HoHoLoaded = true
 _G.MY_KEY_IS = "No_Key"
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
-notify.New("Remember, our script work best on Fluxus", 60)
-notify.New("If u r using others and script is not fully load/work so try Fluxus before report bug!", 60)
+
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
