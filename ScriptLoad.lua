@@ -12,7 +12,7 @@ _G.HOHO_AD = {
 }
 local list = {
 	--The Strongest Battlegrounds
-	[2440500124] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/TheStrongestBattleground.lua'))()",
+	[3808081382] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/TheStrongestBattleground.lua'))()",
 	
 	--DOORS
 	[2440500124] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/Doors.lua'))()",
