@@ -11,6 +11,9 @@ _G.HOHO_AD = {
 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 }
 local list = {
+	--The Strongest Battlegrounds
+	[2440500124] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/TheStrongestBattleground.lua'))()",
+	
 	--DOORS
 	[2440500124] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/Doors.lua'))()",
 	
