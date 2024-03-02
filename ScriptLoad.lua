@@ -11,6 +11,9 @@ _G.HOHO_AD = {
 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 }
 local list = {
+	--Slap Battles
+	[2380077519] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/SlapBattles.lua'))()",
+	
 	--Sol's RNG
 	[5361032378] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/SolRNG.lua'))()",
 	
