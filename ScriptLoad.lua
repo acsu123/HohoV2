@@ -11,6 +11,9 @@ _G.HOHO_AD = {
 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 }
 local list = {
+	--Pet Catchers
+	[5686465822] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetCatchers.lua'))()",
+	
 	--Slap Battles
 	[2380077519] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/SlapBattles.lua'))()",
 	
