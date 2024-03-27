@@ -299,9 +299,9 @@ spawn(function()
         return getcustomasset(path)
     end
     
-    local GroupADS = CreateGroupAds()
-    GroupADS:CreateAds(GetImage("accbloxnet", "https://i.imgur.com/4fhvSM3.png"), "https://accblox.net/")
-    GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
+    -- local GroupADS = CreateGroupAds()
+    -- GroupADS:CreateAds(GetImage("accbloxnet", "https://i.imgur.com/4fhvSM3.png"), "https://accblox.net/")
+    -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
 end)
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
