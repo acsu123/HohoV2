@@ -304,6 +304,7 @@ spawn(function()
     -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
 end)
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+notify.New("If script is not load, try to use vpn or change executor!", 30)
 
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
