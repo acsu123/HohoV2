@@ -1,4 +1,11 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+for Index, Value in next, debug do
+    if not getgenv()[Index] then
+        getgenv()[Index] = Value
+    end
+end
+
 if _G.HOHO_RAN then return end
 _G.HOHO_RAN = true
 
