@@ -92,14 +92,14 @@ end
 
 export type slider = typeof(Slider.new(Instance.new("Frame"), Instance.new("Frame"), Instance.new("TextButton"), {} :: sliderConfigurationsType, {} :: extrasType))
 
--- local function decimalRound(num: number, places: number): number
--- 	local power = 10 ^ places
--- 	return math.round(num * power) / power
--- end
-
 local function decimalRound(num: number, places: number): number
-	return math.round(num)
+	local power = 10 ^ places
+	return math.round(num * power) / power
 end
+
+-- local function decimalRound(num: number, places: number): number
+-- 	return math.round(num)
+-- end
 
 local function snap(self: slider, posInLine: number): number
 	local val = math.clamp(math.floor(posInLine / self.snapFactor) * self.snapFactor, 0, 1)
