@@ -6,7 +6,7 @@ for Index, Value in next, debug do
         getgenv()[Index] = Value
     end
 end
--- Cubix dumb
+-- Cubix dumb i have to fix it for u B(
 getgenv().bit = bit32
 -- cloneref
 local a=Instance.new("Part")for b,c in pairs(getreg())do if type(c)=="table"and#c then if rawget(c,"__mode")=="kvs"then for d,e in pairs(c)do if e==a then getgenv().InstanceList=c;break end end end end end;local f={}function f.invalidate(g)if not InstanceList then return end;for b,c in pairs(InstanceList)do if c==g then InstanceList[b]=nil;return g end end end;if not cloneref then getgenv().cloneref=f.invalidate end
@@ -14,6 +14,8 @@ local a=Instance.new("Part")for b,c in pairs(getreg())do if type(c)=="table"and#
 if clonefunction and getrenv and getidentity and setidentity then local a=clonefunction(getrenv().require)getgenv().require=function(...)local b=getidentity()setidentity(1)local c=a(...)setidentity(b)return c end end
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
 if _G.HohoVersion == "v4" then
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/BloxFruitTEST_ONLY.lua"))()
@@ -315,8 +317,9 @@ spawn(function()
     -- GroupADS:CreateAds(GetImage("accbloxnet", "https://i.imgur.com/4fhvSM3.png"), "https://accblox.net/")
     -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
 end)
-notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
-notify.New("If script is not load, try to use vpn or change executor!", 30)
+
+notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
+notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
 
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
