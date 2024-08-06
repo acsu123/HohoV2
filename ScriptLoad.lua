@@ -18,6 +18,8 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
 if _G.HohoVersion == "v4" then
+	notify.New("This is just BETA VERSION pls let us know if u found any bug!", 30)
+	notify.New("If the ui are not able to interact pls rejoin and re-execute script!", 30)
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/BloxFruitTEST_ONLY.lua"))()
 end
 
