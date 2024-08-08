@@ -650,7 +650,7 @@
   "H0H0 SERVERS": "H0H0サーバー",
   "Reset Script Setting": "スクリプト設定をリセット",
   "Talk To Helmsman Teacher": "舵取り先生と話す",
-  "HoHo Island": "H0H0 アイランド",
+  "HoHo Island": "HoHo アイランド",
   "Invisible": "透明",
   "adidas Sports": "アディダススポーツ",
   "STOP SCRIPT TO CONFIG": "スクリプトを停止して設定",
@@ -664,5 +664,11 @@
   "SB/SHIP Use Sword": "SB/SHIP 剣使用",
   "Rthroage": "ロブロエイジ",
   "Cartoonyage": "カートゥーニーエイジ",
-  "FE Animation Changer": "FEアニメーションチェンジャー"
+  "FE Animation Changer": "FEアニメーションチェンジャー",
+  
+  "Spin Boat": "スピンボート",
+  "Auto Follow Group > 4 Players": "自動フォローグループ > 4人のプレイヤー",
+  
+  "Super Fruit Box": "スーパーフルーツボックス",
+  "Fruit Box": "フルーツボックス"
 }
