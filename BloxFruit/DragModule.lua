@@ -1,5 +1,3 @@
-local UDim2_new = UDim2.new
-
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 
@@ -32,7 +30,7 @@ function DraggableObject:Enable()
 
 	local function update(input)
 		local delta 		= input.Position - dragStart
-		local newPosition	= UDim2_new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		local newPosition	= UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		TweenService:Create(object,TweenInfo.new(.1),{Position = newPosition}):Play()
 
 		return newPosition
