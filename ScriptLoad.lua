@@ -17,7 +17,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
-if _G.HohoVersion == "v3" or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] or _G["HoHo Hub Auto Bounty V3"] or _G["HoHo Fruits Collector"] or _G.HOHO_PVP_UI then
+if _G.HohoVersion == "v3" or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] or _G["HoHo Hub Auto Bounty V3"] or _G["HoHo Fruits Collector"] or _G.HOHO_PVP_UI or _G.HOHO_SERVER_ID then
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua"))()
 end
 
