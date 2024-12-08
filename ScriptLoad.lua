@@ -320,6 +320,7 @@ end)
 
 notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
 notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
+notify.New("50 Wave Key (PC executor) giveaway in discord.gg/hohohub", 30)
 
 if getgenv().Key and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
