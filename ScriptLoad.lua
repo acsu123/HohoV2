@@ -1,5 +1,5 @@
-if _G.HOHO_RAN then return end
-_G.HOHO_RAN = true
+-- if _G.HOHO_RAN then return end
+-- _G.HOHO_RAN = true
 -- most executors issue
 -- for Index, Value in next, debug do
 --     if not getgenv()[Index] then
