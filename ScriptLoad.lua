@@ -26,7 +26,7 @@ _G.HOHO_AD = {
 }
 local list = {
 	--GO FISHING
-	[116605585218149] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/GOFISHING.lua'))()",
+	[6764180126] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/GOFISHING.lua'))()",
 	
 	--Fisch
 	[5750914919] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/Fisch.lua'))()",
