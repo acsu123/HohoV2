@@ -328,17 +328,14 @@ notify.New("This is not a bug announce, just a notify for some1 don't know!", 30
 notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
 notify.New("50 Wave Key (PC executor) giveaway in discord.gg/hohohub", 30)
 
-if getgenv().Key and listPre[game.GameId] ~= nil then
-	getgenv().messagebox = function()end
-	loadstring(listPre[tonumber(game.GameId)])()
-elseif not getgenv().Key and list[game.GameId] ~= nil then
+if list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
 	notify.New("This game is not supported by hohohub :(", 60)
 	notify.New("Please join discord.gg/hohohub to check what game r supported by us!", 60)
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
-local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+local path = "wait(5);loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 -- if getgenv().Key then
 -- 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 -- end
