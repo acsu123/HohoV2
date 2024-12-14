@@ -15,15 +15,15 @@ if clonefunction and getrenv and getidentity and setidentity then local a=clonef
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
-notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
 if _G.HohoVersion == "v3" or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] or _G["HoHo Hub Auto Bounty V3"] or _G["HoHo Fruits Collector"] or _G.HOHO_PVP_UI or _G.HOHO_SERVER_ID then
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua"))()
 end
 
-_G.HOHO_AD = {
-	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
-}
+-- _G.HOHO_AD = {
+-- 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
+-- }
 local list = {
 	--GO FISHING
 	[6764180126] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/GOFISHING.lua'))()",
@@ -124,205 +124,205 @@ local list = {
 	--Anime Soul Simulator
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/AnimeSoulSimulatorFree.lua', true))()",
 }
-local listPre = {
-	--HONKAI STAR RAIL SIMULATOR
-	[5477548919] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/HonkaiStarRailSimulator.lua'))()",
+-- local listPre = {
+-- 	--HONKAI STAR RAIL SIMULATOR
+-- 	[5477548919] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/HonkaiStarRailSimulator.lua'))()",
 	
-	--BedWars
-	[2619619496] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/GAME/main/bedwar.txt'))()",
+-- 	--BedWars
+-- 	[2619619496] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/GAME/main/bedwar.txt'))()",
 
-	--Element Battle Ground
-	[224422602] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/elementBattlegr.lua'))()",
+-- 	--Element Battle Ground
+-- 	[224422602] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/elementBattlegr.lua'))()",
 
-	--King Legacy
-	[1451439645] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/KingLegacyPre.lua'))()",
+-- 	--King Legacy
+-- 	[1451439645] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/KingLegacyPre.lua'))()",
 
-	--Blox Fruit
-	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/BloxFruitTEST_ONLY.lua'))()",
+-- 	--Blox Fruit
+-- 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/BloxFruit/BloxFruitTEST_ONLY.lua'))()",
 
-	--Pet Simulator X
-	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
+-- 	--Pet Simulator X
+-- 	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
 
-	--Zombie Attack
-	[504035427]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/ZombieAtack.lua'))()",
+-- 	--Zombie Attack
+-- 	[504035427]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/ZombieAtack.lua'))()",
 
-	--Two Piece
-	[5303541547]="loadstring(game:HttpGet('https://raw.githubusercontent.com/AlongNgu/alonebruh/main/twoPiecehoho.lua'))()",
+-- 	--Two Piece
+-- 	[5303541547]="loadstring(game:HttpGet('https://raw.githubusercontent.com/AlongNgu/alonebruh/main/twoPiecehoho.lua'))()",
 
-	--Dungeon Quest
-	[848145103]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/Paid/DunegonQuest.lua'))()",
+-- 	--Dungeon Quest
+-- 	[848145103]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/Paid/DunegonQuest.lua'))()",
 
-	--Tradelands
-	[92096286]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TradeLands.lua'))()",
+-- 	--Tradelands
+-- 	[92096286]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TradeLands.lua'))()",
 
-	--Anime Fighters Simulator
-	[2324662457]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/anime%20fighters%20simulator.lua'))()",
+-- 	--Anime Fighters Simulator
+-- 	[2324662457]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/anime%20fighters%20simulator.lua'))()",
 
-	--Arsenal
-	[111958650]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/Arsenal.lua'))()",
+-- 	--Arsenal
+-- 	[111958650]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/Arsenal.lua'))()",
 
-	--Break In
-	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
+-- 	--Break In
+-- 	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
 
-	--Tower of Hell
-	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
+-- 	--Tower of Hell
+-- 	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
 
-	--steve's one piece
-	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
+-- 	--steve's one piece
+-- 	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
 
-	--Murder Mystery 2
-	[66654135]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/GAME/main/muder%20mys..2.txt'))()",
+-- 	--Murder Mystery 2
+-- 	[66654135]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/GAME/main/muder%20mys..2.txt'))()",
 
-	--Giant Survival!
-	[1342991001]="loadstring(game:HttpGet('https://pastebin.com/raw/zABEESgr', true))()",
+-- 	--Giant Survival!
+-- 	[1342991001]="loadstring(game:HttpGet('https://pastebin.com/raw/zABEESgr', true))()",
 
-	--Field Trip Z
-	[1701332290]="loadstring(game:HttpGet('https://pastebin.com/raw/aY7Z3Nd3', true))()",
+-- 	--Field Trip Z
+-- 	[1701332290]="loadstring(game:HttpGet('https://pastebin.com/raw/aY7Z3Nd3', true))()",
 
-	--Mad City
-	[498490399]="loadstring(game:HttpGet('https://pastebin.com/raw/EwnNCfin', true))()",
+-- 	--Mad City
+-- 	[498490399]="loadstring(game:HttpGet('https://pastebin.com/raw/EwnNCfin', true))()",
 
-	--vn piece
-	[1493595237]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/vn%20Piece%20script-obfuscated.lua', true))()",
+-- 	--vn piece
+-- 	[1493595237]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/vn%20Piece%20script-obfuscated.lua', true))()",
 	
-	--Ro Fruit
-	[3904583189]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/RoFruitPre.lua', true))()",
+-- 	--Ro Fruit
+-- 	[3904583189]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/RoFruitPre.lua', true))()",
 	
-	--Collect All Pets
-	[3359505957]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/CollectAllPetsPre.lua', true))()",
+-- 	--Collect All Pets
+-- 	[3359505957]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/CollectAllPetsPre.lua', true))()",
 	
-	--GPO
-	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/GPOPre.lua', true))()",
+-- 	--GPO
+-- 	[648454481]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/GPOPre.lua', true))()",
 
-	--Anime Defense Simulator
-	[4205109410]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeDefenseSimulatorPre.lua', true))()",
+-- 	--Anime Defense Simulator
+-- 	[4205109410]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeDefenseSimulatorPre.lua', true))()",
 	
-	--Anime Soul Simulator
-	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeSoulSimulatorPre.lua', true))()",
-}
-_G.GameSupport = {"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!","Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"}
+-- 	--Anime Soul Simulator
+-- 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeSoulSimulatorPre.lua', true))()",
+-- }
+-- _G.GameSupport = {"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!","Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"}
 _G.HoHoLoaded = true
 -- _G.MY_KEY_IS = "No_Key"
-spawn(function()
-    local function CoreGuiAdd(a)local b,c=pcall(function()a.Parent=gethui()end)if c then warn("failed to add",a.Name,"to gethui!")local b,c=pcall(function()a.Parent=game.CoreGui end)if c then a.DisplayOrder=100000;a.ResetOnSpawn=false;a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")warn("failed to add",a.Name,"to coregui!")end end end
+-- spawn(function()
+--     local function CoreGuiAdd(a)local b,c=pcall(function()a.Parent=gethui()end)if c then warn("failed to add",a.Name,"to gethui!")local b,c=pcall(function()a.Parent=game.CoreGui end)if c then a.DisplayOrder=100000;a.ResetOnSpawn=false;a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")warn("failed to add",a.Name,"to coregui!")end end end
 
-    local function CreateGroupAds()
-        local GroupAds = {}
-        local ADS = Instance.new("ScreenGui")
-        local Back = Instance.new("Frame")
-        local Label = Instance.new("TextLabel")
-        local UIStroke = Instance.new("UIStroke")
-        local Close = Instance.new("TextButton")
-        local UIStroke_1 = Instance.new("UIStroke")
-        local Inner = Instance.new("Frame")
-        local UIGridLayout = Instance.new("UIGridLayout")
-        local UIPadding = Instance.new("UIPadding")
+--     local function CreateGroupAds()
+--         local GroupAds = {}
+--         local ADS = Instance.new("ScreenGui")
+--         local Back = Instance.new("Frame")
+--         local Label = Instance.new("TextLabel")
+--         local UIStroke = Instance.new("UIStroke")
+--         local Close = Instance.new("TextButton")
+--         local UIStroke_1 = Instance.new("UIStroke")
+--         local Inner = Instance.new("Frame")
+--         local UIGridLayout = Instance.new("UIGridLayout")
+--         local UIPadding = Instance.new("UIPadding")
     
-        ADS.Name = "ADS"
-        ADS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-        CoreGuiAdd(ADS)
+--         ADS.Name = "ADS"
+--         ADS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+--         CoreGuiAdd(ADS)
     
-        Back.BorderSizePixel = 0
-        Back.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
-        Back.Size = UDim2.new(0.9, 0, 0.5, 0)
-        Back.BorderColor3 = Color3.fromRGB(0, 0, 0)
-        Back.Name = "Back"
-        Back.Position = UDim2.new(0, 0, 0.62406, 0)
-        Back.Parent = ADS
+--         Back.BorderSizePixel = 0
+--         Back.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+--         Back.Size = UDim2.new(0.9, 0, 0.5, 0)
+--         Back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+--         Back.Name = "Back"
+--         Back.Position = UDim2.new(0, 0, 0.62406, 0)
+--         Back.Parent = ADS
     
-        Label.TextWrapped = true
-        Label.BorderSizePixel = 0
-        Label.TextScaled = true
-        Label.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-        Label.FontFace = Font.new("rbxasset://fonts/families/HighwayGothic.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-        Label.Position = UDim2.new(0, 0, -0.0666667, 0)
-        Label.Name = "Label"
-        Label.TextSize = 14
-        Label.Size = UDim2.new(1, 0, 0.07, 0)
-        Label.ZIndex = 2
-        Label.TextColor3 = Color3.fromRGB(0, 0, 0)
-        Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
-        Label.Text = "HOHO ADS (contact discrod.gg/hohohub) (auto close when 60s)"
-        Label.Parent = Back
+--         Label.TextWrapped = true
+--         Label.BorderSizePixel = 0
+--         Label.TextScaled = true
+--         Label.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+--         Label.FontFace = Font.new("rbxasset://fonts/families/HighwayGothic.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+--         Label.Position = UDim2.new(0, 0, -0.0666667, 0)
+--         Label.Name = "Label"
+--         Label.TextSize = 14
+--         Label.Size = UDim2.new(1, 0, 0.07, 0)
+--         Label.ZIndex = 2
+--         Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+--         Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+--         Label.Text = "HOHO ADS (contact discrod.gg/hohohub) (auto close when 60s)"
+--         Label.Parent = Back
     
-        UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke.Parent = Label
+--         UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+--         UIStroke.Parent = Label
     
-        Close.TextWrapped = true
-        Close.ZIndex = 2
-        Close.BorderSizePixel = 0
-        Close.TextScaled = true
-        Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-        Close.Position = UDim2.new(0.961977, 0, -0.0666667, 0)
-        Close.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-        Close.Name = "Close"
-        Close.TextSize = 14
-        Close.Size = UDim2.new(0.03, 0, 0.1, 0)
-        Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Close.BorderColor3 = Color3.fromRGB(255, 0, 0)
-        Close.Text = "X"
-        Close.Parent = Back
+--         Close.TextWrapped = true
+--         Close.ZIndex = 2
+--         Close.BorderSizePixel = 0
+--         Close.TextScaled = true
+--         Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+--         Close.Position = UDim2.new(0.961977, 0, -0.0666667, 0)
+--         Close.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+--         Close.Name = "Close"
+--         Close.TextSize = 14
+--         Close.Size = UDim2.new(0.03, 0, 0.1, 0)
+--         Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+--         Close.BorderColor3 = Color3.fromRGB(255, 0, 0)
+--         Close.Text = "X"
+--         Close.Parent = Back
     
-        UIStroke_1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        UIStroke_1.Parent = Close
+--         UIStroke_1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+--         UIStroke_1.Parent = Close
     
-        Inner.BorderSizePixel = 0
-        Inner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Inner.Size = UDim2.new(1, 0, 0, 0.5)
-        Inner.BorderColor3 = Color3.fromRGB(0, 0, 0)
-        Inner.BackgroundTransparency = 1
-        Inner.Name = "Inner"
-        Inner.Parent = Back
+--         Inner.BorderSizePixel = 0
+--         Inner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+--         Inner.Size = UDim2.new(1, 0, 0, 0.5)
+--         Inner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+--         Inner.BackgroundTransparency = 1
+--         Inner.Name = "Inner"
+--         Inner.Parent = Back
     
-        UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-        UIGridLayout.CellSize = UDim2.new(0, 250, 0, 250)
-        UIGridLayout.Parent = Inner
+--         UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+--         UIGridLayout.CellSize = UDim2.new(0, 250, 0, 250)
+--         UIGridLayout.Parent = Inner
     
-        UIPadding.PaddingLeft = UDim.new(0.025, 0)
-        UIPadding.Parent = Inner
+--         UIPadding.PaddingLeft = UDim.new(0.025, 0)
+--         UIPadding.Parent = Inner
         
-        Close.MouseButton1Click:Connect(function()
-            game.Debris:AddItem(ADS, 0)
-        end)
+--         Close.MouseButton1Click:Connect(function()
+--             game.Debris:AddItem(ADS, 0)
+--         end)
         
-        game.Debris:AddItem(ADS, 60)
+--         game.Debris:AddItem(ADS, 60)
         
-        function GroupAds:CreateAds(Image, Link)
-            local ImageButton = Instance.new("ImageButton")
-            ImageButton.Parent = Inner
-            ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-            ImageButton.BorderSizePixel = 0
-            ImageButton.Size = UDim2.new(0, 100, 0, 100)
-            ImageButton.Image = Image
-            ImageButton.HoverImage = "http://www.roblox.com/asset/?id=3229099135"
+--         function GroupAds:CreateAds(Image, Link)
+--             local ImageButton = Instance.new("ImageButton")
+--             ImageButton.Parent = Inner
+--             ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+--             ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+--             ImageButton.BorderSizePixel = 0
+--             ImageButton.Size = UDim2.new(0, 100, 0, 100)
+--             ImageButton.Image = Image
+--             ImageButton.HoverImage = "http://www.roblox.com/asset/?id=3229099135"
             
-            ImageButton.MouseButton1Click:Connect(function()
-                game:GetService("StarterGui"):SetCore("SendNotification",{
-                    Title = "HOHO ADS", -- Required
-                    Text = "Ads copied to your clipboard!",
-                    Icon = Image
-                })
-                setclipboard(Link)
-            end)
-        end
+--             ImageButton.MouseButton1Click:Connect(function()
+--                 game:GetService("StarterGui"):SetCore("SendNotification",{
+--                     Title = "HOHO ADS", -- Required
+--                     Text = "Ads copied to your clipboard!",
+--                     Icon = Image
+--                 })
+--                 setclipboard(Link)
+--             end)
+--         end
         
-        return GroupAds
-    end
+--         return GroupAds
+--     end
     
-    local function GetImage(name, url)
-        local path = name .. ".png"
-        if not isfile(path) then
-            local content = game:HttpGet(url)
-            writefile(path, content)
-        end
-        return getcustomasset(path)
-    end
+--     local function GetImage(name, url)
+--         local path = name .. ".png"
+--         if not isfile(path) then
+--             local content = game:HttpGet(url)
+--             writefile(path, content)
+--         end
+--         return getcustomasset(path)
+--     end
     
-    -- local GroupADS = CreateGroupAds()
-    -- GroupADS:CreateAds(GetImage("accbloxnet", "https://i.imgur.com/4fhvSM3.png"), "https://accblox.net/")
-    -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
-end)
+--     -- local GroupADS = CreateGroupAds()
+--     -- GroupADS:CreateAds(GetImage("accbloxnet", "https://i.imgur.com/4fhvSM3.png"), "https://accblox.net/")
+--     -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
+-- end)
 
 notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
 notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
@@ -338,9 +338,9 @@ else
 	notify.New("Please join discord.gg/hohohub to see what game r supported by us!", 60)
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
--- local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 -- if getgenv().Key then
 -- 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 -- end
--- local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
--- queueteleport(path)
+local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
+queueteleport(path)
