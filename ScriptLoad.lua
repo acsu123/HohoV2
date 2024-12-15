@@ -6,13 +6,29 @@
 --         getgenv()[Index] = Value
 --     end
 -- end
-getgenv().bit = bit32 -- Cubix & Awp dumb i have to fix it for u B(
+
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+local ExecutorName = identifyexecutor()
+
+getgenv().bit = bit32 -- Cubix & Awp issue :)
+
+if ExecutorName:find("Swift") then -- don't ask me idk why it work :D?
+	task.spawn(function()
+	    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
+	end)
+	wait(1.5)
+	for i, v in pairs(game.CoreGui:GetChildren()) do
+	    if v.Name:find("Hoho") then
+	        v:Destroy()
+	    end
+	end
+end
+
 -- cloneref
 -- local a=Instance.new("Part")for b,c in pairs(getreg())do if type(c)=="table"and#c then if rawget(c,"__mode")=="kvs"then for d,e in pairs(c)do if e==a then getgenv().InstanceList=c;break end end end end end;local f={}function f.invalidate(g)if not InstanceList then return end;for b,c in pairs(InstanceList)do if c==g then InstanceList[b]=nil;return g end end end;if not cloneref then getgenv().cloneref=f.invalidate end
 -- require
 -- if clonefunction and getrenv and getidentity and setidentity then local a=clonefunction(getrenv().require)getgenv().require=function(...)local b=getidentity()setidentity(1)local c=a(...)setidentity(b)return c end end
-
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 
