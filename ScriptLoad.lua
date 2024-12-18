@@ -17,7 +17,7 @@ if ExecutorName:find("Swift") then -- don't ask me idk why it work :D?
 	task.spawn(function()
 	    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
 	end)
-	wait(1.5)
+	wait(2.5)
 	for i, v in pairs(game.CoreGui:GetChildren()) do
 	    if v.Name:find("Hoho") then
 	        v:Destroy()
