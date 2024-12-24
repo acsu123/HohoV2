@@ -40,6 +40,9 @@ end
 -- 	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
 -- }
 local list = {
+	--Adopt Me
+	[383310974] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/AdoptMe.lua'))()",
+	
 	--GO FISHING
 	[6764180126] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/Free/GOFISHING.lua'))()",
 	
