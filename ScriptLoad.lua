@@ -23,6 +23,12 @@ if ExecutorName:find("Swift") then -- don't ask me idk why it work :D?
 	        v:Destroy()
 	    end
 	end
+elseif ExecutorName:find("Seli") then -- Seliware
+	local rgenv = getrenv()
+	local renv = getrawmetatable(rgenv).__index
+	for i,v in next, renv do
+		rgenv[i] = v
+	end
 end
 
 -- cloneref
