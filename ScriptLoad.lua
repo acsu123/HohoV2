@@ -1,11 +1,11 @@
 -- if _G.HOHO_RAN then return end
 -- _G.HOHO_RAN = true
 -- most executors issue
--- for Index, Value in next, debug do
---     if not getgenv()[Index] then
---         getgenv()[Index] = Value
---     end
--- end
+for Index, Value in next, debug do
+    if not getgenv()[Index] then
+        getgenv()[Index] = Value
+    end
+end
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
