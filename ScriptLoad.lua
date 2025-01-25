@@ -348,6 +348,7 @@ _G.HoHoLoaded = true
 --     -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
 -- end)
 
+notify.New("If script say busy (we r under ddos), try to use Panda key!", 30)
 notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
 notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
 
