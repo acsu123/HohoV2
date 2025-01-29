@@ -417,6 +417,7 @@ local function StopFreecam()
 end
 
 function freecam:EnableFreecam()
+	print("EnableFreecam")
 	StartFreecam()
 end
 
