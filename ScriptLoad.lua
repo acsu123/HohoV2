@@ -227,6 +227,10 @@ local list = {
 -- _G.GameSupport = {"Pet Simulator X","GPO - Grand Piece Online","Blox Fruit","King Legacy","Anime Soul Simulator","Anime Defense Simulator","Ro Fruit","Collect All Pets","Tower of Hell","Break In","Arsenal","Mad City","Viet Nam Piece","Field Trip Z","Giant Survival!","Murder Mystery 2","steve's one piece","Anime Fighters Simulator","Tradelands","Dungeon Quest","Two Piece"}
 _G.HoHoLoaded = true
 -- _G.MY_KEY_IS = "No_Key"
+if script_key then
+	_G.MY_KEY_IS = script_key
+end
+
 -- spawn(function()
 --     local function CoreGuiAdd(a)local b,c=pcall(function()a.Parent=gethui()end)if c then warn("failed to add",a.Name,"to gethui!")local b,c=pcall(function()a.Parent=game.CoreGui end)if c then a.DisplayOrder=100000;a.ResetOnSpawn=false;a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")warn("failed to add",a.Name,"to coregui!")end end end
 
@@ -348,9 +352,9 @@ _G.HoHoLoaded = true
 --     -- GroupADS:CreateAds(GetImage("hohodiscord", "https://i.imgur.com/e2fdiZD.png"), "https://discord.gg/hohohub")
 -- end)
 
-notify.New("If script say busy (we r under ddos), try to use Panda key!", 30)
-notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
-notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
+-- notify.New("If script say busy (we r under ddos), try to use Panda key!", 30)
+-- notify.New("This is not a bug announce, just a notify for some1 don't know!", 30)
+-- notify.New("If script is not load, try to use VPN or CHANGE EXECUTOR!", 30)
 
 if list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
