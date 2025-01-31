@@ -9,7 +9,7 @@
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
-local ExecutorName = identifyexecutor()
+-- local ExecutorName = identifyexecutor()
 
 -- getgenv().bit = bit32 -- Cubix & Awp issue :)
 
@@ -363,7 +363,7 @@ else
 	notify.New("Please join discord.gg/hohohub to check what game r supported by us!", 60)
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
-local path = "wait(5);loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+-- local path = "wait(5);loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 -- if getgenv().Key then
 -- 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 -- end
