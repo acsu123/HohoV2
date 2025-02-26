@@ -785,6 +785,7 @@ do
 			script_key = key;
 			getfenv(0).script_key = key;
 			getfenv(1).script_key = key;
+			getgenv().script_key = key;
 
 			TweenService:Create(GET_KEY,INFO_DOT25_QUAD,{GroupTransparency = 1}):Play()
 			Debris:AddItem(HOHO_Passcheck,.25)
