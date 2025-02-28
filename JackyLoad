@@ -1,7 +1,5 @@
 local GameList = {
 	[994732206] = "e4aedc7ccd2bacd83555baa884f3d4b1", -- Blox Fruit
-	[994732206] = "fac6dbd013c78163f8061ce11b2c1330", -- Blox Fruit
-	[994732206] = "3e587ae1768ce8803ccd266589ab9f4c", -- Blox Fruit
 }
 
 local id = GameList[game.GameId] or nil
