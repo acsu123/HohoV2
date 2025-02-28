@@ -1,0 +1,34 @@
+local GameList = {
+	[994732206] = "e4aedc7ccd2bacd83555baa884f3d4b1", -- Blox Fruit
+	[994732206] = "fac6dbd013c78163f8061ce11b2c1330", -- Blox Fruit
+	[994732206] = "3e587ae1768ce8803ccd266589ab9f4c", -- Blox Fruit
+}
+
+local id = GameList[game.JobId] or nil
+if not id then
+    return game.Players.LocalPlayer:Kick('This game hasn\'t supported yet')
+end
+
+if not script_key then
+	return game.Players.LocalPlayer:Kick('Please input your key!')
+end
+
+local api = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
+api.script_id = id
+
+local status = api.check_key(script_key)
+if (status.code == "KEY_VALID") then
+    script_key = script_key or '';
+    
+    api.load_script()
+	return
+elseif (status.code == "KEY_HWID_LOCKED") then
+    game.Players.LocalPlayer:Kick("Key linked to a different HWID. Please reset it using our bot")
+    return
+elseif (status.code == "KEY_INCORRECT") then
+    game.Players.LocalPlayer:Kick("Key is wrong or deleted!")
+    return    
+else
+    game.Players.LocalPlayer:Kick("Key check failed:" .. status.message .. " Code: " .. status.code)
+	return
+end
