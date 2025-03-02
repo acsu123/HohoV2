@@ -2,7 +2,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "HoHo Hub",
+    Title = "W-azure|Banana|HoHo Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
