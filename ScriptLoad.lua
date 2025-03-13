@@ -15,6 +15,7 @@ plr = Players.LocalPlayer
 local isSupport = nil
 local GameList = {
 	[994732206] = "e4aedc7ccd2bacd83555baa884f3d4b1", -- Blox Fruit
+	[7018190066] = "bf149e75708e91ad902bd72e408fae02", -- Dead Rails
 }
 
 for id, scriptid in pairs(GameList) do
