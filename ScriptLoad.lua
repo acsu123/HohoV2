@@ -16,6 +16,12 @@ local isSupport = nil
 local GameList = {
 	[994732206] = "e4aedc7ccd2bacd83555baa884f3d4b1", -- Blox Fruit
 	[7018190066] = "bf149e75708e91ad902bd72e408fae02", -- Dead Rails
+	[383310974] = "b83e9255dc81e9392da975a89d26e363", -- Adopt Me
+	[4777817887] = "35ad587b07c00b82c218fcf0e55eeea6", -- Blade Ball
+	[5477548919] = "0a9bfef9eb03d0cb17dd85451e4be696", -- Honkai Star Rail Simulator
+	[5750914919] = "b94343ca266a778e5da8d72e92d4aab5", -- Fisch
+	[3359505957] = "095fbd843016a7af1d3a9ee88714c64a", -- Collect All Pets
+	[6167925365] = "9d21987314f78380b8a21faec2f6e328", -- Cong Dong Viet Nam
 }
 
 for id, scriptid in pairs(GameList) do
