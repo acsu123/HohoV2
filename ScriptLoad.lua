@@ -21,7 +21,7 @@ local GameList = {
 	[5477548919] = "0a9bfef9eb03d0cb17dd85451e4be696", -- Honkai Star Rail Simulator
 	[5750914919] = "b94343ca266a778e5da8d72e92d4aab5", -- Fisch
 	[3359505957] = "095fbd843016a7af1d3a9ee88714c64a", -- Collect All Pets
-	[6167925365] = "9d21987314f78380b8a21faec2f6e328", -- Cong Dong Viet Nam
+	[6167925365] = "e220573a9f986e150c6af8d4d1fb9b7c", -- Cong Dong Viet Nam
 	[5361032378] = "ff4e04500b94246eaa3f5c5be92a8b4a", -- Sol's RNG
 }
 
