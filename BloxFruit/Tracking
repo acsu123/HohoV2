@@ -1,0 +1,2 @@
+script_key = "NoKey"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/459b629ca5ba403d9b62743539ae8abf.lua"))()
