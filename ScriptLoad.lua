@@ -24,6 +24,7 @@ local GameList = {
 	[6167925365] = "e220573a9f986e150c6af8d4d1fb9b7c", -- Cong Dong Viet Nam
 	[5361032378] = "ff4e04500b94246eaa3f5c5be92a8b4a", -- Sol's RNG
 	[7709344486] = "1d5eea7e66ccb5ca4d11c26ff2d4c6b1", -- Steal a Brainrot
+	[7326934954] = "0aa67223637322085cfeaf80ae9af69f", -- 99 Nights in the Forest
 }
 
 for id, scriptid in pairs(GameList) do
