@@ -830,12 +830,13 @@ do
 	end)
 
 	Get.MouseButton1Click:Connect(function()
-        setclipboard('https://hohocomunity.xyz/api/getkeyv4?hwid=' .. tick())
-        StarterGui:SetCore("SendNotification",{
-            Title = "Key System",
-            Text = "Key Link 1 Copied!",
-            Icon = "rbxassetid://16276677105"
-        })
+	        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())	
+	        -- setclipboard('https://hohocomunity.xyz/api/getkeyv4?hwid=' .. tick())
+	        StarterGui:SetCore("SendNotification",{
+	            Title = "Key System",
+	            Text = "Key Link 1 Copied!",
+	            Icon = "rbxassetid://16276677105"
+	        })
 	end)
 
     Get2.MouseButton1Click:Connect(function()
