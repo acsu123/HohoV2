@@ -830,8 +830,7 @@ do
 	end)
 
 	Get.MouseButton1Click:Connect(function()
-	        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())	
-	        -- setclipboard('https://hohocomunity.xyz/api/getkeyv4?hwid=' .. tick())
+	        setclipboard('https://hohocomunity.xyz/api/getkeyv4?hwid=' .. tick())
 	        StarterGui:SetCore("SendNotification",{
 	            Title = "Key System",
 	            Text = "Key Link 1 Copied!",
