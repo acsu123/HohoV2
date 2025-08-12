@@ -361,6 +361,12 @@ if list[game.GameId] ~= nil then
 else
 	notify.New("This game is not supported by hohohub :(", 60)
 	notify.New("Please join discord.gg/hohohub to check what game r supported by us!", 60)
+	notify.New("Running HoHo Universal Script!", 60)
+	if game:GetService("CoreGui"):FindFirstChild("Hоhо_раssсhесk") then
+		game:GetService("CoreGui"):FindFirstChild("Hоhо_раssсhесk"):Destroy()
+	end
+	_G.loadCustomId = "b358ee69695f62450471edf52317559a"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
 end
 -- if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
 -- local path = "wait(5);loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
