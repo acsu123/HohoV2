@@ -29,6 +29,7 @@ local GameList = {
 	[5995470825] = "83363ffca1175ef0c06d4028b77061a4", -- Hypershot
 	[358276974] = "23e50d188c7e27477a1c6eacb076e2ba", -- Apocalypse Rising 2
 	[7541395924] = "c924e9543f9651c9cc1afabfe1f3de65", -- Build An Island
+	[6701277882] = "1c48d56d18692670e5278e1df94997d8", -- Fish It
 }
 
 for id, scriptid in pairs(GameList) do
