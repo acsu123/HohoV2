@@ -803,8 +803,8 @@ do
 			getgenv().script_key = key;
 
 			TweenService:Create(GET_KEY,INFO_DOT25_QUAD,{GroupTransparency = 1}):Play()
-			Debris:AddItem(HOHO_Passcheck,.25)
-			Debris:AddItem(HOHO_Gen4,.25)
+			Debris:AddItem(HOHO_Passcheck,.2)
+			Debris:AddItem(HOHO_Gen4,.2)
 
 			writefile("HohoKeyV4.txt", key)
 
