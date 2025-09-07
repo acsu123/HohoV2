@@ -784,6 +784,11 @@ do
 	
 	local checking_key = false
 
+	local destroyUI = function()
+		HOHO_Passcheck:Destroy()
+		HOHO_Gen4:Destroy()
+	end
+
 	local do_check_key = function(key)
 		if checking_key then return end
 		checking_key = true
@@ -803,8 +808,11 @@ do
 			getgenv().script_key = key;
 
 			TweenService:Create(GET_KEY,INFO_DOT25_QUAD,{GroupTransparency = 1}):Play()
-			Debris:AddItem(HOHO_Passcheck,.2)
-			Debris:AddItem(HOHO_Gen4,.2)
+
+			delay(0.2, destroyUI)
+
+			Debris:AddItem(HOHO_Passcheck,.25)
+			Debris:AddItem(HOHO_Gen4,.25)
 
 			writefile("HohoKeyV4.txt", key)
 
@@ -832,6 +840,9 @@ do
 	Close.MouseButton1Click:Once(function()
 		UI_LOCK = true
 		TweenService:Create(GET_KEY,INFO_DOT25_QUAD,{GroupTransparency = 1}):Play()
+
+		delay(0.2, destroyUI)
+
 		Debris:AddItem(HOHO_Passcheck,.25)
 		Debris:AddItem(HOHO_Gen4,.25)
 		Result = nil
