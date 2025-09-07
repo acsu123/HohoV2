@@ -811,8 +811,8 @@ do
 
 			delay(0.2, destroyUI)
 
-			Debris:AddItem(HOHO_Passcheck,.25)
-			Debris:AddItem(HOHO_Gen4,.25)
+			-- Debris:AddItem(HOHO_Passcheck,.25)
+			-- Debris:AddItem(HOHO_Gen4,.25)
 
 			writefile("HohoKeyV4.txt", key)
 
@@ -843,8 +843,8 @@ do
 
 		delay(0.2, destroyUI)
 
-		Debris:AddItem(HOHO_Passcheck,.25)
-		Debris:AddItem(HOHO_Gen4,.25)
+		-- Debris:AddItem(HOHO_Passcheck,.25)
+		-- Debris:AddItem(HOHO_Gen4,.25)
 		Result = nil
 	end)
 
