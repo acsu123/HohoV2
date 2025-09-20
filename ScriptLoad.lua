@@ -363,7 +363,7 @@ do
 	Title.Size = UDim2.new(1, 0, 0.546077, 0)
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Title.Text = "GET KEY (SERVER 1)"
+	Title.Text = "GET KEY"
 	Title.BackgroundTransparency = 1
 	Title.Parent = Get
 	Title:SetAttribute("EngText",Title.Text)
@@ -415,7 +415,7 @@ do
     Get2.Name = "Get2"
 	Get2.Position = UDim2.new(0.764, 0, 0.45377, 0)
 	Get2.Size = UDim2.new(0.312, 0, 0.095, 0)
-    Get2.Title.Text = "GET KEY (SV 2)"
+    Get2.Title.Text = "How To Get Key"
 	Get2.Parent = GET_KEY
 
 	Pfp.BorderSizePixel = 0
@@ -854,7 +854,7 @@ do
 
 	Get.MouseButton1Click:Connect(function()
 		-- setclipboard('https://hohocomunity.xyz/api/getkeyv4?hwid=' .. tick())
-		setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())
+		setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkey?hwid=' .. tick())
 		StarterGui:SetCore("SendNotification",{
 			Title = "Key System",
 			Text = "Key Link 1 Copied!",
@@ -863,10 +863,10 @@ do
 	end)
 
     Get2.MouseButton1Click:Connect(function()
-        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())
+        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkey?hwid=TUTORIAL')
         StarterGui:SetCore("SendNotification",{
             Title = "Key System",
-            Text = "Key Link 2 Copied!",
+            Text = "Get Key Tutorial Copied!",
             Icon = "rbxassetid://16276677105"
         })
 	end)
