@@ -74462,5 +74462,5 @@ local WordList_Three = {
     "westernization",
     "xenotransplantation",
 }
-
+_G.WordList, _G.WordList_Two, _G.WordList_Three = WordList, WordList_Two, WordList_Three
 return WordList, WordList_Two, WordList_Three
