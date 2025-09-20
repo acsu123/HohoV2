@@ -30,6 +30,10 @@ local GameList = {
 	[358276974] = "23e50d188c7e27477a1c6eacb076e2ba", -- Apocalypse Rising 2
 	[7541395924] = "c924e9543f9651c9cc1afabfe1f3de65", -- Build An Island
 	[6701277882] = "1c48d56d18692670e5278e1df94997d8", -- Fish It
+	[953622098] = "12933a8f18ec406f1ee26bbdc3b73abf", -- Word Bomb
+	[7200297228] = "da7549d939f1a496dca0b8d3610196b5", -- Loot Hero
+	[7832036655] = "456662bcac892ece28c0062bbe1a7a66", -- Arena Of Blox
+	[7061783500] = "2fb6765dd4c0e2894dd107dd9e14c340", -- 2 Player Battle Tycoon
 }
 
 for id, scriptid in pairs(GameList) do
