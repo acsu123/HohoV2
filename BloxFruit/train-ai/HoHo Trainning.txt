@@ -1,0 +1,96 @@
+My menu got stucked on v3 how can I change it to v4 back?
+Ok so to switch HOHO v1/v2/v3/(any other) to HOHO v4 just execute the following command, just as you execute hoho hub script.
+`delfolder("HoHo_Hub_gen3")`
+After running this rejoin the game
+
+how do I reset hoho hub v1 to v4?
+Ok so to switch HOHO v1/v2/v3/(any other) to HOHO v4 just execute the following command, just as you execute hoho hub script.
+`delfolder("HoHo_Hub_gen3")`
+After running this rejoin the game
+
+Can I switch HOHO v1 to HOHO v4?
+Ok so to switch HOHO v1/v2/v3/(any other) to HOHO v4 just execute the following command, just as you execute hoho hub script.
+`delfolder("HoHo_Hub_gen3")`
+After running this rejoin the game.
+
+I can't fish
+Hoho's auto fishing features are in Pages > Sea Events > Fishing.  Enable fully auto fishing from there.
+
+Auto fishing is not working.
+Can't do anything about skill issue.
+
+Where is auto fish in the script?
+Hoho's auto fishing feature is in Pages > Sea Events > Fishing.
+
+What should I do if I'm getting too many ads while trying to get my key?
+If you encounter excessive ads, use **Brave Browser** to complete **3 Linkvertise tasks**, as Lootlabs tasks cannot be performed in Brave. If you continue to experience issues after following all steps and watching the tutorial for your device, consider opting for a premium key.
+In Mobile, If ads are obstructing your view, I'd recommend enabling Desktop Mode in Google Chrome by following these steps:
+1. Open the three-dot menu in Chrome.
+2. Click on **Desktop Site**.
+3. This should help in removing the ads.
+
+what is the key?
+You have to get key yourself, key is different for each user. Also xeno and solara are not supported executors for hoho hub. 
+
+What are the Vietnamese payment options available for purchasing the premium script?
+For Vietnamese users, you can utilize bank account details such as STK: 345606 - mbbank or Phone Number: 0376539693 - MoMo. You can send a transfer or photo of the Viettel card to acsu123 or purchase directly from [shyun.store](https://shyun.store/) or [yukstore.com](https://yukstore.com).
+
+Can I purchase the premium script through resellers?
+Yes, you can DM resellers mentioned in https://discord.com/channels/906426036772818954/1190984583446007832 for various payment options.
+
+What are the benefits of boosting the server?
+By boosting the hoho hub server, you can skip ads and obtain a bypass key each day for as long as your boost lasts. Note that this does not provide a premium key, but you will receive a premium (booster) role.
+
+Where can I find more details about purchasing the premium script?
+For more details on purchasing the premium script and payment options, please refer to this link: https://discord.com/channels/906426036772818954/1190984583446007832.
+
+How can I purchase the premium script using a Viettel Card?
+You can use Visa, Crypto, or PayPal to purchase a total of 120K Viettel Cards (1 x 100K and 1 x 20K) from [Seagm](https://www.seagm.com/) or [Offgamers](https://www.offgamers.com). After purchasing, send the card information (serial/code/pin) to acsu123. More info at https://discord.com/channels/906426036772818954/1190984583446007832
+
+What is the price of the premium script?
+The premium script is available for purchase at a price of $5.50, 120,000 VND, or 2,000 Robux. More info at https://discord.com/channels/906426036772818954/1190984583446007832
+
+How do I obtain my key link after executing the script?
+After executing the script, use the buttons labeled "Get Key Server 1" or "Get Key SV 2" in the user interface. Copy the link provided and paste it into Google Chrome. If you are on mobile, ensure that you enable Desktop Mode. If you continue to experience issues after following all steps and watching the tutorial for your device, consider opting for a premium key.
+
+What should I do if I encounter ads while trying to get my key?
+Be aware that the key link may lead to various ads, including some that are **18+**. If you are redirected to any site other than '**ads.luarmour**', '**linkvertise**', '**direct-link**', '**lootdest**', or '**YouTube**', click back. If clicking back closes the site or browser, ensure you are using Google Chrome and have enabled Desktop Mode, then start over by pasting the link again. If you continue to experience issues after following all steps and watching the tutorial for your device, consider opting for a premium key.
+
+Do I need to re-watch the YouTube video if I've already liked it?
+No, if you have already watched and liked the YouTube video, you do not need to do it again. The website recognizes your previous interaction. Simply click "Subscribe, Like & Comment Video 1" without re-subscribing, re-commenting, or re-liking. If you continue to experience issues after following all steps and watching the tutorial for your device, consider opting for a premium key.
+
+Why might I have trouble getting the key on iOS?
+iOS devices can be overly protective and may prevent you from obtaining the key on the first attempt. If you continue to experience issues after following all steps and watching the tutorial for your device, consider opting for a premium key.
+
+Can I use a different browser to avoid ads?
+Yes, using **Brave Browser** is recommended as it blocks most ads and can be used on both mobile and PC. You may need to complete 3 Linkvertise tasks for best results as you can't complete lootlabs tasks in brave.
+
+How do I enable Desktop Mode on my mobile browser?
+To enable Desktop Mode, open Google Chrome and:
+1. Tap the three-dot menu.
+2. Choose **Desktop Site**.
+3. This will allow you to access the full site and potentially resolve issues with getting the key.
+
+What if Desktop Mode does not resolve the ad issue?
+If enabling Desktop Mode does not eliminate the ads, consider using **Brave Browser**, which blocks most ads automatically. Complete 3 Linkvertise tasks for optimal performance as you can't complete lootlabs tasks in brave.
+
+How can I remove ads that cover my screen?
+If ads are obstructing your view, try enabling Desktop Mode in Google Chrome by following these steps:
+1. Open the three-dot menu in Chrome.
+2. Click on **Desktop Site**.
+3. This should help in removing the ads.
+
+What should I do if I can't get the key on mobile?
+Ensure you are using Google Chrome on your mobile device. Activate Desktop Mode by following these steps:
+1. Tap the three-dot menu in Chrome.
+2. Select **Desktop Site**.
+3. Attempt to retrieve the key again.
+
+Which browser should I use to obtain the key?
+You should ensure that you are using Google Chrome to obtain the key effectively.
+
+What should I do if I am redirected to another site while trying to get the key?
+If you are redirected to another site, simply press the back button. Only proceed if redirected to one of the following sites: ads.luarmour, linkvertise, direct-link, lootdest, or YouTube.
+
+Why key not working?
+Idk yet, give me more information about what is happening.
