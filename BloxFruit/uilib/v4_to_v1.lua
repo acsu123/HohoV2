@@ -1,5 +1,6 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/refs/heads/main/hoho_lib.lua", true))()
 local win = lib:Window("Blox Fruit","HoHo Hub V1",Color3.new(0.333333, 0.666667, 1))
+local obj = Instance.new("TextLabel")
 
 function Window()
     local windowReturn = {}
@@ -29,12 +30,12 @@ function Window()
     function windowReturn:PagesTab()
         local PagesTabReturn = {}
         function PagesTabReturn:CreateButtonToFrame(title,desc,icon_id)
-            local CreateButtonToFrameReturn = {}
+            local CreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
 
             local tab = win:Tab(title)
 
             function CreateButtonToFrameReturn:CreateButtonToFrame(title,desc,_icon_id,_toggle,SyncWith,callback)
-                local MiniCreateButtonToFrameReturn = {}
+                local MiniCreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
                 tab:Line()
                 tab:Label(title, {})
                 tab:Toggle(title, _toggle, function(val)
@@ -141,6 +142,25 @@ function Window()
                     local Config = {}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:Header(title,whichTab)
+                    local Config = {}
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
+                    local Config = {}
+					function Config:SetColor(Color)
+					end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
+                    local Config = {}
+					function Config:SetKey(value)
+					end
                     return Config
                 end
 
