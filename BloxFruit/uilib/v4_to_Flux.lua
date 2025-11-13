@@ -2784,15 +2784,17 @@ function Window()
         return debugReturn
     end
 
+	local obj = Instance.new("TextLabel")
+
     function windowReturn:PagesTab()
         local PagesTabReturn = {}
         function PagesTabReturn:CreateButtonToFrame(title,desc,icon_id)
-            local CreateButtonToFrameReturn = {}
+            local CreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
 
             local tab = win:Tab(title, icon_id)
 
             function CreateButtonToFrameReturn:CreateButtonToFrame(title,desc,_icon_id,_toggle,SyncWith,callback)
-                local MiniCreateButtonToFrameReturn = {}
+                local MiniCreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
                 tab:Line()
                 tab:Label(title)
                 tab:Toggle(title, desc, function(t)
@@ -2908,6 +2910,25 @@ function Window()
                     return Config
                 end
 
+                function MiniCreateButtonToFrameReturn:Header(title,whichTab)
+                    local Config = {}
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
+                    local Config = {}
+					function Config:SetColor(Color)
+					end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
+                    local Config = {}
+					function Config:SetKey(value)
+					end
+                    return Config
+                end
+
                 return MiniCreateButtonToFrameReturn
             end
             return CreateButtonToFrameReturn
@@ -2916,4 +2937,4 @@ function Window()
     end
     return windowReturn
 end
-return = Window
+return Window
