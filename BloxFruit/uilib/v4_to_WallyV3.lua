@@ -1,6 +1,8 @@
 
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
+local obj = Instance.new("TextLabel")
+
 function Window()
     local windowReturn = {}
 
@@ -49,13 +51,13 @@ function Window()
     function windowReturn:PagesTab()
         local PagesTabReturn = {}
         function PagesTabReturn:CreateButtonToFrame(title,desc,icon_id)
-            local CreateButtonToFrameReturn = {}
+            local CreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
 
             local window = library:CreateWindow(isFirstTime and title or "HoHo Hub | " .. title)
             isFirstTime = true
 
             function CreateButtonToFrameReturn:CreateButtonToFrame(title,desc,_icon_id,_toggle,SyncWith,callback)
-                local MiniCreateButtonToFrameReturn = {}
+                local MiniCreateButtonToFrameReturn = {Object=obj, ToFrame=obj}
 
                 local folder = window:CreateFolder(title)
                 folder:Toggle(title,function(bool)
@@ -180,6 +182,25 @@ function Window()
                     local Config = {}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:Header(title,whichTab)
+                    local Config = {}
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
+                    local Config = {}
+					function Config:SetColor(Color)
+					end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
+                    local Config = {}
+					function Config:SetKey(value)
+					end
                     return Config
                 end
 
