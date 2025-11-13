@@ -13,6 +13,8 @@ local Window = Fluent:CreateWindow({
 
 local CounterAutoCallback = {}
 
+local obj = Instance.new("TextLabel")
+
 function WindowZZZZ()
     local windowReturn = {}
 
@@ -50,7 +52,7 @@ function WindowZZZZ()
     end
 
     function windowReturn:PagesTab()
-        local PagesTabReturn = {}
+        local PagesTabReturn = {Object=obj, ToFrame=obj}
         function PagesTabReturn:CreateButtonToFrame(title,desc,icon_id)
             local CreateButtonToFrameReturn = {}
 
@@ -248,6 +250,25 @@ function WindowZZZZ()
                     local Config = {}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:Header(title,whichTab)
+                    local Config = {}
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
+                    local Config = {}
+					function Config:SetColor(Color)
+					end
+                    return Config
+                end
+
+                function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
+                    local Config = {}
+					function Config:SetKey(value)
+					end
                     return Config
                 end
 
