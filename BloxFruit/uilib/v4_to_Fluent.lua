@@ -1,5 +1,5 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/BloxFruit/uilib/backup/Fluent.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/BloxFruit/uilib/backup/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
     Title = "W-azure|Banana|HoHo Hub",
