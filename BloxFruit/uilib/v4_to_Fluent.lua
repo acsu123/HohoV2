@@ -88,7 +88,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })                
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         Dropdown:SetValues(_List)
                     end
@@ -111,7 +111,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -127,7 +127,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -148,7 +148,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -169,7 +169,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -180,7 +180,7 @@ function WindowZZZZ()
                         Title = "Paragraph",
                         Content = title
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label:SetDesc(newText)
                     end
@@ -192,7 +192,7 @@ function WindowZZZZ()
                         Title = "Paragraph",
                         Content = title
                     })
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label:SetDesc(newText)
                     end
@@ -225,7 +225,7 @@ function WindowZZZZ()
                             callback(Value)
                         end
                     })                
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         Dropdown:SetValues(_List)
                     end
@@ -251,26 +251,26 @@ function WindowZZZZ()
                 end
 
                 function MiniCreateButtonToFrameReturn:Image(title,whichTab,imgID)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:Header(title,whichTab)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetColor(Color)
 					end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetKey(value)
 					end
                     return Config
