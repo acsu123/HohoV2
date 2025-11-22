@@ -151,6 +151,8 @@ function Window()
                     folder:Button(title,function()
                         callback()
                     end)
+                    local Config = {Object=obj, ToFrame=obj}
+                    return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:SelectorMultiple(title,whichTab,__List,callback, listhave)
