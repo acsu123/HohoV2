@@ -2805,7 +2805,7 @@ function Window()
                     local drop = tab:Dropdown(title, __List, function(t)
                         callback(t)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         drop:Clear()
                         for i, v in pairs(_List) do
@@ -2819,7 +2819,7 @@ function Window()
                     tab:Slider(title, title, min, max,default_value,function(t)
                         callback(t)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -2829,7 +2829,7 @@ function Window()
                     tab:Toggle(title, title, function(t)
                         callback(t)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -2839,7 +2839,7 @@ function Window()
                     tab:Textbox(title, "Text here", true, function(t)
                         callback(t)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -2849,7 +2849,7 @@ function Window()
                     tab:Textbox(title, tostring(default), true, function(t)
                         callback(t)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -2857,7 +2857,7 @@ function Window()
 
                 function MiniCreateButtonToFrameReturn:Paragraph(title,whichTab)
                     local label = tab:Label(title)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label.Text = newText
                     end
@@ -2866,7 +2866,7 @@ function Window()
 
                 function MiniCreateButtonToFrameReturn:Label(title,whichTab)
                     local label = tab:Label(title)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label.Text = newText
                     end
@@ -2883,7 +2883,7 @@ function Window()
                     local drop = tab:Dropdown(title, __List, function(t)
                         callback({t})
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         drop:Clear()
                         for i, v in pairs(_List) do
@@ -2904,26 +2904,26 @@ function Window()
                 end
 
                 function MiniCreateButtonToFrameReturn:Image(title,whichTab,imgID)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:Header(title,whichTab)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetColor(Color)
 					end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetKey(value)
 					end
                     return Config
