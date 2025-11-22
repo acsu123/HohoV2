@@ -1,5 +1,5 @@
 
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/BloxFruit/uilib/backup/wallyv3.lua')))()
 
 local obj = Instance.new("TextLabel")
 
