@@ -246,6 +246,8 @@ function WindowZZZZ()
                             end
                         })
                     end
+                    local Config = {Object=obj, ToFrame=obj}
+                    return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:Image(title,whichTab,imgID)
