@@ -1,4 +1,4 @@
-local uilibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/LiterallyATrueClown/SeaHubFake/main/SeaHubUILIBFake.lua", true))()
+local uilibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/BloxFruit/uilib/backup/seahub.lua", true))()
 local CounterAutoCallback = {}
 function Window()
     local windowReturn = {}
