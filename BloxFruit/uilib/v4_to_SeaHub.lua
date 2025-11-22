@@ -63,7 +63,7 @@ function Window()
                             end
 						callback(value)
 					end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
 						drop:Clear()
 						drop:Add(_List)
@@ -79,7 +79,7 @@ function Window()
 						end
 						callback(Value)
 					end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -93,7 +93,7 @@ function Window()
 						end
 						callback(Value)
 					end)					
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -107,7 +107,7 @@ function Window()
 						end
 						callback(vv)
 					end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -121,7 +121,7 @@ function Window()
 						end
 						callback(vv)
 					end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -129,7 +129,7 @@ function Window()
 
                 function MiniCreateButtonToFrameReturn:Paragraph(title,whichTab)
                     local label = Section1:CreateButton(title, function () end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                     end
                     return Config
@@ -137,7 +137,7 @@ function Window()
 
                 function MiniCreateButtonToFrameReturn:Label(title,whichTab)
                     local label = Section1:CreateButton(title, function () end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                     end
                     return Config
@@ -159,7 +159,7 @@ function Window()
                             end
 						callback({value})
 					end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
 						drop:Clear()
 						drop:Add(_List)
@@ -176,26 +176,26 @@ function Window()
                 end
 
                 function MiniCreateButtonToFrameReturn:Image(title,whichTab,imgID)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:Header(title,whichTab)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetColor(Color)
 					end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetKey(value)
 					end
                     return Config
