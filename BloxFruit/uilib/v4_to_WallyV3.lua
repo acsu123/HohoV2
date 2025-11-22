@@ -68,7 +68,7 @@ function Window()
                     local drop = folder:Dropdown(title,__List,function(a)
                         callback(a)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         drop:Refresh(_List)
                     end
@@ -83,7 +83,7 @@ function Window()
                     },function(value)
                         callback(value)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -93,7 +93,7 @@ function Window()
                     local toggle = folder:Toggle(title,function(bool)
                         callback(bool)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetValue(value)
                     end
                     return Config
@@ -103,7 +103,7 @@ function Window()
                     local txtbox = folder:Box(title,"string",function(value)
                         callback(value)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -113,7 +113,7 @@ function Window()
                     local txtbox = folder:Box(title,"string",function(value)
                         callback(value)
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:SetText(value)
                     end
                     return Config
@@ -126,7 +126,7 @@ function Window()
                         BgColor = Color3.fromRGB(69,69,69);
                         
                     }) 
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label:Refresh(newText)
                     end
@@ -140,7 +140,7 @@ function Window()
                         BgColor = Color3.fromRGB(69,69,69);
                         
                     }) 
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeText(newText)
                         label:Refresh(newText)
                     end
@@ -157,7 +157,7 @@ function Window()
                     local drop = folder:Dropdown(title,__List,function(a)
                         callback({a})
                     end)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:Refresh(_List)
                         drop:Refresh(_List)
                     end
@@ -179,26 +179,26 @@ function Window()
                 end
 
                 function MiniCreateButtonToFrameReturn:Image(title,whichTab,imgID)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     function Config:ChangeImage(newImageID,newTitle)
                     end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:Header(title,whichTab)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:ColorPicker(title,whichTab,default_color,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetColor(Color)
 					end
                     return Config
                 end
 
                 function MiniCreateButtonToFrameReturn:KeyBind(title,whichTab,default_keybind,callback)
-                    local Config = {}
+                    local Config = {Object=obj, ToFrame=obj}
 					function Config:SetKey(value)
 					end
                     return Config
