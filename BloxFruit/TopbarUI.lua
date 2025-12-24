@@ -55,7 +55,7 @@ function TopbarUI.new()
     self.position = "Mid"
     self.isOpen = false
     self.callbacks = {}
-    self.layoutOrder = #buttons
+    self.layoutOrder = 
 
     table.insert(buttons, self)
 
@@ -68,7 +68,7 @@ function TopbarUI:_createUI()
 
     self.frame = Instance.new("Frame")
     self.frame.Name = "TopbarButton"
-    self.frame.Size = UDim2.new(0, 50, 0, 60)
+    self.frame.Size = UDim2.new(0, 50, 0, 50) -- Giảm height xuống 50 vì label sẽ ẩn
     self.frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
     self.frame.BorderSizePixel = 0
     self.frame.LayoutOrder = self.layoutOrder
@@ -91,43 +91,47 @@ function TopbarUI:_createUI()
     self.button.Text = ""
     self.button.Parent = self.frame
 
+    -- Icon ở giữa khi không hover
     local imageLabel = Instance.new("ImageLabel")
     imageLabel.Name = "Icon"
     imageLabel.Size = UDim2.new(0, 28, 0, 28)
-    imageLabel.Position = UDim2.new(0.5, 0, 0, 8)
-    imageLabel.AnchorPoint = Vector2.new(0.5, 0)
+    imageLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+    imageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
     imageLabel.BackgroundTransparency = 1
     imageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
     imageLabel.Parent = self.button
 
+    -- Label ẩn mặc định, chỉ hiện khi hover
     local labelText = Instance.new("TextLabel")
     labelText.Name = "Label"
-    labelText.Size = UDim2.new(1, -6, 0, 16)
-    labelText.Position = UDim2.new(0.5, 0, 1, -18)
+    labelText.Size = UDim2.new(1, -6, 0, 14)
+    labelText.Position = UDim2.new(0.5, 0, 1, -16)
     labelText.AnchorPoint = Vector2.new(0.5, 0)
     labelText.BackgroundTransparency = 1
     labelText.Text = ""
     labelText.TextColor3 = Color3.fromRGB(200, 200, 200)
-    labelText.TextSize = 10
+    labelText.TextSize = 9
     labelText.Font = Enum.Font.GothamMedium
     labelText.TextXAlignment = Enum.TextXAlignment.Center
     labelText.TextScaled = true
     labelText.Visible = false
+    labelText.TextTransparency = 1
     labelText.Parent = self.frame
 
     local labelConstraint = Instance.new("UITextSizeConstraint")
-    labelConstraint.MaxTextSize = 10
+    labelConstraint.MaxTextSize = 9
     labelConstraint.Parent = labelText
 
+    -- Caption với AutomaticSize để fit nội dung dài
     local caption = Instance.new("Frame")
     caption.Name = "Caption"
-    caption.Size = UDim2.new(0, 180, 0, 0)
+    caption.Size = UDim2.new(0, 0, 0, 0)
     caption.Position = UDim2.new(0.5, 0, 1, 8)
     caption.AnchorPoint = Vector2.new(0.5, 0)
     caption.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
     caption.BorderSizePixel = 0
     caption.Visible = false
-    caption.AutomaticSize = Enum.AutomaticSize.Y
+    caption.AutomaticSize = Enum.AutomaticSize.XY -- Tự động cả chiều ngang và dọc
     caption.ZIndex = 100
     caption.Parent = self.frame
 
@@ -143,30 +147,60 @@ function TopbarUI:_createUI()
 
     local captionText = Instance.new("TextLabel")
     captionText.Name = "Text"
-    captionText.Size = UDim2.new(1, -16, 1, 0)
-    captionText.Position = UDim2.new(0, 8, 0, 0)
+    captionText.Size = UDim2.new(0, 250, 0, 0) -- Width cố định 250, height tự động
+    captionText.Position = UDim2.new(0, 0, 0, 0)
     captionText.BackgroundTransparency = 1
     captionText.Text = ""
     captionText.TextColor3 = Color3.fromRGB(220, 220, 220)
     captionText.TextSize = 11
     captionText.Font = Enum.Font.Gotham
     captionText.TextXAlignment = Enum.TextXAlignment.Center
+    captionText.TextYAlignment = Enum.TextYAlignment.Top
     captionText.TextWrapped = true
     captionText.AutomaticSize = Enum.AutomaticSize.Y
     captionText.Parent = caption
 
     local captionPadding = Instance.new("UIPadding")
-    captionPadding.PaddingTop = UDim.new(0, 6)
-    captionPadding.PaddingBottom = UDim.new(0, 6)
+    captionPadding.PaddingTop = UDim.new(0, 8)
+    captionPadding.PaddingBottom = UDim.new(0, 8)
+    captionPadding.PaddingLeft = UDim.new(0, 10)
+    captionPadding.PaddingRight = UDim.new(0, 10)
     captionPadding.Parent = caption
 
+    -- Hover effect
     self.button.MouseEnter:Connect(function()
+        -- Hiện caption
         if self.caption ~= "" then
             caption.Visible = true
         end
-        TweenService:Create(self.frame, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
-            BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-        }):Play()
+
+        -- Hiện label với animation
+        if self.label ~= "" then
+            labelText.Visible = true
+            TweenService:Create(labelText, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+                TextTransparency = 0
+            }):Play()
+
+            -- Mở rộng frame để chứa label
+            local textService = game:GetService("TextService")
+            local textSize = textService:GetTextSize(self.label, 9, Enum.Font.GothamMedium, Vector2.new(200, 20))
+            local newWidth = math.max(50, math.min(80, textSize.X + 12))
+
+            -- Di chuyển icon lên trên
+            TweenService:Create(imageLabel, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+                Position = UDim2.new(0.5, 0, 0, 8)
+            }):Play()
+
+            TweenService:Create(self.frame, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+                Size = UDim2.new(0, newWidth, 0, 60),
+                BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            }):Play()
+        else
+            TweenService:Create(self.frame, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+                BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+            }):Play()
+        end
+
         TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
             Transparency = 0.2
         }):Play()
@@ -174,10 +208,28 @@ function TopbarUI:_createUI()
 
     self.button.MouseLeave:Connect(function()
         caption.Visible = false
+
+        -- Ẩn label với animation
+        if self.label ~= "" then
+            TweenService:Create(labelText, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+                TextTransparency = 1
+            }):Play()
+
+            -- Di chuyển icon về giữa
+            TweenService:Create(imageLabel, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+                Position = UDim2.new(0.5, 0, 0.5, 0)
+            }):Play()
+
+            task.wait(0.2)
+            labelText.Visible = false
+        end
+
         local targetColor = self.isOpen and Color3.fromRGB(50, 120, 255) or Color3.fromRGB(35, 35, 35)
-        TweenService:Create(self.frame, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+        TweenService:Create(self.frame, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
+            Size = UDim2.new(0, 50, 0, 50),
             BackgroundColor3 = targetColor
         }):Play()
+
         TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
             Transparency = self.isOpen and 0 or 0.5
         }):Play()
@@ -210,17 +262,6 @@ function TopbarUI:setLabel(text)
     local labelObj = self.frame:FindFirstChild("Label")
     if labelObj then
         labelObj.Text = text
-        labelObj.Visible = (text ~= "")
-
-        if text ~= "" then
-
-            local textService = game:GetService("TextService")
-            local textSize = textService:GetTextSize(text, 10, Enum.Font.GothamMedium, Vector2.new(200, 20))
-            local newWidth = math.max(50, math.min(80, textSize.X + 12))
-            self.frame.Size = UDim2.new(0, newWidth, 0, 60)
-        else
-            self.frame.Size = UDim2.new(0, 50, 0, 60)
-        end
     end
     return self
 end
