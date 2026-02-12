@@ -50,40 +50,21 @@ end
 function createCollapseButton()
     collapseButton = Instance.new("Frame")
     collapseButton.Name = "CollapseButton"
-    collapseButton.Size = UDim2.new(0, 50, 0, 50)
-    collapseButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+    collapseButton.Size = UDim2.new(0, 30, 0, 50)
+    collapseButton.BackgroundTransparency = 1
     collapseButton.BorderSizePixel = 0
-    collapseButton.LayoutOrder = 999999 -- Luôn ở cuối cùng
+    collapseButton.LayoutOrder = 999999 -- Always at the end
     collapseButton.Parent = sharedContainer
-
-    local corner = Instance.new("UICorner")
-    corner.CornerRadius = UDim.new(0, 12)
-    corner.Parent = collapseButton
-
-    local stroke = Instance.new("UIStroke")
-    stroke.Color = Color3.fromRGB(60, 60, 60)
-    stroke.Thickness = 1
-    stroke.Transparency = 0.5
-    stroke.Parent = collapseButton
 
     local button = Instance.new("TextButton")
     button.Name = "Button"
     button.Size = UDim2.new(1, 0, 1, 0)
     button.BackgroundTransparency = 1
-    button.Text = ""
+    button.Text = "<"
+    button.TextColor3 = Color3.fromRGB(200, 200, 200)
+    button.TextSize = 20
+    button.Font = Enum.Font.GothamBold
     button.Parent = collapseButton
-
-    -- Icon mũi tên
-    local arrow = Instance.new("ImageLabel")
-    arrow.Name = "Arrow"
-    arrow.Size = UDim2.new(0, 20, 0, 20)
-    arrow.Position = UDim2.new(0.5, 0, 0.5, 0)
-    arrow.AnchorPoint = Vector2.new(0.5, 0.5)
-    arrow.BackgroundTransparency = 1
-    arrow.Image = "rbxasset://textures/ui/Settings/MenuBarIcons/FullscreenIcon.png" -- Hoặc dùng icon tùy chỉnh
-    arrow.ImageColor3 = Color3.fromRGB(255, 255, 255)
-    arrow.Rotation = 90 -- Quay thành mũi tên phải (>)
-    arrow.Parent = button
 
     -- Caption
     local caption = Instance.new("Frame")
@@ -110,10 +91,10 @@ function createCollapseButton()
 
     local captionText = Instance.new("TextLabel")
     captionText.Name = "Text"
-    captionText.Size = UDim2.new(0, 150, 0, 0)
+    captionText.Size = UDim2.new(0, 100, 0, 0)
     captionText.Position = UDim2.new(0, 0, 0, 0)
     captionText.BackgroundTransparency = 1
-    captionText.Text = "Thu gọn"
+    captionText.Text = "Collapse"
     captionText.TextColor3 = Color3.fromRGB(220, 220, 220)
     captionText.TextSize = 11
     captionText.Font = Enum.Font.Gotham
@@ -133,57 +114,47 @@ function createCollapseButton()
     -- Hover effect
     button.MouseEnter:Connect(function()
         caption.Visible = true
-        TweenService:Create(collapseButton, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
-            BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-        }):Play()
-        TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
-            Transparency = 0.2
+        TweenService:Create(button, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            TextColor3 = Color3.fromRGB(255, 255, 255)
         }):Play()
     end)
 
     button.MouseLeave:Connect(function()
         caption.Visible = false
-        TweenService:Create(collapseButton, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
-            BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-        }):Play()
-        TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
-            Transparency = 0.5
+        TweenService:Create(button, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            TextColor3 = Color3.fromRGB(200, 200, 200)
         }):Play()
     end)
 
-    -- Click để toggle collapse
+    -- Click to toggle collapse
     button.MouseButton1Click:Connect(function()
         isCollapsed = not isCollapsed
         
-        -- Cập nhật caption text
-        captionText.Text = isCollapsed and "Mở rộng" or "Thu gọn"
+        -- Update caption text and button text
+        captionText.Text = isCollapsed and "Expand" or "Collapse"
+        button.Text = isCollapsed and ">" or "<"
         
-        -- Xoay icon
-        TweenService:Create(arrow, TweenInfo.new(0.3, Enum.EasingStyle.Quad), {
-            Rotation = isCollapsed and -90 or 90 -- < khi collapsed, > khi expanded
-        }):Play()
-
         -- Bounce effect
-        TweenService:Create(arrow, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
-            Size = UDim2.new(0, 24, 0, 24)
+        TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
+            TextSize = 24
         }):Play()
         task.wait(0.1)
-        TweenService:Create(arrow, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
-            Size = UDim2.new(0, 20, 0, 20)
+        TweenService:Create(button, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
+            TextSize = 20
         }):Play()
 
-        -- Ẩn/hiện các nút khác
+        -- Hide/show other buttons
         for _, btn in ipairs(buttons) do
             if btn.frame then
                 if isCollapsed then
-                    -- Thu gọn: scale về 0
+                    -- Collapse: scale to 0
                     TweenService:Create(btn.frame, TweenInfo.new(0.3, Enum.EasingStyle.Quad), {
                         Size = UDim2.new(0, 0, 0, 50)
                     }):Play()
                     task.wait(0.3)
                     btn.frame.Visible = false
                 else
-                    -- Mở rộng
+                    -- Expand
                     btn.frame.Visible = true
                     TweenService:Create(btn.frame, TweenInfo.new(0.3, Enum.EasingStyle.Back), {
                         Size = UDim2.new(0, 50, 0, 50)
