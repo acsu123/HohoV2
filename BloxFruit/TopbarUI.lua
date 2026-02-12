@@ -7,6 +7,8 @@ local CoreGui = game:GetService("CoreGui")
 local sharedScreenGui = nil
 local sharedContainer = nil
 local buttons = {}
+local isCollapsed = false
+local collapseButton = nil
 
 local function initSharedUI()
     if sharedScreenGui then return end
@@ -40,6 +42,156 @@ local function initSharedUI()
     padding.PaddingLeft = UDim.new(0, 5)
     padding.PaddingRight = UDim.new(0, 5)
     padding.Parent = sharedContainer
+
+    -- Tạo nút collapse
+    createCollapseButton()
+end
+
+function createCollapseButton()
+    collapseButton = Instance.new("Frame")
+    collapseButton.Name = "CollapseButton"
+    collapseButton.Size = UDim2.new(0, 50, 0, 50)
+    collapseButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+    collapseButton.BorderSizePixel = 0
+    collapseButton.LayoutOrder = 999999 -- Luôn ở cuối cùng
+    collapseButton.Parent = sharedContainer
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 12)
+    corner.Parent = collapseButton
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(60, 60, 60)
+    stroke.Thickness = 1
+    stroke.Transparency = 0.5
+    stroke.Parent = collapseButton
+
+    local button = Instance.new("TextButton")
+    button.Name = "Button"
+    button.Size = UDim2.new(1, 0, 1, 0)
+    button.BackgroundTransparency = 1
+    button.Text = ""
+    button.Parent = collapseButton
+
+    -- Icon mũi tên
+    local arrow = Instance.new("ImageLabel")
+    arrow.Name = "Arrow"
+    arrow.Size = UDim2.new(0, 20, 0, 20)
+    arrow.Position = UDim2.new(0.5, 0, 0.5, 0)
+    arrow.AnchorPoint = Vector2.new(0.5, 0.5)
+    arrow.BackgroundTransparency = 1
+    arrow.Image = "rbxasset://textures/ui/Settings/MenuBarIcons/FullscreenIcon.png" -- Hoặc dùng icon tùy chỉnh
+    arrow.ImageColor3 = Color3.fromRGB(255, 255, 255)
+    arrow.Rotation = 90 -- Quay thành mũi tên phải (>)
+    arrow.Parent = button
+
+    -- Caption
+    local caption = Instance.new("Frame")
+    caption.Name = "Caption"
+    caption.Size = UDim2.new(0, 0, 0, 0)
+    caption.Position = UDim2.new(0.5, 0, 1, 8)
+    caption.AnchorPoint = Vector2.new(0.5, 0)
+    caption.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    caption.BorderSizePixel = 0
+    caption.Visible = false
+    caption.AutomaticSize = Enum.AutomaticSize.XY
+    caption.ZIndex = 100
+    caption.Parent = collapseButton
+
+    local captionCorner = Instance.new("UICorner")
+    captionCorner.CornerRadius = UDim.new(0, 8)
+    captionCorner.Parent = caption
+
+    local captionStroke = Instance.new("UIStroke")
+    captionStroke.Color = Color3.fromRGB(60, 60, 60)
+    captionStroke.Thickness = 1
+    captionStroke.Transparency = 0.5
+    captionStroke.Parent = caption
+
+    local captionText = Instance.new("TextLabel")
+    captionText.Name = "Text"
+    captionText.Size = UDim2.new(0, 150, 0, 0)
+    captionText.Position = UDim2.new(0, 0, 0, 0)
+    captionText.BackgroundTransparency = 1
+    captionText.Text = "Thu gọn"
+    captionText.TextColor3 = Color3.fromRGB(220, 220, 220)
+    captionText.TextSize = 11
+    captionText.Font = Enum.Font.Gotham
+    captionText.TextXAlignment = Enum.TextXAlignment.Center
+    captionText.TextYAlignment = Enum.TextYAlignment.Top
+    captionText.TextWrapped = true
+    captionText.AutomaticSize = Enum.AutomaticSize.Y
+    captionText.Parent = caption
+
+    local captionPadding = Instance.new("UIPadding")
+    captionPadding.PaddingTop = UDim.new(0, 8)
+    captionPadding.PaddingBottom = UDim.new(0, 8)
+    captionPadding.PaddingLeft = UDim.new(0, 10)
+    captionPadding.PaddingRight = UDim.new(0, 10)
+    captionPadding.Parent = caption
+
+    -- Hover effect
+    button.MouseEnter:Connect(function()
+        caption.Visible = true
+        TweenService:Create(collapseButton, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+        }):Play()
+        TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            Transparency = 0.2
+        }):Play()
+    end)
+
+    button.MouseLeave:Connect(function()
+        caption.Visible = false
+        TweenService:Create(collapseButton, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+        }):Play()
+        TweenService:Create(stroke, TweenInfo.new(0.15, Enum.EasingStyle.Quad), {
+            Transparency = 0.5
+        }):Play()
+    end)
+
+    -- Click để toggle collapse
+    button.MouseButton1Click:Connect(function()
+        isCollapsed = not isCollapsed
+        
+        -- Cập nhật caption text
+        captionText.Text = isCollapsed and "Mở rộng" or "Thu gọn"
+        
+        -- Xoay icon
+        TweenService:Create(arrow, TweenInfo.new(0.3, Enum.EasingStyle.Quad), {
+            Rotation = isCollapsed and -90 or 90 -- < khi collapsed, > khi expanded
+        }):Play()
+
+        -- Bounce effect
+        TweenService:Create(arrow, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
+            Size = UDim2.new(0, 24, 0, 24)
+        }):Play()
+        task.wait(0.1)
+        TweenService:Create(arrow, TweenInfo.new(0.1, Enum.EasingStyle.Back), {
+            Size = UDim2.new(0, 20, 0, 20)
+        }):Play()
+
+        -- Ẩn/hiện các nút khác
+        for _, btn in ipairs(buttons) do
+            if btn.frame then
+                if isCollapsed then
+                    -- Thu gọn: scale về 0
+                    TweenService:Create(btn.frame, TweenInfo.new(0.3, Enum.EasingStyle.Quad), {
+                        Size = UDim2.new(0, 0, 0, 50)
+                    }):Play()
+                    task.wait(0.3)
+                    btn.frame.Visible = false
+                else
+                    -- Mở rộng
+                    btn.frame.Visible = true
+                    TweenService:Create(btn.frame, TweenInfo.new(0.3, Enum.EasingStyle.Back), {
+                        Size = UDim2.new(0, 50, 0, 50)
+                    }):Play()
+                end
+            end
+        end
+    end)
 end
 
 function TopbarUI.new()
@@ -55,7 +207,7 @@ function TopbarUI.new()
     self.position = "Mid"
     self.isOpen = false
     self.callbacks = {}
-    self.layoutOrder = 
+    self.layoutOrder = #buttons
 
     table.insert(buttons, self)
 
@@ -68,7 +220,7 @@ function TopbarUI:_createUI()
 
     self.frame = Instance.new("Frame")
     self.frame.Name = "TopbarButton"
-    self.frame.Size = UDim2.new(0, 50, 0, 50) -- Giảm height xuống 50 vì label sẽ ẩn
+    self.frame.Size = UDim2.new(0, 50, 0, 50)
     self.frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
     self.frame.BorderSizePixel = 0
     self.frame.LayoutOrder = self.layoutOrder
@@ -91,7 +243,6 @@ function TopbarUI:_createUI()
     self.button.Text = ""
     self.button.Parent = self.frame
 
-    -- Icon ở giữa khi không hover
     local imageLabel = Instance.new("ImageLabel")
     imageLabel.Name = "Icon"
     imageLabel.Size = UDim2.new(0, 28, 0, 28)
@@ -101,7 +252,6 @@ function TopbarUI:_createUI()
     imageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
     imageLabel.Parent = self.button
 
-    -- Label ẩn mặc định, chỉ hiện khi hover
     local labelText = Instance.new("TextLabel")
     labelText.Name = "Label"
     labelText.Size = UDim2.new(1, -6, 0, 14)
@@ -122,7 +272,6 @@ function TopbarUI:_createUI()
     labelConstraint.MaxTextSize = 9
     labelConstraint.Parent = labelText
 
-    -- Caption với AutomaticSize để fit nội dung dài
     local caption = Instance.new("Frame")
     caption.Name = "Caption"
     caption.Size = UDim2.new(0, 0, 0, 0)
@@ -131,7 +280,7 @@ function TopbarUI:_createUI()
     caption.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
     caption.BorderSizePixel = 0
     caption.Visible = false
-    caption.AutomaticSize = Enum.AutomaticSize.XY -- Tự động cả chiều ngang và dọc
+    caption.AutomaticSize = Enum.AutomaticSize.XY
     caption.ZIndex = 100
     caption.Parent = self.frame
 
@@ -147,7 +296,7 @@ function TopbarUI:_createUI()
 
     local captionText = Instance.new("TextLabel")
     captionText.Name = "Text"
-    captionText.Size = UDim2.new(0, 250, 0, 0) -- Width cố định 250, height tự động
+    captionText.Size = UDim2.new(0, 250, 0, 0)
     captionText.Position = UDim2.new(0, 0, 0, 0)
     captionText.BackgroundTransparency = 1
     captionText.Text = ""
@@ -169,24 +318,20 @@ function TopbarUI:_createUI()
 
     -- Hover effect
     self.button.MouseEnter:Connect(function()
-        -- Hiện caption
         if self.caption ~= "" then
             caption.Visible = true
         end
 
-        -- Hiện label với animation
         if self.label ~= "" then
             labelText.Visible = true
             TweenService:Create(labelText, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
                 TextTransparency = 0
             }):Play()
 
-            -- Mở rộng frame để chứa label
             local textService = game:GetService("TextService")
             local textSize = textService:GetTextSize(self.label, 9, Enum.Font.GothamMedium, Vector2.new(200, 20))
             local newWidth = math.max(50, math.min(80, textSize.X + 12))
 
-            -- Di chuyển icon lên trên
             TweenService:Create(imageLabel, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
                 Position = UDim2.new(0.5, 0, 0, 8)
             }):Play()
@@ -209,13 +354,11 @@ function TopbarUI:_createUI()
     self.button.MouseLeave:Connect(function()
         caption.Visible = false
 
-        -- Ẩn label với animation
         if self.label ~= "" then
             TweenService:Create(labelText, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
                 TextTransparency = 1
             }):Play()
 
-            -- Di chuyển icon về giữa
             TweenService:Create(imageLabel, TweenInfo.new(0.2, Enum.EasingStyle.Quad), {
                 Position = UDim2.new(0.5, 0, 0.5, 0)
             }):Play()
