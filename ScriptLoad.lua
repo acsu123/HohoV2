@@ -34,6 +34,7 @@ local GameList = {
 	[7200297228] = "da7549d939f1a496dca0b8d3610196b5", -- Loot Hero
 	[7832036655] = "456662bcac892ece28c0062bbe1a7a66", -- Arena Of Blox
 	[7061783500] = "2fb6765dd4c0e2894dd107dd9e14c340", -- 2 Player Battle Tycoon
+	[9619492068] = "85009d2e16759ccb0fc14e091f75eee3", -- Titan Fishing
 }
 
 for id, scriptid in pairs(GameList) do
