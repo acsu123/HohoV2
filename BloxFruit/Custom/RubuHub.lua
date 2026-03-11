@@ -5,7 +5,7 @@ CUSTOM_UI_MODE_DATA = {
     Logo = "rbxassetid://105166236288009",
     Background = "rbxassetid://108854524739326",
     YouTube = "rubutv_roblox",
-    Discord = "hоhоhub",
+    Discord = "fw8hW9HnTy",
     WelcomeMessage = {
         "RUBU HUB",
         "BY RUBU TV"
