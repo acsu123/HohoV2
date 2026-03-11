@@ -1,7 +1,7 @@
 IS_CUSTOM_UI_MODE = true
 CUSTOM_UI_MODE_DATA = {
     Name = "TRAU",
-    Theme = "Cyan",
+    Theme = "Darkblue",
     Logo = "rbxassetid://115681779020519",
     Background = "rbxassetid://71737189750485",
     YouTube = "Trauroblox2004",
