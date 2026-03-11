@@ -21,4 +21,6 @@ CUSTOM_UI_MODE_DATA = {
     TutorialLink = "https://hehehub-acsu123.pythonanywhere.com/api/getkey?hwid=TUTORIAL",
 }
 
+_G.MY_KEY_IS = "free"
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1c3b3c8a311a71c8e81c44b998a81e39.lua"))()
