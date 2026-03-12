@@ -18,7 +18,7 @@ CUSTOM_UI_MODE_DATA = {
     },
     IntroText = "Preparing your HUB for an amazing experience.",
     GetKeyLink = "https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=BG7w89RuTxxtugtJH04EijntTZ2m72Sf-datThgStep1",
-    TutorialLink = "https://hehehub-acsu123.pythonanywhere.com/api/getkey?hwid=TUTORIAL",
+    TutorialLink = "https://bom.so/XtoI3F",
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
