@@ -1,0 +1,5866 @@
+{
+  "pages": [
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "If you see 🔀 in the button meaning that feature are sync with others and you can enable all features at the same time"
+            },
+            {
+              "text": "If you see ⚠️ in the button meaning that feature are risky"
+            },
+            {
+              "text": "If you got kicked with reason 'Do not try to lag the server...' that mean you config the supper fast attack delay too fast"
+            },
+            {
+              "text": "RightAlt to toggle the ui on pc or emulator. For auto farm mastery please config it first in config page"
+            },
+            {
+              "text": "Anti Ban will make you auto rejoin after 30m but you can disable it in config"
+            },
+            {
+              "text": "Private is not safer than normal server, if you got catched by anti-cheat you will still get cook"
+            },
+            {
+              "text": "Yоu саn rеаԁ mоrе аbоut blох fruіt аntі-сhеаt оn ԁіsсоrԁ.gg/hоhоhub"
+            },
+            {
+              "text": "Chat -tog to toggle the ui"
+            }
+          ],
+          "title": "READ ME",
+          "desc": "Everything you must know to use the script"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Weapon : Melee"
+            },
+            {
+              "text": "Blox Fruit"
+            },
+            {
+              "text": "Auto Buso"
+            },
+            {
+              "text": "Auto Ken"
+            },
+            {
+              "text": "Remove Ken Blur"
+            },
+            {
+              "text": "Auto On Race"
+            },
+            {
+              "text": "Auto On Race V4"
+            },
+            {
+              "text": "Auto Ally"
+            },
+            {
+              "text": "Auto Click"
+            },
+            {
+              "text": "Stop Script Click"
+            },
+            {
+              "text": "Noclip"
+            },
+            {
+              "text": "No Stun"
+            },
+            {
+              "text": "Unbreakable"
+            },
+            {
+              "text": "Farm Boss With Skills [Config in SB cf]"
+            },
+            {
+              "text": "Switch Tool On % Left"
+            },
+            {
+              "text": "Only Farm Mas If RaceV4"
+            },
+            {
+              "text": "Farm Fruit With Transform"
+            },
+            {
+              "text": "Auto Config Fruit Skill"
+            },
+            {
+              "text": "Auto Config Gun Skill"
+            },
+            {
+              "text": "Auto Use All Skill When Farming"
+            },
+            {
+              "text": "Go Near Z"
+            },
+            {
+              "text": "Auto Hold Z"
+            },
+            {
+              "text": "Go Near X"
+            },
+            {
+              "text": "Auto Hold X"
+            },
+            {
+              "text": "Go Near C"
+            },
+            {
+              "text": "Auto Hold C"
+            },
+            {
+              "text": "Go Near V"
+            },
+            {
+              "text": "Auto Hold V"
+            },
+            {
+              "text": "Go Near F"
+            },
+            {
+              "text": "Auto Hold F"
+            },
+            {
+              "text": "Check Account Flagged"
+            },
+            {
+              "text": "Bypass Anti Cheat"
+            },
+            {
+              "text": "Anti Ban/Reset"
+            },
+            {
+              "text": "Hop If Admin Join"
+            },
+            {
+              "text": "Leave If Admin Join"
+            },
+            {
+              "text": "Hop If Player Near While Farming"
+            },
+            {
+              "text": "Reset Character Tp"
+            },
+            {
+              "text": "Spawn Teleport"
+            },
+            {
+              "text": "Portal Teleport"
+            },
+            {
+              "text": "Submarine Teleport"
+            },
+            {
+              "text": "Halloween Teleport"
+            },
+            {
+              "text": "TP Moving"
+            },
+            {
+              "text": "Portal Fruit Teleport"
+            },
+            {
+              "text": "Auto Leave Portal Ulti"
+            },
+            {
+              "text": "Select Method Farm : Triple Quest"
+            },
+            {
+              "text": "Single Quest"
+            },
+            {
+              "text": "Double Quest"
+            },
+            {
+              "text": "Triple Quest"
+            },
+            {
+              "text": "Select Team : Marine"
+            },
+            {
+              "text": "Pirate"
+            },
+            {
+              "text": "Marine"
+            },
+            {
+              "text": "Bring Mobs V2"
+            },
+            {
+              "text": "Bring Mobs"
+            },
+            {
+              "text": "No Camera Shake"
+            },
+            {
+              "text": "Multi Damage M1"
+            },
+            {
+              "text": "Fast Attack"
+            },
+            {
+              "text": "Fast Attack Ping Counter"
+            },
+            {
+              "text": "Multi Damage Shoot"
+            },
+            {
+              "text": "Fast Fruit M1"
+            },
+            {
+              "text": "Fruit M1 Aura"
+            },
+            {
+              "text": "No Skill CD"
+            },
+            {
+              "text": "FPS Boost"
+            },
+            {
+              "text": "Game Notify"
+            },
+            {
+              "text": "White Screen"
+            },
+            {
+              "text": "View Hitbox"
+            },
+            {
+              "text": "Tween Speed"
+            },
+            {
+              "text": "Random Distance Farm"
+            },
+            {
+              "text": "Spin Around Farm"
+            },
+            {
+              "text": "Under Mob Farm"
+            },
+            {
+              "text": "Heal When Low (<30%)"
+            },
+            {
+              "text": "Distance From X"
+            },
+            {
+              "text": "Distance From Y"
+            },
+            {
+              "text": "Distance From Z"
+            },
+            {
+              "text": "Farm Hop Server"
+            },
+            {
+              "text": "SB/SHIP Farm Only Gun"
+            },
+            {
+              "text": "SB/SHIP Use Melee"
+            },
+            {
+              "text": "SB/SHIP Melee Skills"
+            },
+            {
+              "text": "SB/SHIP Use Sword"
+            },
+            {
+              "text": "SB/SHIP Sword Skills"
+            },
+            {
+              "text": "SB/SHIP Use Fruit"
+            },
+            {
+              "text": "SB/SHIP Fruit Skills"
+            },
+            {
+              "text": "SB/SHIP Use Gun"
+            },
+            {
+              "text": "SB/SHIP Gun Skills"
+            }
+          ],
+          "title": "CONFIG",
+          "desc": "Set up the script before use"
+        },
+        {
+          "configs": [
+            {
+              "text": "Ken Exp: 0"
+            },
+            {
+              "text": "Elite Boss Defeated: false"
+            },
+            {
+              "text": "Check My Boost"
+            },
+            {
+              "text": "Bounty"
+            },
+            {
+              "text": "Accessory"
+            },
+            {
+              "text": "Auto +Melee"
+            },
+            {
+              "text": "Auto +Sword"
+            },
+            {
+              "text": "Auto +Gun"
+            },
+            {
+              "text": "Auto +Defense"
+            },
+            {
+              "text": "Auto +Fruit"
+            }
+          ],
+          "title": "STATS",
+          "desc": "Put your stats point here"
+        },
+        {
+          "configs": [
+            {
+              "text": "Key Expire in: Never"
+            },
+            {
+              "text": "Copy Key Link"
+            },
+            {
+              "text": "Paste Key Here"
+            }
+          ],
+          "title": "KEY INFO",
+          "desc": "Add more time to your key"
+        },
+        {
+          "configs": [
+            {
+              "text": "Values from bloxfruitsvalues.com"
+            },
+            {
+              "text": "Trade Caculator"
+            },
+            {
+              "text": "Start Auto Trade"
+            },
+            {
+              "text": "LOCKED"
+            },
+            {
+              "text": "Trade Webhook (config in webhook page)"
+            },
+            {
+              "text": "LOCKED"
+            },
+            {
+              "text": "Config Auto Trade Rule"
+            },
+            {
+              "text": "Set Min Profit (Diff)"
+            },
+            {
+              "text": "Set Min Demand (Their)"
+            },
+            {
+              "text": "Set Min Trade Value (Their)"
+            },
+            {
+              "text": "Set N/A Value"
+            },
+            {
+              "text": "Set N/A Demand"
+            },
+            {
+              "text": "Never Trade (split by , ex: Kitsune,West Dragon)"
+            }
+          ],
+          "title": "AUTO TRADE",
+          "desc": "Automatically trade items with other players"
+        }
+      ],
+      "title": "FARM CONFIG",
+      "desc": "Setting up the script before the `handless` journey"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Farm Level Take Quest"
+            },
+            {
+              "text": "Select Weapon : Melee"
+            },
+            {
+              "text": "Blox Fruit"
+            },
+            {
+              "text": "Auto Farm Level"
+            },
+            {
+              "text": "Select Method Farm : Triple Quest"
+            },
+            {
+              "text": "Single Quest"
+            },
+            {
+              "text": "Double Quest"
+            },
+            {
+              "text": "Triple Quest"
+            }
+          ],
+          "title": "AUTO FARM LEVEL",
+          "desc": "Auto farm your current level quests"
+        },
+        {
+          "configs": [
+            {
+              "text": "FarmSync Cake Prince"
+            },
+            {
+              "text": "FarmSync Dark Beard"
+            },
+            {
+              "text": "FarmSync Dough King"
+            },
+            {
+              "text": "FarmSync Rip Indra"
+            }
+          ],
+          "title": "FARM SYNC GLOBAL",
+          "desc": "Farm 2gether with hoho-ers"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Quest : "
+            },
+            {
+              "text": "Trainee - Lv.0"
+            },
+            {
+              "text": "Monkey - Lv.10"
+            },
+            {
+              "text": "Gorilla - Lv.15"
+            },
+            {
+              "text": "The Gorilla King - Lv.20"
+            },
+            {
+              "text": "Pirate - Lv.30"
+            },
+            {
+              "text": "Brute - Lv.40"
+            },
+            {
+              "text": "Chef - Lv.55"
+            },
+            {
+              "text": "Desert Bandit - Lv.60"
+            },
+            {
+              "text": "Desert Officer - Lv.75"
+            },
+            {
+              "text": "Snow Bandit - Lv.90"
+            },
+            {
+              "text": "Snowman - Lv.100"
+            },
+            {
+              "text": "Yeti - Lv.105"
+            },
+            {
+              "text": "Chief Petty Officer - Lv.120"
+            },
+            {
+              "text": "Vice Admiral - Lv.130"
+            },
+            {
+              "text": "Sky Bandit - Lv.150"
+            },
+            {
+              "text": "Dark Master - Lv.175"
+            },
+            {
+              "text": "Prisoner - Lv.190"
+            },
+            {
+              "text": "Dangerous Prisoner - Lv.210"
+            },
+            {
+              "text": "Warden - Lv.220"
+            },
+            {
+              "text": "Chief Warden - Lv.230"
+            },
+            {
+              "text": "Swan - Lv.240"
+            },
+            {
+              "text": "Toga Warrior - Lv.250"
+            },
+            {
+              "text": "Gladiator - Lv.275"
+            },
+            {
+              "text": "Military Soldier - Lv.300"
+            },
+            {
+              "text": "Military Spy - Lv.325"
+            },
+            {
+              "text": "Magma Admiral - Lv.350"
+            },
+            {
+              "text": "Fishman Warrior - Lv.375"
+            },
+            {
+              "text": "Fishman Commando - Lv.400"
+            },
+            {
+              "text": "Fishman Lord - Lv.425"
+            },
+            {
+              "text": "God's Guard - Lv.450"
+            },
+            {
+              "text": "Shanda - Lv.475"
+            },
+            {
+              "text": "Wysper - Lv.500"
+            },
+            {
+              "text": "Royal Squad - Lv.525"
+            },
+            {
+              "text": "Royal Soldier - Lv.550"
+            },
+            {
+              "text": "Thunder God - Lv.575"
+            },
+            {
+              "text": "Galley Pirate - Lv.625"
+            },
+            {
+              "text": "Galley Captain - Lv.650"
+            },
+            {
+              "text": "Cyborg - Lv.675"
+            },
+            {
+              "text": "Raider - Lv.700"
+            },
+            {
+              "text": "Mercenary - Lv.725"
+            },
+            {
+              "text": "Diamond - Lv.750"
+            },
+            {
+              "text": "Swan Pirate - Lv.775"
+            },
+            {
+              "text": "Factory Staff - Lv.800"
+            },
+            {
+              "text": "Jeremy - Lv.850"
+            },
+            {
+              "text": "Marine Lieutenant - Lv.875"
+            },
+            {
+              "text": "Marine Captain - Lv.900"
+            },
+            {
+              "text": "Orbitus - Lv.925"
+            },
+            {
+              "text": "Zombie - Lv.950"
+            },
+            {
+              "text": "Vampire - Lv.975"
+            },
+            {
+              "text": "Snow Trooper - Lv.1000"
+            },
+            {
+              "text": "Winter Warrior - Lv.1050"
+            },
+            {
+              "text": "Lab Subordinate - Lv.1100"
+            },
+            {
+              "text": "Horned Warrior - Lv.1125"
+            },
+            {
+              "text": "Smoke Admiral - Lv.1150"
+            },
+            {
+              "text": "Magma Ninja - Lv.1175"
+            },
+            {
+              "text": "Lava Pirate - Lv.1200"
+            },
+            {
+              "text": "Ship Deckhand - Lv.1250"
+            },
+            {
+              "text": "Ship Engineer - Lv.1275"
+            },
+            {
+              "text": "Ship Steward - Lv.1300"
+            },
+            {
+              "text": "Ship Officer - Lv.1325"
+            },
+            {
+              "text": "Arctic Warrior - Lv.1350"
+            },
+            {
+              "text": "Snow Lurker - Lv.1375"
+            },
+            {
+              "text": "Awakened Ice Admiral - Lv.1400"
+            },
+            {
+              "text": "Sea Soldier - Lv.1425"
+            },
+            {
+              "text": "Water Fighter - Lv.1450"
+            },
+            {
+              "text": "Tide Keeper - Lv.1475"
+            },
+            {
+              "text": "Pirate Millionaire - Lv.1500"
+            },
+            {
+              "text": "Pistol Billionaire - Lv.1525"
+            },
+            {
+              "text": "Stone - Lv.1550"
+            },
+            {
+              "text": "Dragon Crew Warrior - Lv.1575"
+            },
+            {
+              "text": "Dragon Crew Archer - Lv.1600"
+            },
+            {
+              "text": "Hydra Enforcer - Lv.1625"
+            },
+            {
+              "text": "Venomous Assailant - Lv.1650"
+            },
+            {
+              "text": "Hydra Leader - Lv.1675"
+            },
+            {
+              "text": "Marine Commodore - Lv.1700"
+            },
+            {
+              "text": "Marine Rear Admiral - Lv.1725"
+            },
+            {
+              "text": "Kilo Admiral - Lv.1750"
+            },
+            {
+              "text": "Fishman Raider - Lv.1775"
+            },
+            {
+              "text": "Fishman Captain - Lv.1800"
+            },
+            {
+              "text": "Forest Pirate - Lv.1825"
+            },
+            {
+              "text": "Mythological Pirate - Lv.1850"
+            },
+            {
+              "text": "Captain Elephant - Lv.1875"
+            },
+            {
+              "text": "Jungle Pirate - Lv.1900"
+            },
+            {
+              "text": "Musketeer Pirate - Lv.1925"
+            },
+            {
+              "text": "Beautiful Pirate - Lv.1950"
+            },
+            {
+              "text": "Reborn Skeleton - Lv.1975"
+            },
+            {
+              "text": "Living Zombie - Lv.2000"
+            },
+            {
+              "text": "Demonic Soul - Lv.2025"
+            },
+            {
+              "text": "Posessed Mummy - Lv.2050"
+            },
+            {
+              "text": "Peanut Scout - Lv.2075"
+            },
+            {
+              "text": "Peanut President - Lv.2100"
+            },
+            {
+              "text": "Ice Cream Chef - Lv.2125"
+            },
+            {
+              "text": "Ice Cream Commander - Lv.2150"
+            },
+            {
+              "text": "Cake Queen - Lv.2175"
+            },
+            {
+              "text": "Cookie Crafter - Lv.2200"
+            },
+            {
+              "text": "Cake Guard - Lv.2225"
+            },
+            {
+              "text": "Baking Staff - Lv.2250"
+            },
+            {
+              "text": "Head Baker - Lv.2275"
+            },
+            {
+              "text": "Cocoa Warrior - Lv.2300"
+            },
+            {
+              "text": "Chocolate Bar Battler - Lv.2325"
+            },
+            {
+              "text": "Sweet Thief - Lv.2350"
+            },
+            {
+              "text": "Candy Rebel - Lv.2375"
+            },
+            {
+              "text": "Candy Pirate - Lv.2400"
+            },
+            {
+              "text": "Snow Demon - Lv.2425"
+            },
+            {
+              "text": "Isle Outlaw - Lv.2450"
+            },
+            {
+              "text": "Island Boy - Lv.2475"
+            },
+            {
+              "text": "Sun-kissed Warrior - Lv.2500"
+            },
+            {
+              "text": "Isle Champion - Lv.2525"
+            },
+            {
+              "text": "Serpent Hunter - Lv.2550"
+            },
+            {
+              "text": "Skull Slayer - Lv.2575"
+            },
+            {
+              "text": "Reef Bandit - Lv.2600"
+            },
+            {
+              "text": "Coral Pirate - Lv.2625"
+            },
+            {
+              "text": "Sea Chanter - Lv.2650"
+            },
+            {
+              "text": "Ocean Prophet - Lv.2675"
+            },
+            {
+              "text": "Farm Selected Quest"
+            }
+          ],
+          "title": "AUTO FARM QUEST",
+          "desc": "Auto farm selected quest"
+        },
+        {
+          "configs": [
+            {
+              "text": "Farm Nearest Distance"
+            }
+          ],
+          "title": "AUTO FARM NEAREST",
+          "desc": "Auto farm every mobs that near you"
+        },
+        {
+          "configs": [
+            {
+              "text": "Use Gun Z"
+            },
+            {
+              "text": "Go Gun Near Z"
+            },
+            {
+              "text": "Use Gun X"
+            },
+            {
+              "text": "Go Gun Near X"
+            },
+            {
+              "text": "Auto Gun Mastery"
+            },
+            {
+              "text": "Auto Config Gun Skill"
+            },
+            {
+              "text": "Switch Tool On % Left"
+            }
+          ],
+          "title": "AUTO FARM GUN MASTERY",
+          "desc": "Use with others like auto farm level, bones"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Config Fruit Skill"
+            },
+            {
+              "text": "Go Near Z"
+            },
+            {
+              "text": "Auto Hold Z"
+            },
+            {
+              "text": "Go Near X"
+            },
+            {
+              "text": "Auto Hold X"
+            },
+            {
+              "text": "Go Near C"
+            },
+            {
+              "text": "Auto Hold C"
+            },
+            {
+              "text": "Go Near V"
+            },
+            {
+              "text": "Auto Hold V"
+            },
+            {
+              "text": "Go Near F"
+            },
+            {
+              "text": "Auto Hold F"
+            },
+            {
+              "text": "Auto Fruit Mastery"
+            },
+            {
+              "text": "Farm Fruit With Transform"
+            },
+            {
+              "text": "Switch Tool On % Left"
+            }
+          ],
+          "title": "AUTO FARM FRUIT MASTERY",
+          "desc": "Use with others like auto farm level, bones"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Fruit : Light-Light"
+            },
+            {
+              "text": "Rocket-Rocket"
+            },
+            {
+              "text": "Spin-Spin"
+            },
+            {
+              "text": "Blade-Blade"
+            },
+            {
+              "text": "Spring-Spring"
+            },
+            {
+              "text": "Bomb-Bomb"
+            },
+            {
+              "text": "Smoke-Smoke"
+            },
+            {
+              "text": "Spike-Spike"
+            },
+            {
+              "text": "Flame-Flame"
+            },
+            {
+              "text": "Ice-Ice"
+            },
+            {
+              "text": "Sand-Sand"
+            },
+            {
+              "text": "Dark-Dark"
+            },
+            {
+              "text": "Eagle-Eagle"
+            },
+            {
+              "text": "Diamond-Diamond"
+            },
+            {
+              "text": "Light-Light"
+            },
+            {
+              "text": "Rubber-Rubber"
+            },
+            {
+              "text": "Ghost-Ghost"
+            },
+            {
+              "text": "Magma-Magma"
+            },
+            {
+              "text": "Quake-Quake"
+            },
+            {
+              "text": "Buddha-Buddha"
+            },
+            {
+              "text": "Love-Love"
+            },
+            {
+              "text": "Creation-Creation"
+            },
+            {
+              "text": "Spider-Spider"
+            },
+            {
+              "text": "Sound-Sound"
+            },
+            {
+              "text": "Phoenix-Phoenix"
+            },
+            {
+              "text": "Portal-Portal"
+            },
+            {
+              "text": "Lightning-Lightning"
+            },
+            {
+              "text": "Pain-Pain"
+            },
+            {
+              "text": "Blizzard-Blizzard"
+            },
+            {
+              "text": "Gravity-Gravity"
+            },
+            {
+              "text": "Mammoth-Mammoth"
+            },
+            {
+              "text": "T-Rex-T-Rex"
+            },
+            {
+              "text": "Dough-Dough"
+            },
+            {
+              "text": "Shadow-Shadow"
+            },
+            {
+              "text": "Venom-Venom"
+            },
+            {
+              "text": "Gas-Gas"
+            },
+            {
+              "text": "Spirit-Spirit"
+            },
+            {
+              "text": "Tiger-Tiger"
+            },
+            {
+              "text": "Yeti-Yeti"
+            },
+            {
+              "text": "Kitsune-Kitsune"
+            },
+            {
+              "text": "Control-Control"
+            },
+            {
+              "text": "Dragon-Dragon"
+            },
+            {
+              "text": "Buy Selected Fruit"
+            },
+            {
+              "text": "Auto Buy Fruit Selected"
+            },
+            {
+              "text": "`Auto Buy Fruit Selected` will buy the fruit that you selected if they are stocking in normal dealer or mirage dealer (if mirage)"
+            },
+            {
+              "text": "Select Fruit List"
+            },
+            {
+              "text": "Rocket-Rocket"
+            },
+            {
+              "text": "Spin-Spin"
+            },
+            {
+              "text": "Blade-Blade"
+            },
+            {
+              "text": "Spring-Spring"
+            },
+            {
+              "text": "Bomb-Bomb"
+            },
+            {
+              "text": "Smoke-Smoke"
+            },
+            {
+              "text": "Spike-Spike"
+            },
+            {
+              "text": "Flame-Flame"
+            },
+            {
+              "text": "Ice-Ice"
+            },
+            {
+              "text": "Sand-Sand"
+            },
+            {
+              "text": "Dark-Dark"
+            },
+            {
+              "text": "Eagle-Eagle"
+            },
+            {
+              "text": "Diamond-Diamond"
+            },
+            {
+              "text": "Light-Light"
+            },
+            {
+              "text": "Rubber-Rubber"
+            },
+            {
+              "text": "Ghost-Ghost"
+            },
+            {
+              "text": "Magma-Magma"
+            },
+            {
+              "text": "Quake-Quake"
+            },
+            {
+              "text": "Buddha-Buddha"
+            },
+            {
+              "text": "Love-Love"
+            },
+            {
+              "text": "Creation-Creation"
+            },
+            {
+              "text": "Spider-Spider"
+            },
+            {
+              "text": "Sound-Sound"
+            },
+            {
+              "text": "Phoenix-Phoenix"
+            },
+            {
+              "text": "Portal-Portal"
+            },
+            {
+              "text": "Lightning-Lightning"
+            },
+            {
+              "text": "Pain-Pain"
+            },
+            {
+              "text": "Blizzard-Blizzard"
+            },
+            {
+              "text": "Gravity-Gravity"
+            },
+            {
+              "text": "Mammoth-Mammoth"
+            },
+            {
+              "text": "T-Rex-T-Rex"
+            },
+            {
+              "text": "Dough-Dough"
+            },
+            {
+              "text": "Shadow-Shadow"
+            },
+            {
+              "text": "Venom-Venom"
+            },
+            {
+              "text": "Gas-Gas"
+            },
+            {
+              "text": "Spirit-Spirit"
+            },
+            {
+              "text": "Tiger-Tiger"
+            },
+            {
+              "text": "Yeti-Yeti"
+            },
+            {
+              "text": "Kitsune-Kitsune"
+            },
+            {
+              "text": "Control-Control"
+            },
+            {
+              "text": "Dragon-Dragon"
+            },
+            {
+              "text": "Auto Eat Fruit Selected"
+            },
+            {
+              "text": "Random Fruit"
+            },
+            {
+              "text": "Auto Random Fruit"
+            },
+            {
+              "text": "Auto Collect Fruit"
+            },
+            {
+              "text": "Check Fruit Storeable"
+            },
+            {
+              "text": "Find Unknown Fruit"
+            },
+            {
+              "text": "Auto Store Fruit"
+            },
+            {
+              "text": "Auto Drop Fruit"
+            },
+            {
+              "text": "Fruit Spawn Notify"
+            },
+            {
+              "text": "Remove Fruit Gacha Effect"
+            }
+          ],
+          "title": "FRUIT FARM",
+          "desc": "Auto collect, store & buy fruits"
+        },
+        {
+          "configs": [
+            {
+              "text": "For kaitun you will need to enable all thing you want it farm after that enable kaitun it will sync all!"
+            },
+            {
+              "text": "STOP SCRIPT TO CONFIG"
+            },
+            {
+              "text": "Stack Farm (Kaitun)"
+            },
+            {
+              "text": "Farm All Melee To 600 Mastery"
+            },
+            {
+              "text": "Farm All Sword To 600 Mastery"
+            },
+            {
+              "text": "Farm All Gun To 600 Mastery"
+            }
+          ],
+          "title": "STACK FARM",
+          "desc": "Fully sync auto, aka kaitun/one click to max"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Farm All Bosses"
+            },
+            {
+              "text": "Auto Farm Selected Boss"
+            },
+            {
+              "text": "Get Boss Quest"
+            },
+            {
+              "text": "Boss Farm Server Hop"
+            },
+            {
+              "text": "Select Boss : None"
+            },
+            {
+              "text": "Warden"
+            },
+            {
+              "text": "Hydra Leader"
+            },
+            {
+              "text": "Kilo Admiral"
+            },
+            {
+              "text": "Awakened Ice Admiral"
+            },
+            {
+              "text": "Captain Elephant"
+            },
+            {
+              "text": "Wysper"
+            },
+            {
+              "text": "Thunder God"
+            },
+            {
+              "text": "Magma Admiral"
+            },
+            {
+              "text": "Vice Admiral"
+            },
+            {
+              "text": "Cake Queen"
+            },
+            {
+              "text": "Tide Keeper"
+            },
+            {
+              "text": "Jeremy"
+            },
+            {
+              "text": "Orbitus"
+            },
+            {
+              "text": "Beautiful Pirate"
+            },
+            {
+              "text": "Fishman Lord"
+            },
+            {
+              "text": "Smoke Admiral"
+            },
+            {
+              "text": "The Gorilla King"
+            },
+            {
+              "text": "Diamond"
+            },
+            {
+              "text": "Chief Warden"
+            },
+            {
+              "text": "Cyborg"
+            }
+          ],
+          "title": "AUTO FARM BOSS",
+          "desc": "Auto farm bosses, get quest, hop server"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Farm Selected Raid Boss"
+            },
+            {
+              "text": "Raid Boss Farm Hop Server"
+            },
+            {
+              "text": "Active Aura Colors Button"
+            },
+            {
+              "text": "Select Raid Boss : None"
+            },
+            {
+              "text": "Greybeard"
+            },
+            {
+              "text": "Cursed Captain"
+            },
+            {
+              "text": "Darkbeard"
+            },
+            {
+              "text": "Soul Reaper"
+            },
+            {
+              "text": "rip_indra True Form"
+            },
+            {
+              "text": "Cake Prince"
+            },
+            {
+              "text": "Dough King"
+            },
+            {
+              "text": "Terrorshark"
+            },
+            {
+              "text": "Tyrant of the Skies"
+            },
+            {
+              "text": "Red Commander"
+            },
+            {
+              "text": "Rip Commander"
+            }
+          ],
+          "title": "AUTO FARM RAID BOSS",
+          "desc": "Auto farm raid bosses, hop server"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Farm Ken Haki"
+            },
+            {
+              "text": "Ken Farm Hop Server"
+            }
+          ],
+          "title": "AUTO FARM KEN HAKI",
+          "desc": "Auto ken exp, will stop if maxed"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Multi Mob"
+            },
+            {
+              "text": "Mercenary"
+            },
+            {
+              "text": "Swan Pirate"
+            },
+            {
+              "text": "Sweet Thief"
+            },
+            {
+              "text": "Ship Engineer"
+            },
+            {
+              "text": "Pirate"
+            },
+            {
+              "text": "Snow Lurker"
+            },
+            {
+              "text": "Snow Demon"
+            },
+            {
+              "text": "Shanda"
+            },
+            {
+              "text": "Marine Rear Admiral"
+            },
+            {
+              "text": "Desert Officer"
+            },
+            {
+              "text": "Desert Bandit"
+            },
+            {
+              "text": "Royal Squad"
+            },
+            {
+              "text": "Reef Bandit"
+            },
+            {
+              "text": "Prisoner"
+            },
+            {
+              "text": "Jungle Pirate"
+            },
+            {
+              "text": "Factory Staff"
+            },
+            {
+              "text": "Candy Pirate"
+            },
+            {
+              "text": "Marine Commodore"
+            },
+            {
+              "text": "Military Soldier"
+            },
+            {
+              "text": "Gorilla"
+            },
+            {
+              "text": "Coral Pirate"
+            },
+            {
+              "text": "Pistol Billionaire"
+            },
+            {
+              "text": "Mythological Pirate"
+            },
+            {
+              "text": "Horned Warrior"
+            },
+            {
+              "text": "Living Zombie"
+            },
+            {
+              "text": "Military Spy"
+            },
+            {
+              "text": "Ship Deckhand"
+            },
+            {
+              "text": "Cocoa Warrior"
+            },
+            {
+              "text": "Musketeer Pirate"
+            },
+            {
+              "text": "Hydra Enforcer"
+            },
+            {
+              "text": "Toga Warrior"
+            },
+            {
+              "text": "Dark Master"
+            },
+            {
+              "text": "Pirate Millionaire"
+            },
+            {
+              "text": "Reborn Skeleton"
+            },
+            {
+              "text": "Lava Pirate"
+            },
+            {
+              "text": "Dragon Crew Archer"
+            },
+            {
+              "text": "Fishman Commando"
+            },
+            {
+              "text": "God's Guard"
+            },
+            {
+              "text": "Dangerous Prisoner"
+            },
+            {
+              "text": "Isle Outlaw"
+            },
+            {
+              "text": "Galley Captain"
+            },
+            {
+              "text": "Ship Officer"
+            },
+            {
+              "text": "Trainee"
+            },
+            {
+              "text": "Marine Captain"
+            },
+            {
+              "text": "Chief Petty Officer"
+            },
+            {
+              "text": "Head Baker"
+            },
+            {
+              "text": "Lab Subordinate"
+            },
+            {
+              "text": "Monkey"
+            },
+            {
+              "text": "Peanut Scout"
+            },
+            {
+              "text": "Vampire"
+            },
+            {
+              "text": "Sea Chanter"
+            },
+            {
+              "text": "Snowman"
+            },
+            {
+              "text": "Zombie"
+            },
+            {
+              "text": "Galley Pirate"
+            },
+            {
+              "text": "Fishman Warrior"
+            },
+            {
+              "text": "Candy Rebel"
+            },
+            {
+              "text": "Ice Cream Commander"
+            },
+            {
+              "text": "Sky Bandit"
+            },
+            {
+              "text": "Gladiator"
+            },
+            {
+              "text": "Snow Trooper"
+            },
+            {
+              "text": "Skull Slayer"
+            },
+            {
+              "text": "Fishman Captain"
+            },
+            {
+              "text": "Arctic Warrior"
+            },
+            {
+              "text": "Marine Lieutenant"
+            },
+            {
+              "text": "Dragon Crew Warrior"
+            },
+            {
+              "text": "Winter Warrior"
+            },
+            {
+              "text": "Royal Soldier"
+            },
+            {
+              "text": "Venomous Assailant"
+            },
+            {
+              "text": "Chocolate Bar Battler"
+            },
+            {
+              "text": "Cookie Crafter"
+            },
+            {
+              "text": "Baking Staff"
+            },
+            {
+              "text": "Demonic Soul"
+            },
+            {
+              "text": "Magma Ninja"
+            },
+            {
+              "text": "Ice Cream Chef"
+            },
+            {
+              "text": "Cake Guard"
+            },
+            {
+              "text": "Snow Bandit"
+            },
+            {
+              "text": "Ship Steward"
+            },
+            {
+              "text": "Raider"
+            },
+            {
+              "text": "Peanut President"
+            },
+            {
+              "text": "Island Boy"
+            },
+            {
+              "text": "Posessed Mummy"
+            },
+            {
+              "text": "Fishman Raider"
+            },
+            {
+              "text": "Water Fighter"
+            },
+            {
+              "text": "Serpent Hunter"
+            },
+            {
+              "text": "Forest Pirate"
+            },
+            {
+              "text": "Isle Champion"
+            },
+            {
+              "text": "Ocean Prophet"
+            },
+            {
+              "text": "Sea Soldier"
+            },
+            {
+              "text": "Sun-kissed Warrior"
+            },
+            {
+              "text": "Auto Farm Multi Mob"
+            },
+            {
+              "text": "Select Mob : None"
+            },
+            {
+              "text": "Mercenary"
+            },
+            {
+              "text": "Swan Pirate"
+            },
+            {
+              "text": "Sweet Thief"
+            },
+            {
+              "text": "Ship Engineer"
+            },
+            {
+              "text": "Pirate"
+            },
+            {
+              "text": "Snow Lurker"
+            },
+            {
+              "text": "Snow Demon"
+            },
+            {
+              "text": "Shanda"
+            },
+            {
+              "text": "Marine Rear Admiral"
+            },
+            {
+              "text": "Desert Officer"
+            },
+            {
+              "text": "Desert Bandit"
+            },
+            {
+              "text": "Royal Squad"
+            },
+            {
+              "text": "Reef Bandit"
+            },
+            {
+              "text": "Prisoner"
+            },
+            {
+              "text": "Jungle Pirate"
+            },
+            {
+              "text": "Factory Staff"
+            },
+            {
+              "text": "Candy Pirate"
+            },
+            {
+              "text": "Marine Commodore"
+            },
+            {
+              "text": "Military Soldier"
+            },
+            {
+              "text": "Gorilla"
+            },
+            {
+              "text": "Coral Pirate"
+            },
+            {
+              "text": "Pistol Billionaire"
+            },
+            {
+              "text": "Mythological Pirate"
+            },
+            {
+              "text": "Horned Warrior"
+            },
+            {
+              "text": "Living Zombie"
+            },
+            {
+              "text": "Military Spy"
+            },
+            {
+              "text": "Ship Deckhand"
+            },
+            {
+              "text": "Cocoa Warrior"
+            },
+            {
+              "text": "Musketeer Pirate"
+            },
+            {
+              "text": "Hydra Enforcer"
+            },
+            {
+              "text": "Toga Warrior"
+            },
+            {
+              "text": "Dark Master"
+            },
+            {
+              "text": "Pirate Millionaire"
+            },
+            {
+              "text": "Reborn Skeleton"
+            },
+            {
+              "text": "Lava Pirate"
+            },
+            {
+              "text": "Dragon Crew Archer"
+            },
+            {
+              "text": "Fishman Commando"
+            },
+            {
+              "text": "God's Guard"
+            },
+            {
+              "text": "Dangerous Prisoner"
+            },
+            {
+              "text": "Isle Outlaw"
+            },
+            {
+              "text": "Galley Captain"
+            },
+            {
+              "text": "Ship Officer"
+            },
+            {
+              "text": "Trainee"
+            },
+            {
+              "text": "Marine Captain"
+            },
+            {
+              "text": "Chief Petty Officer"
+            },
+            {
+              "text": "Head Baker"
+            },
+            {
+              "text": "Lab Subordinate"
+            },
+            {
+              "text": "Monkey"
+            },
+            {
+              "text": "Peanut Scout"
+            },
+            {
+              "text": "Vampire"
+            },
+            {
+              "text": "Sea Chanter"
+            },
+            {
+              "text": "Snowman"
+            },
+            {
+              "text": "Zombie"
+            },
+            {
+              "text": "Galley Pirate"
+            },
+            {
+              "text": "Fishman Warrior"
+            },
+            {
+              "text": "Candy Rebel"
+            },
+            {
+              "text": "Ice Cream Commander"
+            },
+            {
+              "text": "Sky Bandit"
+            },
+            {
+              "text": "Gladiator"
+            },
+            {
+              "text": "Snow Trooper"
+            },
+            {
+              "text": "Skull Slayer"
+            },
+            {
+              "text": "Fishman Captain"
+            },
+            {
+              "text": "Arctic Warrior"
+            },
+            {
+              "text": "Marine Lieutenant"
+            },
+            {
+              "text": "Dragon Crew Warrior"
+            },
+            {
+              "text": "Winter Warrior"
+            },
+            {
+              "text": "Royal Soldier"
+            },
+            {
+              "text": "Venomous Assailant"
+            },
+            {
+              "text": "Chocolate Bar Battler"
+            },
+            {
+              "text": "Cookie Crafter"
+            },
+            {
+              "text": "Baking Staff"
+            },
+            {
+              "text": "Demonic Soul"
+            },
+            {
+              "text": "Magma Ninja"
+            },
+            {
+              "text": "Ice Cream Chef"
+            },
+            {
+              "text": "Cake Guard"
+            },
+            {
+              "text": "Snow Bandit"
+            },
+            {
+              "text": "Ship Steward"
+            },
+            {
+              "text": "Raider"
+            },
+            {
+              "text": "Peanut President"
+            },
+            {
+              "text": "Island Boy"
+            },
+            {
+              "text": "Posessed Mummy"
+            },
+            {
+              "text": "Fishman Raider"
+            },
+            {
+              "text": "Water Fighter"
+            },
+            {
+              "text": "Serpent Hunter"
+            },
+            {
+              "text": "Forest Pirate"
+            },
+            {
+              "text": "Isle Champion"
+            },
+            {
+              "text": "Ocean Prophet"
+            },
+            {
+              "text": "Sea Soldier"
+            },
+            {
+              "text": "Sun-kissed Warrior"
+            },
+            {
+              "text": "Auto Farm Selected Mob"
+            },
+            {
+              "text": "Get Selected Mob Quest"
+            }
+          ],
+          "title": "AUTO FARM MOBS",
+          "desc": "Auto farm with selectable single/multi mobs"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Weapon Upgrade : Sword"
+            },
+            {
+              "text": "Auto Upgrade Selected Weapon"
+            },
+            {
+              "text": "Select Material : None"
+            },
+            {
+              "text": "Angel Wings"
+            },
+            {
+              "text": "Leather"
+            },
+            {
+              "text": "Magma Ore"
+            },
+            {
+              "text": "Scrap Metal"
+            },
+            {
+              "text": "Fish Tail"
+            },
+            {
+              "text": "Gunpowder"
+            },
+            {
+              "text": "Mini Tusk"
+            },
+            {
+              "text": "Mystic Droplet"
+            },
+            {
+              "text": "Radioactive Material"
+            },
+            {
+              "text": "Vampire Fang"
+            },
+            {
+              "text": "Conjured Cocoa"
+            },
+            {
+              "text": "Dragon Scale"
+            },
+            {
+              "text": "Volt Capsule"
+            },
+            {
+              "text": "Nightmare Catcher"
+            },
+            {
+              "text": "Auto Farm Selected Material"
+            }
+          ],
+          "title": "AUTO FARM MATERIAL",
+          "desc": "Auto farm the selected material, upgrade weapons"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Enchant use selected scroll to enchant."
+            },
+            {
+              "text": "Select Enchant Weapon : Sword"
+            },
+            {
+              "text": "Fishing Rod"
+            },
+            {
+              "text": "Select Enchant Target : Sharpshooter"
+            },
+            {
+              "text": "--Weapon Enchant--"
+            },
+            {
+              "text": "Curse of the Thief"
+            },
+            {
+              "text": "Curse of the Reaper"
+            },
+            {
+              "text": "Frozen"
+            },
+            {
+              "text": "Burning"
+            },
+            {
+              "text": "Unreal"
+            },
+            {
+              "text": "Unbreakable"
+            },
+            {
+              "text": "Strong Grip"
+            },
+            {
+              "text": "Sharpshooter"
+            },
+            {
+              "text": "Masterpiece"
+            },
+            {
+              "text": "Deadly"
+            },
+            {
+              "text": "Efficient"
+            },
+            {
+              "text": "Elemental"
+            },
+            {
+              "text": "Fortune"
+            },
+            {
+              "text": "Natural"
+            },
+            {
+              "text": "Piercing"
+            },
+            {
+              "text": "Siphon"
+            },
+            {
+              "text": "Vampiric"
+            },
+            {
+              "text": "--Fishing Rod Enchant--"
+            },
+            {
+              "text": "Curse of the Leviathan"
+            },
+            {
+              "text": "Curse of the Whale"
+            },
+            {
+              "text": "Curse of the Terrorshark"
+            },
+            {
+              "text": "Blessing of an Angler's Treasure"
+            },
+            {
+              "text": "Blessing of Bait Efficiency"
+            },
+            {
+              "text": "Baitless Catch"
+            },
+            {
+              "text": "Experience Sharing"
+            },
+            {
+              "text": "Fish Scanner"
+            },
+            {
+              "text": "Resilient Fishing Rod"
+            },
+            {
+              "text": "Tasty Bait"
+            },
+            {
+              "text": "Target Max Enchant (Common) Level"
+            },
+            {
+              "text": "Auto Enchant Weapon"
+            },
+            {
+              "text": "Open Enchant UI"
+            },
+            {
+              "text": "Config Sea Event Farm Before Auto Farm Scroll!"
+            },
+            {
+              "text": "For Leg/Mythical Scroll You Have To Get Leviathan Items By Urself."
+            },
+            {
+              "text": "Select Scroll : Common"
+            },
+            {
+              "text": "Common"
+            },
+            {
+              "text": "Legendary"
+            },
+            {
+              "text": "Mythical"
+            },
+            {
+              "text": "Auto Farm Selected Scroll"
+            }
+          ],
+          "title": "AUTO FARM SCROLL",
+          "desc": "Auto farm the selected scroll"
+        },
+        {
+          "configs": [
+            {
+              "text": "Open Campfire UI"
+            },
+            {
+              "text": "Config auto fishing before auto farm campfire items."
+            },
+            {
+              "text": "Select Campfire Item : Lava Potion"
+            },
+            {
+              "text": "Big Head Elixir"
+            },
+            {
+              "text": "Aggro Elixir"
+            },
+            {
+              "text": "Fragments Elixir"
+            },
+            {
+              "text": "Invisibility Potion"
+            },
+            {
+              "text": "Gate Potion"
+            },
+            {
+              "text": "Disguise Elixir"
+            },
+            {
+              "text": "Lava Bomb Elixir"
+            },
+            {
+              "text": "Monster Mash Elixir"
+            },
+            {
+              "text": "Suspicious Growth Potion"
+            },
+            {
+              "text": "Loot Seeker"
+            },
+            {
+              "text": "Pumpkin Potion"
+            },
+            {
+              "text": "Monk Potion"
+            },
+            {
+              "text": "Berserkers Elixir"
+            },
+            {
+              "text": "Oni Soul"
+            },
+            {
+              "text": "Fish Kebab"
+            },
+            {
+              "text": "Lava Potion"
+            },
+            {
+              "text": "Fortune Elixir"
+            },
+            {
+              "text": "Materials Elixir"
+            },
+            {
+              "text": "Auto Farm Selected Campfire Item"
+            }
+          ],
+          "title": "AUTO FARM CAMPFIRE",
+          "desc": "Auto farm the selected campfire item"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Farm Chest"
+            },
+            {
+              "text": "Farm Chest Bypass TP"
+            },
+            {
+              "text": "Farm Chest Hop Server"
+            }
+          ],
+          "title": "AUTO FARM CHEST",
+          "desc": "Auto collect chests, bypass tp is possible but risk"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Collect Berry"
+            }
+          ],
+          "title": "AUTO COLLECT BERRY",
+          "desc": "Auto find berries around map and collect"
+        },
+        {
+          "configs": [
+            {
+              "text": "Login to RoDiscord before use (topbar)!"
+            },
+            {
+              "text": "`Select Channel` u wanna hop then put string in `String To Hop`"
+            },
+            {
+              "text": "Ex: Select 〔👹〕raidboss-servers then put `Cake Prince` in `String To Hop`"
+            },
+            {
+              "text": "Rocord Hop Farm"
+            },
+            {
+              "text": "String To Hop"
+            },
+            {
+              "text": "Select Channel : 〔🍑〕fruit-servers"
+            },
+            {
+              "text": "〔🥝〕only-good-fruits"
+            },
+            {
+              "text": "〔🍑〕fruit-servers"
+            },
+            {
+              "text": "〔⚔〕sword-legend-servers"
+            },
+            {
+              "text": "〔🎨〕legend-aura-color-servers"
+            },
+            {
+              "text": "〔🏝〕mirage-servers"
+            },
+            {
+              "text": "〔🦊〕kitsune-servers"
+            },
+            {
+              "text": "〔🌋〕prehistoric-servers"
+            },
+            {
+              "text": "〔🍒〕berries-servers"
+            },
+            {
+              "text": "〔🌚〕moon-servers"
+            },
+            {
+              "text": "〔👹〕raidboss-servers"
+            },
+            {
+              "text": "〔🧊〕bribed-servers"
+            }
+          ],
+          "title": "RODISCORD HOP FARM",
+          "desc": "Auto hop servers with discord."
+        }
+      ],
+      "title": "NORMAL FARM",
+      "desc": "Auto farm levels, bosses, items ..."
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Auto Raid"
+            },
+            {
+              "text": "Delay Raid (100% get rewards)"
+            },
+            {
+              "text": "Auto Buy Chip"
+            },
+            {
+              "text": "Auto Awake Fruit"
+            },
+            {
+              "text": "Auto Trade Fruits < 1M"
+            },
+            {
+              "text": "Kill Aura"
+            },
+            {
+              "text": "Kill Aura V2 [Raid Only]"
+            },
+            {
+              "text": "Select Raid : None"
+            },
+            {
+              "text": "Auto Select"
+            },
+            {
+              "text": "Spider"
+            },
+            {
+              "text": "Rumble"
+            },
+            {
+              "text": "Buddha"
+            },
+            {
+              "text": "Phoenix"
+            }
+          ],
+          "title": "RAIDS",
+          "desc": "Kill aura, the best way to get frags"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Dungeon : Normal"
+            },
+            {
+              "text": "Normal"
+            },
+            {
+              "text": "Challenge"
+            },
+            {
+              "text": "Auto Join Dungeon"
+            },
+            {
+              "text": "Auto Dungeon"
+            },
+            {
+              "text": "Auto Next Dungeon"
+            },
+            {
+              "text": "Auto Select Card"
+            },
+            {
+              "text": "Auto Returning Hub"
+            }
+          ],
+          "title": "DUNGEON",
+          "desc": "Auto dungeon, pick cards, ..."
+        },
+        {
+          "configs": [
+            {
+              "text": "Open Admin Panel"
+            },
+            {
+              "text": "Auto Admin Panel"
+            }
+          ],
+          "title": "ADMIN PANEL",
+          "desc": "Upgrade your current fruit!"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Valentine Gacha"
+            },
+            {
+              "text": "Open Valentine Shop"
+            },
+            {
+              "text": "Auto Valentine Daily Quest"
+            },
+            {
+              "text": "Auto Valentine Delivery Quest"
+            },
+            {
+              "text": "Just auto farm level to get Hearts!"
+            },
+            {
+              "text": "Auto Buy Light Pink Aura"
+            },
+            {
+              "text": "Auto Buy Cupid's Coat"
+            },
+            {
+              "text": "Auto Buy Heart Shades"
+            },
+            {
+              "text": "Auto Buy 2x Exp"
+            }
+          ],
+          "title": "VALENTINE 2026",
+          "desc": "Get limited items in valentine event"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Christmas Gacha"
+            },
+            {
+              "text": "Candy Shop 🍬"
+            },
+            {
+              "text": "2x Exp 🍬50"
+            },
+            {
+              "text": "Stats Reset 🍬75"
+            },
+            {
+              "text": "Race Reroll 🍬100"
+            },
+            {
+              "text": "200 Frags 🍬50"
+            },
+            {
+              "text": "500 Frags 🍬100"
+            },
+            {
+              "text": "Elf Hat 🍬250"
+            },
+            {
+              "text": "Santa Hat 🍬500"
+            },
+            {
+              "text": "Sleigh 🍬1000"
+            },
+            {
+              "text": "Auto Collect Gift"
+            },
+            {
+              "text": "Auto Store Gift"
+            },
+            {
+              "text": "Buy 2x Exp 50🍬"
+            },
+            {
+              "text": "Buy 500 Frags 100🍬"
+            }
+          ],
+          "title": "CHRISTMAS 2025",
+          "desc": "Get limited items in christmas event"
+        },
+        {
+          "configs": [
+            {
+              "text": "Roll Halloween Event"
+            },
+            {
+              "text": "Auto Roll Halloween Event"
+            },
+            {
+              "text": "Auto Trick or Treat"
+            }
+          ],
+          "title": "HALLOWEEN 2025",
+          "desc": "Get limited items in Halloween 2025"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Attack Celebration Event"
+            },
+            {
+              "text": "Auto Set Golden Fishing Spot"
+            },
+            {
+              "text": "Auto Set Rip Fishing Spot"
+            },
+            {
+              "text": "Auto Set Oni Fishing Spot"
+            },
+            {
+              "text": "Join/Leave Celebration Event"
+            },
+            {
+              "text": "Roll Celebration Event"
+            },
+            {
+              "text": "Auto Roll Celebration Event"
+            },
+            {
+              "text": "Select Event Team : Red Army"
+            },
+            {
+              "text": "Rip Family"
+            },
+            {
+              "text": "Red Army"
+            },
+            {
+              "text": "Join Selected Team"
+            }
+          ],
+          "title": "CELEBRATION EVENT",
+          "desc": "Get limited items in celebration week"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Set Golden Fishing Spot"
+            }
+          ],
+          "title": "FISHING TOURNAMENT EVENT",
+          "desc": "Get limited items in fishing tournament week"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Rip Commander"
+            },
+            {
+              "text": "Auto Celestial Soldier"
+            },
+            {
+              "text": "Roll Rip Event 250"
+            },
+            {
+              "text": "Auto Roll Rip Event 250"
+            },
+            {
+              "text": "Auto Set Rip Fishing Spot"
+            },
+            {
+              "text": "Auto Sell Celestial Fish"
+            }
+          ],
+          "title": "RIP EVENT",
+          "desc": "Get limited items in rip week"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Red Commander"
+            },
+            {
+              "text": "Auto Oni Soldier"
+            },
+            {
+              "text": "Roll Oni Event 250"
+            },
+            {
+              "text": "Auto Roll Oni Event 250"
+            },
+            {
+              "text": "Auto Set Oni Fishing Spot"
+            },
+            {
+              "text": "Auto Sell Corrupted Fish"
+            }
+          ],
+          "title": "RED WEEK (ONI)",
+          "desc": "Get limited items in red week"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Pain Cloud Event"
+            },
+            {
+              "text": "Auto Lightning Strikes Event"
+            },
+            {
+              "text": "Roll Summer Event 500"
+            },
+            {
+              "text": "Auto Roll Summer Event 500"
+            }
+          ],
+          "title": "SUMMER WEEK 2025",
+          "desc": "Get limited items in summer expamsion week"
+        }
+      ],
+      "title": "RAID & EVENT",
+      "desc": "Auto farm quests and items for game event"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [],
+          "title": "AUTO SECOND SEA",
+          "desc": "Auto goto second sea"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DARK BLADE V2",
+          "desc": "Auto get dark blade v2"
+        },
+        {
+          "configs": [],
+          "title": "AUTO FARM SABER",
+          "desc": "Auto do all quest, get saber"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SHARK SAW",
+          "desc": "Auto defeat boss, get shark saw"
+        },
+        {
+          "configs": [],
+          "title": "AUTO COAT",
+          "desc": "Auto defeat boss, get coat"
+        },
+        {
+          "configs": [],
+          "title": "AUTO WARDEN SWORD",
+          "desc": "Auto defeat boss, get wardens sword"
+        },
+        {
+          "configs": [],
+          "title": "AUTO PINK COAT",
+          "desc": "Auto defeat boss, get pink coat"
+        },
+        {
+          "configs": [],
+          "title": "AUTO REFINED MUSKET",
+          "desc": "Auto defeat boss, get refined musket"
+        },
+        {
+          "configs": [],
+          "title": "AUTO TRIDENT",
+          "desc": "Auto defeat boss, get trident"
+        },
+        {
+          "configs": [],
+          "title": "AUTO BAZOOKA",
+          "desc": "Auto defeat boss, get bazooka"
+        },
+        {
+          "configs": [],
+          "title": "AUTO POLE (1ST FORM)",
+          "desc": "Auto defeat boss, get pole (1st form)"
+        },
+        {
+          "configs": [],
+          "title": "AUTO COOL SHADES",
+          "desc": "Auto defeat boss, get cool shades"
+        }
+      ],
+      "title": "FIRST SEA",
+      "desc": "Auto farm quests and items in first sea"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [],
+          "title": "AUTO THIRD SEA",
+          "desc": "Auto do quest, go to 3rd sea"
+        },
+        {
+          "configs": [],
+          "title": "AUTO WARRIOR HELMET",
+          "desc": "Auto do colosseum quest"
+        },
+        {
+          "configs": [],
+          "title": "AUTO GODHUMAN MATERIALS",
+          "desc": "Auto materials for godhuman in 3rd sea"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SUPERHUMAN",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DEATH STEP",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SHARKMAN KARATE",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO FACTORY",
+          "desc": "Auto farm factory when it spawn"
+        },
+        {
+          "configs": [],
+          "title": "AUTO ECTOPLASM",
+          "desc": "Auto farm ectoplasm"
+        },
+        {
+          "configs": [],
+          "title": "AUTO RACE V2",
+          "desc": "Auto race v2 quest"
+        },
+        {
+          "configs": [],
+          "title": "AUTO RACE V3",
+          "desc": "Auto race v3 quest"
+        },
+        {
+          "configs": [],
+          "title": "AUTO CYBORG RACE",
+          "desc": "Auto get cyborg race"
+        },
+        {
+          "configs": [],
+          "title": "AUTO GHOUL RACE",
+          "desc": "Auto get ghoul race"
+        },
+        {
+          "configs": [
+            {
+              "text": "Buy Law Chip"
+            },
+            {
+              "text": "Auto Law Raid"
+            }
+          ],
+          "title": "AUTO LAW RAID",
+          "desc": "Auto buy chip & do law raid"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DARK BLADE SKIN",
+          "desc": "Auto get dark blade skin"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DARK COAT",
+          "desc": "Auto farm put key, farm boss"
+        },
+        {
+          "configs": [],
+          "title": "AUTO RENGOKU",
+          "desc": "Auto farm boss, use key"
+        },
+        {
+          "configs": [],
+          "title": "AUTO LONG SWORD",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO BLACK SPIKEY COAT",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO GRAVITY CANE",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO JITTE",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DRAGON TRIDENT",
+          "desc": "Auto farm boss, get item"
+        }
+      ],
+      "title": "SECOND SEA",
+      "desc": "Auto farm quests and items in second sea"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [],
+          "title": "AUTO FARM BONES",
+          "desc": "One of the best way to grind $B & mastery"
+        },
+        {
+          "configs": [],
+          "title": "AUTO PIRATE RAID",
+          "desc": "Enable it if u want a fruit"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DRAGON TALON",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO ELECTRIC CLAW",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO GOD HUMAN",
+          "desc": "Auto farm & buy melees"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SHARKMAN KARATE V3",
+          "desc": "Make sure u got enough frag & mastery"
+        },
+        {
+          "configs": [],
+          "title": "AUTO RAINBOW HAKI",
+          "desc": "Auto farm bosses, get haki"
+        },
+        {
+          "configs": [],
+          "title": "AUTO INSTINCT/KEN V2",
+          "desc": "Auto farm bosses, get haki"
+        },
+        {
+          "configs": [],
+          "title": "AUTO ELITE BOSS",
+          "desc": "For yama and other quests"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SOUL GUITAR",
+          "desc": "Make sure you meet the request"
+        },
+        {
+          "configs": [],
+          "title": "AUTO POLE V2",
+          "desc": "Make sure you have Rumble"
+        },
+        {
+          "configs": [],
+          "title": "AUTO TUSHITA",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO YAMA",
+          "desc": "Enable auto elite pls"
+        },
+        {
+          "configs": [],
+          "title": "AUTO CURSED DUAL KATANA",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO CAKE PRINCE",
+          "desc": "Auto 500 mobs, summon boss"
+        },
+        {
+          "configs": [],
+          "title": "AUTO DOUGH KING",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO TYRANT OF THE SKIES",
+          "desc": "Auto summon boss, attack"
+        },
+        {
+          "configs": [],
+          "title": "AUTO OPEN DOUGH RAID",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO OPEN PHOENIX RAID",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [
+            {
+              "text": "Active Aura Colors Button"
+            }
+          ],
+          "title": "AUTO VALKYRIE HELMET",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [
+            {
+              "text": "Active Aura Colors Button"
+            }
+          ],
+          "title": "AUTO DARK DAGGER",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO PALE SCARF",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SPIKEY TRIDENT",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO HALLOW SCYTHE",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO HOLY CROWN",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO CANVANDER",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO PILOT HELMET",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SERPENT BOW",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO LEI",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO TWIN HOOKS",
+          "desc": "Auto farm boss, get item"
+        },
+        {
+          "configs": [],
+          "title": "AUTO BUDDY SWORD",
+          "desc": "Auto farm boss, get item"
+        }
+      ],
+      "title": "THIRD SEA",
+      "desc": "Auto farm quests and items in third sea"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Disable Weather"
+            },
+            {
+              "text": "Tween To Mirage Island"
+            },
+            {
+              "text": "Tween To Fruit Dealer"
+            },
+            {
+              "text": "Tween To Blue Gear"
+            },
+            {
+              "text": "Tween To Highest Mountain"
+            },
+            {
+              "text": "Sail Until Mirage"
+            },
+            {
+              "text": "Stop When Mirage Island"
+            },
+            {
+              "text": "Collect All Mirage Chests"
+            }
+          ],
+          "title": "MIRAGE ISLAND",
+          "desc": "Sail mirage, tween fruit seller"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Pull Lever"
+            },
+            {
+              "text": "Auto Collect Gear"
+            },
+            {
+              "text": "Auto Look Moon"
+            },
+            {
+              "text": "Auto Zoom In"
+            }
+          ],
+          "title": "GEAR & PULL LEVER",
+          "desc": "Collect gear, look moon, pull lever"
+        },
+        {
+          "configs": [
+            {
+              "text": "TP Temple Of Time"
+            },
+            {
+              "text": "TP Pull Lever"
+            },
+            {
+              "text": "TP Race Door"
+            },
+            {
+              "text": "TP Temple Clock"
+            },
+            {
+              "text": "TP Acient One"
+            },
+            {
+              "text": "TP Race Trial"
+            },
+            {
+              "text": "Safe Zone"
+            },
+            {
+              "text": "PVP Zone"
+            },
+            {
+              "text": "Auto Race Trial"
+            },
+            {
+              "text": "Auto Kill Trial"
+            },
+            {
+              "text": "Auto Upgrade Gear"
+            },
+            {
+              "text": "Auto Train Race"
+            }
+          ],
+          "title": "AUTO TRIAL",
+          "desc": "Complete trial, auto kill"
+        }
+      ],
+      "title": "RACE V4",
+      "desc": "Have features for mirage and upgrade race"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Auto Sail Sea"
+            },
+            {
+              "text": "Disable Weather"
+            },
+            {
+              "text": "Remove Rocks"
+            },
+            {
+              "text": "Noclip Boat"
+            },
+            {
+              "text": "Spin Boat"
+            },
+            {
+              "text": "Bring Boat"
+            },
+            {
+              "text": "Sea Zone"
+            },
+            {
+              "text": "Select Boat : Guardian"
+            },
+            {
+              "text": "BeastHunter"
+            },
+            {
+              "text": "Guardian"
+            },
+            {
+              "text": "Lantern"
+            },
+            {
+              "text": "PirateBrigade"
+            },
+            {
+              "text": "MarineBrigade"
+            },
+            {
+              "text": "PirateBasic"
+            },
+            {
+              "text": "MarineBasic"
+            },
+            {
+              "text": "Sea Event Boat"
+            },
+            {
+              "text": "Buy Boat"
+            },
+            {
+              "text": "Bring Boat"
+            },
+            {
+              "text": "Fly Boat Tool"
+            },
+            {
+              "text": "Change Boat Speed"
+            }
+          ],
+          "title": "ROUGH SEA",
+          "desc": "Pre setup for sailing"
+        },
+        {
+          "configs": [
+            {
+              "text": "Talk To Shipwrite Teacher"
+            },
+            {
+              "text": "Talk To Helmsman Teacher"
+            },
+            {
+              "text": "Auto Repair Boat"
+            },
+            {
+              "text": "Auto Farm Woods"
+            }
+          ],
+          "title": "SHIPWRIGHT",
+          "desc": "Get the subclass able to repair your boat"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Fishing [Stand Near Water]"
+            },
+            {
+              "text": "Auto Fishing V2"
+            },
+            {
+              "text": "Auto Angler Quest [Enable Auto Fishing]"
+            },
+            {
+              "text": "Skip Angler Epic/Mythic Quest"
+            },
+            {
+              "text": "Auto Sell Fish"
+            },
+            {
+              "text": "Auto Open Fishing Chest"
+            },
+            {
+              "text": "Select Bait : Basic Bait"
+            },
+            {
+              "text": "Basic Bait"
+            },
+            {
+              "text": "Kelp Bait"
+            },
+            {
+              "text": "Good Bait"
+            },
+            {
+              "text": "Epic Bait"
+            },
+            {
+              "text": "Carnivore Bait"
+            },
+            {
+              "text": "Abyssal Bait"
+            },
+            {
+              "text": "Frozen Bait"
+            },
+            {
+              "text": "Auto Buy Bait"
+            },
+            {
+              "text": "Buy Selected Bait"
+            },
+            {
+              "text": "Sell Fishes"
+            },
+            {
+              "text": "Fishing Index"
+            },
+            {
+              "text": "Job Stats"
+            },
+            {
+              "text": "Auto Fish Slap"
+            },
+            {
+              "text": "100% Perfect Cast"
+            },
+            {
+              "text": "Instant Catch Fish"
+            },
+            {
+              "text": "Instant Catch Chest"
+            },
+            {
+              "text": "Fishing Line Color"
+            }
+          ],
+          "title": "FISHING",
+          "desc": "Insta catch, 100% perfect cast,..."
+        },
+        {
+          "configs": [
+            {
+              "text": "Dodge Terrorshark Skill"
+            },
+            {
+              "text": "Attack Terrorshark"
+            },
+            {
+              "text": "Attack Fishes"
+            },
+            {
+              "text": "Attack Ship Raids"
+            },
+            {
+              "text": "Collect Sea Chests"
+            }
+          ],
+          "title": "SEA EVENT",
+          "desc": "Auto terrorshark, fishes, boats"
+        },
+        {
+          "configs": [
+            {
+              "text": "Trade Azure Embers"
+            },
+            {
+              "text": "Collect Azure Embers"
+            },
+            {
+              "text": "Sail Kitsune Island"
+            },
+            {
+              "text": "Sail When Full Moon"
+            }
+          ],
+          "title": "KITSUNE ISLAND",
+          "desc": "Collect azure embers, trade it"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Follow Group > 4 Players"
+            },
+            {
+              "text": "Talk To Spy"
+            },
+            {
+              "text": "Tween to Frozen Dimension"
+            },
+            {
+              "text": "TP Complete Leviathan Quest"
+            },
+            {
+              "text": "Stop When Frozen Dimension"
+            },
+            {
+              "text": "Attack Leviathan"
+            },
+            {
+              "text": "Auto Bribe Spy"
+            },
+            {
+              "text": "Auto Start Frozen Watcher"
+            },
+            {
+              "text": "Auto Hook Heart"
+            },
+            {
+              "text": "Sail Heart Quest"
+            }
+          ],
+          "title": "LEVIATHAN",
+          "desc": "Talk Spy, find and attack leviathan"
+        },
+        {
+          "configs": [
+            {
+              "text": "Attack Rumbling Waters"
+            },
+            {
+              "text": "Dodge Sea Beast Skills"
+            },
+            {
+              "text": "Auto Sea Beast"
+            },
+            {
+              "text": "SB/SHIP Farm Only Gun"
+            },
+            {
+              "text": "SB/SHIP Use Melee"
+            },
+            {
+              "text": "SB/SHIP Melee Skills"
+            },
+            {
+              "text": "SB/SHIP Use Sword"
+            },
+            {
+              "text": "SB/SHIP Sword Skills"
+            },
+            {
+              "text": "SB/SHIP Use Fruit"
+            },
+            {
+              "text": "SB/SHIP Fruit Skills"
+            },
+            {
+              "text": "SB/SHIP Use Gun"
+            },
+            {
+              "text": "SB/SHIP Gun Skills"
+            }
+          ],
+          "title": "AUTO SEA BEAST",
+          "desc": "Attack some potato sea worm"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Draco Race"
+            },
+            {
+              "text": "Auto Draco Race V2 & V3"
+            },
+            {
+              "text": "Auto Draco Trial V4 [Talk To Npc First]"
+            },
+            {
+              "text": "Auto Dojo Belts (DragonTalon Mas Must >500)"
+            },
+            {
+              "text": "Auto Dragon Talon V3"
+            },
+            {
+              "text": "Auto Upgrade Gear"
+            },
+            {
+              "text": "Tween To Trial End"
+            }
+          ],
+          "title": "DOJO TRAINER, UZOTH, DRACO RACE",
+          "desc": "Auto Dojo Trainer, Talon V2, Draco Race"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Sail Sea"
+            },
+            {
+              "text": "Stop If Prehistoric Island"
+            },
+            {
+              "text": "Auto Start Prehistoric"
+            },
+            {
+              "text": "Auto Attack Golem"
+            },
+            {
+              "text": "Kill Aura"
+            },
+            {
+              "text": "Auto Patch Volcano"
+            },
+            {
+              "text": "Auto Collect Dragon Egg"
+            },
+            {
+              "text": "Auto Collect Dinosaur Bone"
+            },
+            {
+              "text": "Auto Reset After Prehistoric (10s)"
+            },
+            {
+              "text": "Auto Dragon Hunt [Equip Canon In Tree Quest]"
+            },
+            {
+              "text": "Dragon Hunt Hop If Tree Quest"
+            },
+            {
+              "text": "Auto Collect Blaze Ember"
+            },
+            {
+              "text": "Auto Craft Volcanic Magnet"
+            },
+            {
+              "text": "Crafting"
+            },
+            {
+              "text": "Volcanic Magnet"
+            },
+            {
+              "text": "Dragonheart"
+            },
+            {
+              "text": "Dragonstorm"
+            },
+            {
+              "text": "T-Rex Skull"
+            },
+            {
+              "text": "Dino Hood"
+            },
+            {
+              "text": "Tween To Draco Trial Door"
+            }
+          ],
+          "title": "PREHISTORIC\nISLAND",
+          "desc": "Auto Spawn Island, Kill Npc, Complete Quest"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SHARK ANCHOR",
+          "desc": "Auto trade items, attack boss"
+        },
+        {
+          "configs": [],
+          "title": "AUTO SANGUINE ART",
+          "desc": "Auto trade items"
+        },
+        {
+          "configs": [],
+          "title": "AUTO BEAST HUNTER",
+          "desc": "Auto trade items"
+        },
+        {
+          "configs": [],
+          "title": "AUTO LEVIATHAN CROWN",
+          "desc": "Auto trade items"
+        },
+        {
+          "configs": [],
+          "title": "AUTO LEVIATHAN SHIELD",
+          "desc": "Auto trade items"
+        }
+      ],
+      "title": "SEA EVENT",
+      "desc": "Auto farm quests and items for sea event"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Invisible [Desync]"
+            },
+            {
+              "text": "Inf Energy"
+            },
+            {
+              "text": "Inf Geppo"
+            },
+            {
+              "text": "Inf Soru"
+            },
+            {
+              "text": "Inf Dash + Bhop"
+            },
+            {
+              "text": "Inf Mink's Ability"
+            },
+            {
+              "text": "Walk On Water"
+            },
+            {
+              "text": "No Zoom Limit"
+            },
+            {
+              "text": "Fly Tool"
+            },
+            {
+              "text": "Disable Weather"
+            },
+            {
+              "text": "Set Speed"
+            },
+            {
+              "text": "Change Speed"
+            },
+            {
+              "text": "Set Jump"
+            },
+            {
+              "text": "Change Jump"
+            },
+            {
+              "text": "Change Buso Stage"
+            },
+            {
+              "text": "Change Ken Range"
+            }
+          ],
+          "title": "YOURSELF",
+          "desc": "Change walkspeed, fly or auto dodge skills"
+        },
+        {
+          "configs": [
+            {
+              "text": "Auto Dodge All Skills"
+            },
+            {
+              "text": "Expand Hitbox"
+            },
+            {
+              "text": "Select Aimbot Type : Nearest Mouse"
+            },
+            {
+              "text": "Nearest Mouse"
+            },
+            {
+              "text": "Nearest You"
+            },
+            {
+              "text": "Selected Player"
+            },
+            {
+              "text": "Aimbot FOV"
+            },
+            {
+              "text": "Aimbot Distance"
+            },
+            {
+              "text": "Enable Aimbot"
+            },
+            {
+              "text": "Show Aimbot FOV"
+            },
+            {
+              "text": "Insta Aim"
+            },
+            {
+              "text": "Void Insta Kill"
+            },
+            {
+              "text": "Select Player : None"
+            },
+            {
+              "text": "balazs2014"
+            },
+            {
+              "text": "Japan_3255"
+            },
+            {
+              "text": "maooooooo6776"
+            },
+            {
+              "text": "Naaaaaaaakinoko"
+            },
+            {
+              "text": "anik1234570"
+            },
+            {
+              "text": "dandysWorld_fan67678"
+            },
+            {
+              "text": "point123759"
+            },
+            {
+              "text": "Nguyengiahung_58"
+            },
+            {
+              "text": "Bring Player"
+            },
+            {
+              "text": "Electric Claw"
+            },
+            {
+              "text": "Spikey Trident"
+            },
+            {
+              "text": "Refresh Player"
+            },
+            {
+              "text": "Get Player Hunter Quest"
+            },
+            {
+              "text": "Get Player Wanted Quest"
+            },
+            {
+              "text": "Auto Kill Player"
+            },
+            {
+              "text": "Insta Kill Player"
+            },
+            {
+              "text": "Follow Player"
+            },
+            {
+              "text": "Aim Camera Player"
+            },
+            {
+              "text": "Spectate Player"
+            }
+          ],
+          "title": "PVP",
+          "desc": "Select player, aimbot and dodge skills"
+        },
+        {
+          "configs": [
+            {
+              "text": "Combo Macro Input"
+            },
+            {
+              "text": "Load Combo Macro"
+            },
+            {
+              "text": "Save Combo Macro"
+            },
+            {
+              "text": "Record Combo Macro [Keyboard Needed]"
+            },
+            {
+              "text": "Select Saved Macro : None"
+            },
+            {
+              "text": "Refresh Macro List"
+            },
+            {
+              "text": "Delete Selected Macro"
+            },
+            {
+              "text": "Load Selected Macro"
+            }
+          ],
+          "title": "Combo Macro",
+          "desc": "Auto combo skill casting without delay"
+        }
+      ],
+      "title": "PLAYERS",
+      "desc": "Change walkspeed, fly and auto combo macro"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Enable Debug UI"
+            },
+            {
+              "text": "Show Fruit Spawn Info"
+            },
+            {
+              "text": "Show Bosses Key Info"
+            },
+            {
+              "text": "Show Elite Boss Info"
+            },
+            {
+              "text": "Show Mirage Island Info"
+            },
+            {
+              "text": "Show Kitsune Island Info"
+            },
+            {
+              "text": "Show Frozen Dimension Info"
+            },
+            {
+              "text": "Show Prehistoric Island Info"
+            },
+            {
+              "text": "Show Cake Prince Mobs"
+            },
+            {
+              "text": "Current Moon: Normal Moon"
+            },
+            {
+              "text": "Next 🌕: 3~4 Night (36~48 Minutes)"
+            },
+            {
+              "text": "Show Script Status"
+            },
+            {
+              "text": "Show Fps & Ping"
+            },
+            {
+              "text": "Show Server Up Time"
+            },
+            {
+              "text": "Show Time Played"
+            },
+            {
+              "text": "Show Fruit Spawn Time"
+            },
+            {
+              "text": "Show Sword Dealer Spawn Time"
+            },
+            {
+              "text": "Show Fist of Darkness/God's Chalice Spawn Time"
+            },
+            {
+              "text": "Show Key Expire Time"
+            },
+            {
+              "text": "Show Normal Stock Refresh"
+            },
+            {
+              "text": "Show Mirage Stock Refresh"
+            },
+            {
+              "text": "Show Moon Info"
+            }
+          ],
+          "title": "DEBUG",
+          "desc": "See the script status & game info"
+        },
+        {
+          "configs": [
+            {
+              "text": "Melee Shop"
+            },
+            {
+              "text": "Black Leg"
+            },
+            {
+              "text": "Electro"
+            },
+            {
+              "text": "Fishman Karate"
+            },
+            {
+              "text": "Dragon Claw"
+            },
+            {
+              "text": "Superhuman"
+            },
+            {
+              "text": "DeathStep"
+            },
+            {
+              "text": "Sharkman"
+            },
+            {
+              "text": "Electric Claw"
+            },
+            {
+              "text": "Dragon Talon"
+            },
+            {
+              "text": "Godhuman"
+            },
+            {
+              "text": "Sanguine Art"
+            },
+            {
+              "text": "Divine Art"
+            },
+            {
+              "text": "Scroll Shop"
+            },
+            {
+              "text": "Common Scroll"
+            },
+            {
+              "text": "Rare Scroll"
+            },
+            {
+              "text": "Legendary Scroll"
+            },
+            {
+              "text": "Mythical Scroll"
+            },
+            {
+              "text": "Enchant Npc"
+            },
+            {
+              "text": "Haki Shop"
+            },
+            {
+              "text": "Sword Shop"
+            },
+            {
+              "text": "Katana"
+            },
+            {
+              "text": "Cutlass"
+            },
+            {
+              "text": "Dual Katana"
+            },
+            {
+              "text": "Iron Mace"
+            },
+            {
+              "text": "Triple Katana"
+            },
+            {
+              "text": "Dual-Headed Blade"
+            },
+            {
+              "text": "Soul Cane"
+            },
+            {
+              "text": "Bisento"
+            },
+            {
+              "text": "Midnight Blade"
+            },
+            {
+              "text": "Gun Shop"
+            },
+            {
+              "text": "Slingshot"
+            },
+            {
+              "text": "Musket"
+            },
+            {
+              "text": "Flintlock"
+            },
+            {
+              "text": "Dual Flintlock"
+            },
+            {
+              "text": "Refined Slingshot"
+            },
+            {
+              "text": "Cannon"
+            },
+            {
+              "text": "Kabucha"
+            },
+            {
+              "text": "Bizarre Rifle"
+            },
+            {
+              "text": "Auto Buy True Triple Katana"
+            },
+            {
+              "text": "Auto Buy Legendary Swords"
+            },
+            {
+              "text": "Auto Buy Kabucha"
+            },
+            {
+              "text": "Auto Buy Haki Color"
+            },
+            {
+              "text": "Only Buy Legend Color"
+            },
+            {
+              "text": "Auto Buy All Ectoplasm Items"
+            },
+            {
+              "text": "Auto Buy All Beli Items"
+            },
+            {
+              "text": "Auto Buy All Haki"
+            },
+            {
+              "text": "Accessory Shop"
+            },
+            {
+              "text": "Swordsman Hat"
+            },
+            {
+              "text": "Black Cape"
+            },
+            {
+              "text": "Tomoe Ring"
+            },
+            {
+              "text": "Ghoul Mask"
+            },
+            {
+              "text": "Ectoplasm Shop"
+            },
+            {
+              "text": "Midnight Blade"
+            },
+            {
+              "text": "Ghoul Mask"
+            },
+            {
+              "text": "Bizarre Rifle"
+            },
+            {
+              "text": "Fragments Shop"
+            },
+            {
+              "text": "Reset Stats"
+            },
+            {
+              "text": "Reroll Race"
+            },
+            {
+              "text": "Race Shop"
+            },
+            {
+              "text": "Cyborg"
+            }
+          ],
+          "title": "SHOP",
+          "desc": "Buying haki, weapons, melees ..."
+        },
+        {
+          "configs": [
+            {
+              "text": "Random Surprise"
+            },
+            {
+              "text": "Auto Random Surprise"
+            },
+            {
+              "text": "Auto Pray"
+            },
+            {
+              "text": "Auto Try Luck"
+            }
+          ],
+          "title": "BONES SHOP",
+          "desc": "Buying items with bones"
+        },
+        {
+          "configs": [
+            {
+              "text": "Esp Barista Cousin"
+            },
+            {
+              "text": "Esp Legendary Sword Dealer"
+            },
+            {
+              "text": "Esp Berry"
+            },
+            {
+              "text": "Esp Fruits"
+            },
+            {
+              "text": "Esp Chests"
+            },
+            {
+              "text": "Esp Islands"
+            },
+            {
+              "text": "Esp Flowers"
+            },
+            {
+              "text": "Esp Sea Beast"
+            },
+            {
+              "text": "Esp Mirage Chests"
+            },
+            {
+              "text": "Esp Mirage Fruit Dealear"
+            },
+            {
+              "text": "Esp Mirage Fruit Dealear Spawn Locations"
+            },
+            {
+              "text": "Esp Players"
+            },
+            {
+              "text": "Enable Sense [Players ESP V2]"
+            },
+            {
+              "text": "Sense ESP HealthBar"
+            },
+            {
+              "text": "Sense ESP HealthText"
+            },
+            {
+              "text": "Sense ESP Box"
+            },
+            {
+              "text": "Sense ESP Box3D"
+            },
+            {
+              "text": "Sense ESP Name"
+            },
+            {
+              "text": "Sense ESP Distance"
+            },
+            {
+              "text": "Sense ESP Weapon"
+            },
+            {
+              "text": "Sense ESP Tracer"
+            },
+            {
+              "text": "Sense ESP ScreenArrow"
+            },
+            {
+              "text": "Toggle Radar UI"
+            }
+          ],
+          "title": "ESP",
+          "desc": "Locate fruits, islands, enemies, ..."
+        },
+        {
+          "configs": [
+            {
+              "text": "Select NPC : None"
+            },
+            {
+              "text": "Set Home Point"
+            },
+            {
+              "text": "Colosseum Quest Giver"
+            },
+            {
+              "text": "Sky Adventurer"
+            },
+            {
+              "text": "Jail Keeper"
+            },
+            {
+              "text": "Rich Man"
+            },
+            {
+              "text": "Experienced Captain"
+            },
+            {
+              "text": "Blacksmith"
+            },
+            {
+              "text": "Angler"
+            },
+            {
+              "text": "Bandit Quest Giver"
+            },
+            {
+              "text": "Sword Dealer of the East"
+            },
+            {
+              "text": "Blox Fruit Gacha"
+            },
+            {
+              "text": "Parlus"
+            },
+            {
+              "text": "Military Detective"
+            },
+            {
+              "text": "Sky Quest Giver 2"
+            },
+            {
+              "text": "Luxury Boat Dealer"
+            },
+            {
+              "text": "Love Letter 3"
+            },
+            {
+              "text": "Desert Adventurer"
+            },
+            {
+              "text": "Aura Editor"
+            },
+            {
+              "text": "Boat Dealer"
+            },
+            {
+              "text": "Sword Dealer of the West"
+            },
+            {
+              "text": "Fisherman"
+            },
+            {
+              "text": "Pirate Adventurer"
+            },
+            {
+              "text": "Advanced Marines Boat Dealer"
+            },
+            {
+              "text": "Freezeburg Quest Giver"
+            },
+            {
+              "text": "Dragon Talon Sage"
+            },
+            {
+              "text": "Water Kung-fu Teacher"
+            },
+            {
+              "text": "The Mayor"
+            },
+            {
+              "text": "Head Jailer"
+            },
+            {
+              "text": "Marine"
+            },
+            {
+              "text": "Ability Teacher"
+            },
+            {
+              "text": "Remove Blox Fruit"
+            },
+            {
+              "text": "Robotmega"
+            },
+            {
+              "text": "Villager"
+            },
+            {
+              "text": "Adventurer"
+            },
+            {
+              "text": "Weapon Dealer"
+            },
+            {
+              "text": "Master Sword Dealer"
+            },
+            {
+              "text": "Love Letter 1"
+            },
+            {
+              "text": "Mad Scientist"
+            },
+            {
+              "text": "Love Letter 2"
+            },
+            {
+              "text": "Blox Fruit Dealer"
+            },
+            {
+              "text": "Sick Man"
+            },
+            {
+              "text": "Marine Recruiter"
+            },
+            {
+              "text": "Pirate Recruiter"
+            },
+            {
+              "text": "Marines Boat Dealer"
+            },
+            {
+              "text": "Dark Step Teacher"
+            },
+            {
+              "text": "King Neptune"
+            },
+            {
+              "text": "Instinct Teacher"
+            },
+            {
+              "text": "Marine Leader"
+            },
+            {
+              "text": "Sword Dealer"
+            },
+            {
+              "text": "Advanced Weapon Dealer"
+            },
+            {
+              "text": "Living Skeleton"
+            },
+            {
+              "text": "Refresh NPC"
+            },
+            {
+              "text": "Tween To NPC"
+            },
+            {
+              "text": "! Talk to npc may let u get ban or make game bug if npc not spawn yet or u stand from npc far away"
+            },
+            {
+              "text": "Select NPC Talk : None"
+            },
+            {
+              "text": "ElectroTeacher - Mad Scientist"
+            },
+            {
+              "text": "Manager - Manager"
+            },
+            {
+              "text": "LuxuryBoatDealer - Luxury Boat Dealer"
+            },
+            {
+              "text": "FishmanQuest - Quest"
+            },
+            {
+              "text": "HalloweenGachaDealer - Haunted Gacha Dealer"
+            },
+            {
+              "text": "StartValentinesDelivery - Valentines Delivery"
+            },
+            {
+              "text": "Xmas4 - Cousin Remastered"
+            },
+            {
+              "text": "LoveLetter2 - Love Letter"
+            },
+            {
+              "text": "Customer - Customer"
+            },
+            {
+              "text": "TitlesSpecialist - Titles Specialist (Axiore)"
+            },
+            {
+              "text": "FamousPirate - Crew Captain"
+            },
+            {
+              "text": "Exploiter - EXPLOITS DETECTED."
+            },
+            {
+              "text": "FruitRemover - Blox Fruit Remover"
+            },
+            {
+              "text": "Barista - Barista"
+            },
+            {
+              "text": "Area2Quest - Quest"
+            },
+            {
+              "text": "EnhancementEditor - mygame43"
+            },
+            {
+              "text": "Xmas1 - Magic Elf"
+            },
+            {
+              "text": "SwordDealer3 - Sword Dealer of the East"
+            },
+            {
+              "text": "Ectoplasm2 - El Perro"
+            },
+            {
+              "text": "SwordDealer4 - Master Sword Dealer"
+            },
+            {
+              "text": "RandomFruitSeller - Zioles"
+            },
+            {
+              "text": "BanditQuest1 - Quest"
+            },
+            {
+              "text": "MagmaQuest - Quest"
+            },
+            {
+              "text": "EatFruit - Blox Fruit"
+            },
+            {
+              "text": "BoatDealer - Boat Dealer"
+            },
+            {
+              "text": "PrisonersThanks - Prisoners"
+            },
+            {
+              "text": "EctoplasmChecker - Guashiem"
+            },
+            {
+              "text": "BlueMoonShrinePray - Kitsune Shrine"
+            },
+            {
+              "text": "LeviathanGate - Frozen Watcher"
+            },
+            {
+              "text": "JoinPirates - Pirate Recruiter"
+            },
+            {
+              "text": "MysteriousScientist - Mysterious Scientist"
+            },
+            {
+              "text": "Lunoven - Lunoven"
+            },
+            {
+              "text": "ReforgeNPC - Trinket Refiner"
+            },
+            {
+              "text": "AwakeningsExpert - Awakenings Expert"
+            },
+            {
+              "text": "Blacksmith - Blacksmith"
+            },
+            {
+              "text": "SealedKing - Sealed King"
+            },
+            {
+              "text": "Plokster - Plokster"
+            },
+            {
+              "text": "Butler - Butler"
+            },
+            {
+              "text": "ThunderGod - Thunder God"
+            },
+            {
+              "text": "Trevor - Trevor"
+            },
+            {
+              "text": "SickMan - Sick Man"
+            },
+            {
+              "text": "Xmas3 - Santa Claws"
+            },
+            {
+              "text": "Usoapp - The Strongest God"
+            },
+            {
+              "text": "GodhumanTeacher - Ancient Monk"
+            },
+            {
+              "text": "CryptMaster - Crypt Master"
+            },
+            {
+              "text": "FishmanKarateTeacher - Water Kung-fu Teacher"
+            },
+            {
+              "text": "CompleteValentinesDeliver - Valentines Delivery"
+            },
+            {
+              "text": "Scroll - Dragon Talon Sage"
+            },
+            {
+              "text": "RaceV4Upgrader - Red Head Essence"
+            },
+            {
+              "text": "SubmergedQuest3 - Quest"
+            },
+            {
+              "text": "ValentinesGachaDealer - Valentines Gacha Dealer"
+            },
+            {
+              "text": "FailValentinesDelivery - Valentines Delivery"
+            },
+            {
+              "text": "TravelZou - Mr. Captain"
+            },
+            {
+              "text": "CakeSpawner - drip_mama"
+            },
+            {
+              "text": "MasterOfEnhancement - Barista Cousin"
+            },
+            {
+              "text": "DoghouseSpike - Wenlock"
+            },
+            {
+              "text": "Flashback - erin"
+            },
+            {
+              "text": "RedRecruiter - Red Army Recruiter"
+            },
+            {
+              "text": "Area1Quest - Quest"
+            },
+            {
+              "text": "GhoulGiver - Experimic"
+            },
+            {
+              "text": "MartialArtsMaster - Martial Arts Master"
+            },
+            {
+              "text": "SkyExp1Quest - Quest"
+            },
+            {
+              "text": "HolidayGiftToolActivated - Gift"
+            },
+            {
+              "text": "DracoStatue - Statue"
+            },
+            {
+              "text": "DojoHiddenRoom - "
+            },
+            {
+              "text": "PartyShop - Valentine Shop"
+            },
+            {
+              "text": "Bartilo - Bartilo"
+            },
+            {
+              "text": "KenTeacher - Instinct Teacher"
+            },
+            {
+              "text": "SubmergedQuest2 - Quest"
+            },
+            {
+              "text": "SubmergedQuest1 - Quest"
+            },
+            {
+              "text": "KilledSpringBoss - Jeremy"
+            },
+            {
+              "text": "FoodToolActivated - Food"
+            },
+            {
+              "text": "DragonHunter - Dragon Hunter"
+            },
+            {
+              "text": "SharkmanTeacher - Sharkman Teacher"
+            },
+            {
+              "text": "ChocQuest2 - Quest"
+            },
+            {
+              "text": "DeathStepTeacher - Phoeyu, the Reformed"
+            },
+            {
+              "text": "CelebrationGacha - Party Gacha"
+            },
+            {
+              "text": "BeastHunter - Beast Hunter"
+            },
+            {
+              "text": "CDKDoor - ???"
+            },
+            {
+              "text": "DragonTamer - Dragon Tamer"
+            },
+            {
+              "text": "SkyQuest - Quest"
+            },
+            {
+              "text": "TalonTeacher - Uzoth"
+            },
+            {
+              "text": "TikiQuest2 - Quest"
+            },
+            {
+              "text": "MysteriousMan - Mysterious Man"
+            },
+            {
+              "text": "CyborgTrainer - "
+            },
+            {
+              "text": "NutsIslandQuest - Quest"
+            },
+            {
+              "text": "ChocQuest1 - Quest"
+            },
+            {
+              "text": "CakeQuest2 - Quest"
+            },
+            {
+              "text": "CandyQuest1 - Quest"
+            },
+            {
+              "text": "IceCreamIslandQuest - Quest"
+            },
+            {
+              "text": "Alchemist - Alchemist"
+            },
+            {
+              "text": "MarineTreeIsland - Quest"
+            },
+            {
+              "text": "DeepForestIsland3 - Quest"
+            },
+            {
+              "text": "SharkHunter - Shark Hunter"
+            },
+            {
+              "text": "WeaponDealer - Weapon Dealer"
+            },
+            {
+              "text": "DeepForestIsland2 - Quest"
+            },
+            {
+              "text": "Ectoplasm3 - El Admin"
+            },
+            {
+              "text": "Detective - Military Detective"
+            },
+            {
+              "text": "HornedMan - Horned Man"
+            },
+            {
+              "text": "LegendarySwordDealer - Legendary Sword Dealer"
+            },
+            {
+              "text": "SnowQuest - Quest"
+            },
+            {
+              "text": "SwordDealer2 - Sword Dealer of the West"
+            },
+            {
+              "text": "DeepForestIsland - Quest"
+            },
+            {
+              "text": "PotionToolActivated - Potion"
+            },
+            {
+              "text": "Spy - Spy"
+            },
+            {
+              "text": "HauntedQuest1 - Quest"
+            },
+            {
+              "text": "FruitShop - Blox Fruit Dealer"
+            },
+            {
+              "text": "VenomCrewQuest - Quest"
+            },
+            {
+              "text": "TempleTeleportBack - Mysterious Force"
+            },
+            {
+              "text": "Xmas2 - Greedy Elf"
+            },
+            {
+              "text": "ZombieQuest - Quest"
+            },
+            {
+              "text": "PlayerHunter - Player Hunter"
+            },
+            {
+              "text": "rip_indra - rip_indra"
+            },
+            {
+              "text": "FrostQuest - Quest"
+            },
+            {
+              "text": "ShipQuest2 - Quest"
+            },
+            {
+              "text": "ShipQuest1 - Quest"
+            },
+            {
+              "text": "Robotmega - robloxmecha"
+            },
+            {
+              "text": "ObservationV2 - Hungry Man"
+            },
+            {
+              "text": "Gravestone - Gravestone"
+            },
+            {
+              "text": "JoinMarines - Marine Recruiter"
+            },
+            {
+              "text": "FireSideQuest - Quest"
+            },
+            {
+              "text": "SnowMountainQuest - Quest"
+            },
+            {
+              "text": "ShipwrightNPC - Shipwright Teacher"
+            },
+            {
+              "text": "TravelDressrosa - Experienced Captain"
+            },
+            {
+              "text": "MarineQuest - Quest"
+            },
+            {
+              "text": "EliteHunter - Elite Hunter"
+            },
+            {
+              "text": "IceSideQuest - Quest"
+            },
+            {
+              "text": "SkyExp2Quest - Quest"
+            },
+            {
+              "text": "MarineQuest2 - Quest"
+            },
+            {
+              "text": "MarineQuest3 - Quest"
+            },
+            {
+              "text": "SwordDealer5 - Hidden Sword Dealer"
+            },
+            {
+              "text": "RipRecruiter - Rip Family Recruiter"
+            },
+            {
+              "text": "KilledIndraBoss - Mental Message"
+            },
+            {
+              "text": "FountainQuest - Quest"
+            },
+            {
+              "text": "ImpelQuest - Quest"
+            },
+            {
+              "text": "ClockRoomExit - ???"
+            },
+            {
+              "text": "PrisonerQuest - Quest"
+            },
+            {
+              "text": "ColosseumQuest - Quest"
+            },
+            {
+              "text": "ForgottenQuest - Quest"
+            },
+            {
+              "text": "JungleQuest - Quest"
+            },
+            {
+              "text": "BuggyQuest1 - Quest"
+            },
+            {
+              "text": "HauntedQuest2 - Quest"
+            },
+            {
+              "text": "Indra - xindra_tentashun"
+            },
+            {
+              "text": "Hasan - Hasan"
+            },
+            {
+              "text": "RichMan - Rich Man"
+            },
+            {
+              "text": "Divine - Divine"
+            },
+            {
+              "text": "BlueMoonShrine - Kitsune Shrine"
+            },
+            {
+              "text": "LoveLetter3 - Love Letter"
+            },
+            {
+              "text": "MergeNPC - Trinket Expert"
+            },
+            {
+              "text": "BoatDealerMarines2 - Advanced Boat Dealer"
+            },
+            {
+              "text": "AdvancedWeaponDealer - Advanced Weapons Dealer"
+            },
+            {
+              "text": "PreviousHero - Previous Hero"
+            },
+            {
+              "text": "HelmsmanNPC - Helmsman NPC"
+            },
+            {
+              "text": "DojoTrainer - Dojo Trainer"
+            },
+            {
+              "text": "LoveLetter1 - Love Letter"
+            },
+            {
+              "text": "Ectoplasm1 - El Rodolfo"
+            },
+            {
+              "text": "PiratePortQuest - Quest"
+            },
+            {
+              "text": "Parlus - Parlus"
+            },
+            {
+              "text": "ArenaTrainer - Arena Trainer"
+            },
+            {
+              "text": "TempleTeleport - Mysterious Force"
+            },
+            {
+              "text": "DragonCrewQuest - Quest"
+            },
+            {
+              "text": "Halloween1 - Death King"
+            },
+            {
+              "text": "DesertQuest - Quest"
+            },
+            {
+              "text": "SecretSanta - Secret Santa"
+            },
+            {
+              "text": "KilledIceBoss - Ice Admiral"
+            },
+            {
+              "text": "Cupid_ValentineDailyQuests - Valentine Daily Quests"
+            },
+            {
+              "text": "BountyHonorExpert - Bounty/Honor Expert"
+            },
+            {
+              "text": "SwordDealer1 - Sword Dealer"
+            },
+            {
+              "text": "SickScientist - Sick Scientist"
+            },
+            {
+              "text": "SkeletonMachine - Weird Machine"
+            },
+            {
+              "text": "CakeScientist - Cake Scientist"
+            },
+            {
+              "text": "HalloweenWitch - Witch"
+            },
+            {
+              "text": "Nerd - Nerd"
+            },
+            {
+              "text": "SweetChalice - Sweet Crafter"
+            },
+            {
+              "text": "BlackLegTeacher - Dark Step Teacher"
+            },
+            {
+              "text": "DragonWizard - Dragon Wizard"
+            },
+            {
+              "text": "CitizenThanks - Citizen"
+            },
+            {
+              "text": "RedHead - King Red Head"
+            },
+            {
+              "text": "KilledCitizenBoss - ..."
+            },
+            {
+              "text": "HakiTeacher - Ability Teacher"
+            },
+            {
+              "text": "FruitShop2 - Advanced Fruit Dealer"
+            },
+            {
+              "text": "FossilExpert - Fossil Expert"
+            },
+            {
+              "text": "tort - tort"
+            },
+            {
+              "text": "SanguineTeacher - Shafi"
+            },
+            {
+              "text": "GhostPuzzle - Ghost"
+            },
+            {
+              "text": "junior - arlthmetic A.K.A. Junior J. Five"
+            },
+            {
+              "text": "CakeQuest1 - Quest"
+            },
+            {
+              "text": "Yoshi - Yoshi"
+            },
+            {
+              "text": "TikiQuest3 - Quest"
+            },
+            {
+              "text": "TikiQuest1 - Quest"
+            },
+            {
+              "text": "TravelMain - Sea Captain"
+            },
+            {
+              "text": "DracoV4Upgrader - Red Essence"
+            },
+            {
+              "text": "BoatDealerMarines - Boat Dealer"
+            },
+            {
+              "text": "layandikit12 - layandikit12"
+            },
+            {
+              "text": "Tacomura - Tacomura"
+            },
+            {
+              "text": "Cyborg - Cyborg"
+            },
+            {
+              "text": "Sabi - Sabi"
+            },
+            {
+              "text": "Wenlocktoad - arowe"
+            },
+            {
+              "text": "MysteriousEntity - Mysterious Entity"
+            },
+            {
+              "text": "Citizen - Citizen"
+            },
+            {
+              "text": "SpawnPoint - Set Home Point"
+            },
+            {
+              "text": "Talk to Selected NPC"
+            },
+            {
+              "text": "Select Island : None"
+            },
+            {
+              "text": "Jungle"
+            },
+            {
+              "text": "Pirate Village"
+            },
+            {
+              "text": "Frozen Village"
+            },
+            {
+              "text": "Whirlpool"
+            },
+            {
+              "text": "Pirate Starter"
+            },
+            {
+              "text": "Middle Town"
+            },
+            {
+              "text": "Marine Starter"
+            },
+            {
+              "text": "Desert"
+            },
+            {
+              "text": "Colosseum"
+            },
+            {
+              "text": "Fountain City"
+            },
+            {
+              "text": "Magma Village"
+            },
+            {
+              "text": "Underwater City"
+            },
+            {
+              "text": "Skylands"
+            },
+            {
+              "text": "Prison"
+            },
+            {
+              "text": "Marine Fortress"
+            },
+            {
+              "text": "Refresh Islands"
+            },
+            {
+              "text": "Island Tp X"
+            },
+            {
+              "text": "Island Tp Y"
+            },
+            {
+              "text": "Island Tp Z"
+            },
+            {
+              "text": "Tween To Island"
+            }
+          ],
+          "title": "TELEPORT",
+          "desc": "Moving to every where with god speed"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Player Boat : None"
+            },
+            {
+              "text": "anik1234570"
+            },
+            {
+              "text": "Refresh Player Boat"
+            },
+            {
+              "text": "Bring Player Boat"
+            },
+            {
+              "text": "Chess Game"
+            },
+            {
+              "text": "Get Suggest"
+            },
+            {
+              "text": "Fix Suggest"
+            },
+            {
+              "text": "Fix Light"
+            },
+            {
+              "text": "💀 Hell Features 😈"
+            },
+            {
+              "text": "Decrease All Beli"
+            },
+            {
+              "text": "Get Ban/Reset"
+            },
+            {
+              "text": "Get Ban (1D)"
+            }
+          ],
+          "title": "TROLL",
+          "desc": "Trolling people with many funny features"
+        },
+        {
+          "configs": [
+            {
+              "text": "Trial Update 🔥"
+            },
+            {
+              "text": "Divine Art"
+            },
+            {
+              "text": "Divine Art V2"
+            },
+            {
+              "text": "Admin Tools"
+            },
+            {
+              "text": "Triple Dark Blade"
+            },
+            {
+              "text": "Super Fruit Box"
+            },
+            {
+              "text": "Fruit Box"
+            },
+            {
+              "text": "Mystery Fruit Box"
+            },
+            {
+              "text": "Season 2 Fruit Box 1"
+            },
+            {
+              "text": "Season 2 Fruit Box 2"
+            },
+            {
+              "text": "Season 2 Fruit Box 3"
+            },
+            {
+              "text": "Season 2 Fruit Box 4"
+            },
+            {
+              "text": "Season 2 Fruit Box 5"
+            },
+            {
+              "text": "Human V4"
+            },
+            {
+              "text": "Skypiea V4"
+            },
+            {
+              "text": "Cyborg V4"
+            },
+            {
+              "text": "Ghoul V4"
+            },
+            {
+              "text": "Fishman V4"
+            },
+            {
+              "text": "Mink V4"
+            },
+            {
+              "text": "Effects Changer"
+            },
+            {
+              "text": "Gojo [Flame]"
+            },
+            {
+              "text": "Darkblade [Saber]"
+            },
+            {
+              "text": "Door [Portal]"
+            },
+            {
+              "text": "FE Animation Changer"
+            },
+            {
+              "text": "Dog Life"
+            },
+            {
+              "text": "Oldschool"
+            },
+            {
+              "text": "Stylish"
+            },
+            {
+              "text": "adidas Community"
+            },
+            {
+              "text": "Ninjaage"
+            },
+            {
+              "text": "Cartoonyage"
+            },
+            {
+              "text": "Bubblyage"
+            },
+            {
+              "text": "Bold by e.l.f."
+            },
+            {
+              "text": "Zombie"
+            },
+            {
+              "text": "Wicked Popular"
+            },
+            {
+              "text": "Mageage"
+            },
+            {
+              "text": "adidas Sports"
+            },
+            {
+              "text": "Rthroage"
+            },
+            {
+              "text": "Superhero"
+            },
+            {
+              "text": "Vampire"
+            },
+            {
+              "text": "Elderage"
+            },
+            {
+              "text": "Levitation"
+            },
+            {
+              "text": "Astronaut"
+            },
+            {
+              "text": "adidas aura animation pack"
+            },
+            {
+              "text": "Werewolf"
+            },
+            {
+              "text": "Catwalk Glam by e.l.f."
+            },
+            {
+              "text": "No Boundaries by Walmart"
+            },
+            {
+              "text": "Knightage"
+            },
+            {
+              "text": "Pirateage"
+            },
+            {
+              "text": "Amazon Unboxed"
+            },
+            {
+              "text": "Glow Motion"
+            },
+            {
+              "text": "Wicked \"Dancing Through Life\""
+            },
+            {
+              "text": "Pirate Animation Retargeting"
+            },
+            {
+              "text": "Default Animation Retargeting"
+            },
+            {
+              "text": "Hot Features 🔥"
+            },
+            {
+              "text": "HoHo Island"
+            },
+            {
+              "text": "Rain Fruit V2"
+            },
+            {
+              "text": "Rain Gift"
+            },
+            {
+              "text": "Fruit Gifts"
+            },
+            {
+              "text": "Rain Fruit"
+            },
+            {
+              "text": "Gacha Mod"
+            },
+            {
+              "text": "Profile Showcase+"
+            },
+            {
+              "text": "x9999 Everything V2"
+            },
+            {
+              "text": "x9999 Everything"
+            },
+            {
+              "text": "Tokyo Drift Car"
+            },
+            {
+              "text": "Yelan Voice"
+            },
+            {
+              "text": "Furina Voice [JP]"
+            },
+            {
+              "text": "Florentino Voice"
+            },
+            {
+              "text": "Gojo Voiceline"
+            },
+            {
+              "text": "Golden Gatling Gun"
+            },
+            {
+              "text": "Triple Darkblade"
+            },
+            {
+              "text": "Admin CMDX"
+            },
+            {
+              "text": "acsu's sword"
+            },
+            {
+              "text": "Haosoku Haki"
+            },
+            {
+              "text": "Triple Whiteblade"
+            },
+            {
+              "text": "Shimeji :D"
+            },
+            {
+              "text": "Hungary"
+            },
+            {
+              "text": "HongKong"
+            },
+            {
+              "text": "Gakupo"
+            },
+            {
+              "text": "Monika"
+            },
+            {
+              "text": "Philippin"
+            },
+            {
+              "text": "Liechtenstein"
+            },
+            {
+              "text": "Spider"
+            },
+            {
+              "text": "GermanyAndItaly"
+            },
+            {
+              "text": "Sayori"
+            },
+            {
+              "text": "Prussia"
+            },
+            {
+              "text": "AmongUs"
+            },
+            {
+              "text": "Momiji"
+            },
+            {
+              "text": "Natsuki"
+            },
+            {
+              "text": "R6 Mods"
+            },
+            {
+              "text": "R15 to R6"
+            },
+            {
+              "text": "Megumin Staff"
+            },
+            {
+              "text": "Smug Dance"
+            },
+            {
+              "text": "Nebula's Lost Hope V2"
+            },
+            {
+              "text": "Jotaro"
+            },
+            {
+              "text": "Techno Fairy"
+            },
+            {
+              "text": "Purple Heart Sword"
+            },
+            {
+              "text": "Xester"
+            },
+            {
+              "text": "KrystalDance V2"
+            },
+            {
+              "text": "GATTAI ZAMASU"
+            },
+            {
+              "text": "VEREUS"
+            },
+            {
+              "text": "Master of Elements"
+            },
+            {
+              "text": "Nebula Staff"
+            },
+            {
+              "text": "Golden Clock"
+            },
+            {
+              "text": "DARK Stand"
+            },
+            {
+              "text": "dahnoob's baseball bat"
+            },
+            {
+              "text": "WYD Form"
+            }
+          ],
+          "title": "VISUAL",
+          "desc": "Only you can see it but still cool"
+        },
+        {
+          "configs": [
+            {
+              "text": "Mod Skins (EAST)"
+            },
+            {
+              "text": "Dragon Skins (EAST)"
+            },
+            {
+              "text": "Eclipse"
+            },
+            {
+              "text": "Frostbite"
+            },
+            {
+              "text": "Orange"
+            },
+            {
+              "text": "Violet Night"
+            },
+            {
+              "text": "Blood Moon"
+            },
+            {
+              "text": "Phoenix Sky"
+            },
+            {
+              "text": "Yellow"
+            },
+            {
+              "text": "Purple"
+            },
+            {
+              "text": "Emerald"
+            },
+            {
+              "text": "Halo Color"
+            },
+            {
+              "text": "Eyes Flame Color"
+            },
+            {
+              "text": "Hands Flame Color"
+            },
+            {
+              "text": "Mod Skins (PAIN)"
+            },
+            {
+              "text": "Pain Skins"
+            },
+            {
+              "text": "Frustration"
+            },
+            {
+              "text": "Torment"
+            },
+            {
+              "text": "Celestial"
+            },
+            {
+              "text": "Super Spirit"
+            },
+            {
+              "text": "Sadness"
+            },
+            {
+              "text": "Mod Skins (LIGHTNING)"
+            },
+            {
+              "text": "Lightning Skins"
+            },
+            {
+              "text": "Purple"
+            },
+            {
+              "text": "Yellow"
+            },
+            {
+              "text": "Mod Skins (PORTAL)"
+            },
+            {
+              "text": "Portal Skins"
+            },
+            {
+              "text": "Orange"
+            },
+            {
+              "text": "Divine"
+            },
+            {
+              "text": "Mod Skins (DIAMOND)"
+            },
+            {
+              "text": "Diamond Skins"
+            },
+            {
+              "text": "Diamond"
+            },
+            {
+              "text": "Rose Quartz"
+            },
+            {
+              "text": "Emerald"
+            },
+            {
+              "text": "Update Fruit (HIDDEN ABILITIES)"
+            },
+            {
+              "text": "Select Fruit To Update"
+            },
+            {
+              "text": "Gravity Fruit"
+            },
+            {
+              "text": "Eagle Fruit"
+            },
+            {
+              "text": "Lightning Fruit"
+            },
+            {
+              "text": "Pain Fruit"
+            },
+            {
+              "text": "Control Fruit"
+            },
+            {
+              "text": "Mod Skins (WEST)"
+            },
+            {
+              "text": "Dragon Skins (WEST)"
+            },
+            {
+              "text": "Emerald"
+            },
+            {
+              "text": "Phoenix Sky"
+            },
+            {
+              "text": "Eclipse"
+            },
+            {
+              "text": "Blood Moon"
+            },
+            {
+              "text": "Yellow"
+            },
+            {
+              "text": "Violet Night"
+            },
+            {
+              "text": "Frostbite"
+            },
+            {
+              "text": "Purple"
+            },
+            {
+              "text": "Orange"
+            },
+            {
+              "text": "Mod Skins (EAGLE)"
+            },
+            {
+              "text": "Eagle Skins"
+            },
+            {
+              "text": "Blue Sky"
+            },
+            {
+              "text": "Requiem"
+            },
+            {
+              "text": "Golden Moss"
+            },
+            {
+              "text": "Orange Creamsicle"
+            },
+            {
+              "text": "Matrix"
+            },
+            {
+              "text": "Velvet"
+            },
+            {
+              "text": "Parrot"
+            },
+            {
+              "text": "Glacier"
+            },
+            {
+              "text": "Falcon"
+            },
+            {
+              "text": "Mod Skins (BOMB)"
+            },
+            {
+              "text": "Bomb Skins"
+            },
+            {
+              "text": "Thermite"
+            },
+            {
+              "text": "Nuclear"
+            },
+            {
+              "text": "Celebration"
+            },
+            {
+              "text": "Mod Skins (TIGER)"
+            },
+            {
+              "text": "Tiger Skins"
+            },
+            {
+              "text": "Werewolf"
+            },
+            {
+              "text": "🐯 Animation ➡ 🐺"
+            },
+            {
+              "text": "🐺 Animation ➡ 🐯"
+            },
+            {
+              "text": "Mod Skins (KITSUNE)"
+            },
+            {
+              "text": "Kyukon Skins"
+            },
+            {
+              "text": "Galaxy <Empyrean (Kitsune)>"
+            },
+            {
+              "text": "Crimson <Empyrean (Kitsune)>"
+            },
+            {
+              "text": "Mod Skins (YETI)"
+            },
+            {
+              "text": "Yeti Skins"
+            },
+            {
+              "text": "Fiend Yeti"
+            },
+            {
+              "text": "☃️ Animation ➡ 👹"
+            },
+            {
+              "text": "👹 Animation ➡ ☃️"
+            }
+          ],
+          "title": "FRUITS SKIN & UPDATE",
+          "desc": "Only you can see it but still cool"
+        },
+        {
+          "configs": [
+            {
+              "text": "Select Saved Macro : None"
+            },
+            {
+              "text": "Build Macro Input"
+            },
+            {
+              "text": "Macro Save Name"
+            },
+            {
+              "text": "Creation Functions"
+            },
+            {
+              "text": "Mod Fruit (Build+)"
+            },
+            {
+              "text": "Delete Objects"
+            },
+            {
+              "text": "Copy Objects"
+            },
+            {
+              "text": "Macro Functions"
+            },
+            {
+              "text": "Run Build"
+            },
+            {
+              "text": "Run Build [Q+]"
+            },
+            {
+              "text": "Refresh Macro"
+            },
+            {
+              "text": "Save Macro"
+            },
+            {
+              "text": "Delete Macro"
+            },
+            {
+              "text": "Copy Other Creation Builds"
+            },
+            {
+              "text": "Change Build Position"
+            },
+            {
+              "text": "Change Build Pos X"
+            },
+            {
+              "text": "Change Build Pos Y"
+            },
+            {
+              "text": "Change Build Pos Z"
+            }
+          ],
+          "title": "CREATION FRUIT",
+          "desc": "Buff your fruit, auto build macro"
+        },
+        {
+          "configs": [
+            {
+              "text": "Control M1 No CD"
+            },
+            {
+              "text": "Auto Tp Room"
+            },
+            {
+              "text": "Op Gamma Blade"
+            }
+          ],
+          "title": "CONTROL FRUIT",
+          "desc": "Buff your fruit, op features"
+        },
+        {
+          "configs": [
+            {
+              "text": "Custom Title Name"
+            },
+            {
+              "text": "Custom Title Desc"
+            },
+            {
+              "text": "Custom Title Color"
+            },
+            {
+              "text": "Add Custom Title"
+            },
+            {
+              "text": "Unlock All Titles"
+            },
+            {
+              "text": "Press Button Above Before Add A Custom Title"
+            }
+          ],
+          "title": "TITLES MOD",
+          "desc": "Only you can see it but still cool"
+        }
+      ],
+      "title": "MISC",
+      "desc": "Cool features like ESP or Teleport"
+    },
+    {
+      "mini_pages": [
+        {
+          "configs": [
+            {
+              "text": "Track Your Accounts"
+            },
+            {
+              "text": "Copy Website Link"
+            },
+            {
+              "text": "Put Your Track Script Here"
+            },
+            {
+              "text": "Account Tracking"
+            },
+            {
+              "text": "Put Your Webhook Here"
+            },
+            {
+              "text": "Note: Add Use External Emoji For @everyone"
+            },
+            {
+              "text": "Webhook Delay (min)"
+            },
+            {
+              "text": "Test Webhook"
+            },
+            {
+              "text": "Send Webhook"
+            },
+            {
+              "text": "Send Webhook Fruit Storage Change"
+            },
+            {
+              "text": "Send Webhook New Fish"
+            }
+          ],
+          "title": "WEBHOOK",
+          "desc": "Track in-game info"
+        },
+        {
+          "configs": [
+            {
+              "text": "Make Normal Fruit Seller to 🏝️Mirage Island's Fruit Seller"
+            },
+            {
+              "text": "Invisicam"
+            },
+            {
+              "text": "Free Camera"
+            },
+            {
+              "text": "RTX Shader"
+            },
+            {
+              "text": "Open GUI"
+            },
+            {
+              "text": "Fruit Dealer"
+            },
+            {
+              "text": "Mirage Dealer"
+            },
+            {
+              "text": "Haki Colors"
+            },
+            {
+              "text": "Awakening Toggler"
+            },
+            {
+              "text": "Titles"
+            },
+            {
+              "text": "Bartender"
+            },
+            {
+              "text": "Admin Panel"
+            },
+            {
+              "text": "Game Misc"
+            },
+            {
+              "text": "Redeem All Codes"
+            },
+            {
+              "text": "Show Items"
+            },
+            {
+              "text": "Show Acc Link"
+            },
+            {
+              "text": "Change Team"
+            },
+            {
+              "text": "Pirate"
+            },
+            {
+              "text": "Marine"
+            }
+          ],
+          "title": "GAME SETTING",
+          "desc": "Control the game lightning, fps and much more"
+        },
+        {
+          "configs": [
+            {
+              "text": "Save Script Setting"
+            },
+            {
+              "text": "Reset Script Setting"
+            },
+            {
+              "text": "Export To HoHoCustomConfig"
+            },
+            {
+              "text": "UI Background ID/Link"
+            },
+            {
+              "text": "UI Background Type : Image"
+            },
+            {
+              "text": "UI Background Transparency"
+            },
+            {
+              "text": "Enable UI Background"
+            },
+            {
+              "text": "Premium Theme V4 : Purple"
+            },
+            {
+              "text": "Purple"
+            },
+            {
+              "text": "Colorfull"
+            },
+            {
+              "text": "Sakura"
+            },
+            {
+              "text": "Darkblue"
+            },
+            {
+              "text": "Turquoise"
+            },
+            {
+              "text": "Yellow"
+            },
+            {
+              "text": "Orange"
+            },
+            {
+              "text": "Script Language : English"
+            },
+            {
+              "text": "English"
+            },
+            {
+              "text": "Chinese"
+            },
+            {
+              "text": "Japanese"
+            },
+            {
+              "text": "Russian"
+            },
+            {
+              "text": "German"
+            },
+            {
+              "text": "Vietnamese"
+            },
+            {
+              "text": "Ukrainian"
+            },
+            {
+              "text": "Italian"
+            },
+            {
+              "text": "French"
+            },
+            {
+              "text": "Hungarian"
+            },
+            {
+              "text": "Portuguese"
+            },
+            {
+              "text": "Spanish"
+            },
+            {
+              "text": "Turkish"
+            },
+            {
+              "text": "Slovak"
+            },
+            {
+              "text": "Stop Tween Button"
+            },
+            {
+              "text": "Auto Execute HoHo"
+            },
+            {
+              "text": "Save Ui Position"
+            },
+            {
+              "text": "Print Error"
+            },
+            {
+              "text": "HoHo Cursor"
+            },
+            {
+              "text": "HoHo UI Effects"
+            },
+            {
+              "text": "HoHo UI No Animations"
+            },
+            {
+              "text": "HoHo Topbar"
+            },
+            {
+              "text": "HoHo UI : HoHo V4"
+            },
+            {
+              "text": "HoHo V4"
+            },
+            {
+              "text": "HoHo V1"
+            },
+            {
+              "text": "HoHo V2"
+            },
+            {
+              "text": "HoHo V2.5"
+            },
+            {
+              "text": "HoHo V3"
+            },
+            {
+              "text": "Flux UI"
+            },
+            {
+              "text": "Fluent (Wazure/Banana)"
+            },
+            {
+              "text": "Vin Hub"
+            },
+            {
+              "text": "Wally UI V3"
+            },
+            {
+              "text": "Sea Hub"
+            },
+            {
+              "text": "Anime Voice"
+            },
+            {
+              "text": "Hide User Info"
+            },
+            {
+              "text": "Notify Theme Pack : Anime Girls Pack"
+            },
+            {
+              "text": "Blox Fruit Pack"
+            },
+            {
+              "text": "Anime Girls Pack"
+            },
+            {
+              "text": "Meme Pack"
+            },
+            {
+              "text": "acsu's Special Pack 2"
+            },
+            {
+              "text": "Dream Pack"
+            },
+            {
+              "text": "acsu's Special Pack"
+            },
+            {
+              "text": "Anime Boys Pack"
+            },
+            {
+              "text": "Cat Pack"
+            },
+            {
+              "text": "Furry Pack"
+            },
+            {
+              "text": "Horror Pack"
+            },
+            {
+              "text": "Notify Test"
+            }
+          ],
+          "title": "SCRIPT SETTING",
+          "desc": "Save, Load & Reset the script data"
+        },
+        {
+          "configs": [
+            {
+              "text": "Join Server Job Id"
+            },
+            {
+              "text": "Join Server Hоhо Code"
+            },
+            {
+              "text": "Copy This Server Job Id"
+            },
+            {
+              "text": "Change Sea"
+            },
+            {
+              "text": "First Sea"
+            },
+            {
+              "text": "Second Sea"
+            },
+            {
+              "text": "Third Sea"
+            },
+            {
+              "text": "Dungeon"
+            },
+            {
+              "text": "Change Server"
+            },
+            {
+              "text": "Rejoin"
+            },
+            {
+              "text": "Hop Server"
+            },
+            {
+              "text": "Low Server"
+            },
+            {
+              "text": "4H Server"
+            }
+          ],
+          "title": "H0H0 SERVERS",
+          "desc": "Join or share your server id with everybody"
+        }
+      ],
+      "title": "SETTING",
+      "desc": "Fully customize your favorite script hub"
+    }
+  ]
+}
