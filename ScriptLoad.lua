@@ -492,9 +492,9 @@ do
 	Credit.ZIndex = 2
 	Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Credit.Text = [[<font color="#f8042e">YT</font> @acsu123 | <font color="#5d6af2">DISCORD</font> .gg/hоhоhub]]
+	Credit.Text = [[<font color="#f8042e">YT</font> @QuangBlueSky | <font color="#5d6af2">DISCORD</font> .gg/hоhоhub]]
 	if IS_CUSTOM_UI_MODE then
-        local yt = '<font color="#f8042e">YT</font> @' .. (CUSTOM_UI_MODE_DATA.YouTube or "acsu123")
+        local yt = '<font color="#f8042e">YT</font> @' .. (CUSTOM_UI_MODE_DATA.YouTube or "QuangBlueSky")
         local dc = '<font color="#5d6af2">DISCORD</font> .gg/' .. (CUSTOM_UI_MODE_DATA.Discord or "hоhоhub")
         Credit.Text = yt .. " | " .. dc
     end
