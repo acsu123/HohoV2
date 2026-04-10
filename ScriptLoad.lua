@@ -38,6 +38,13 @@ local GameList = {
 	[9186719164] = "282f82c5fbcf3b438888268a4a5fa201", -- Sailor Piece
 	[1451439645] = "282f82c5fbcf3b438888268a4a5fa201", -- King Legacy
 	[3808081382] = "282f82c5fbcf3b438888268a4a5fa201", -- The Strongest Battleground
+	[9338091695] = "282f82c5fbcf3b438888268a4a5fa201", -- Reign Piece
+	[66654135] = "282f82c5fbcf3b438888268a4a5fa201", -- Murder Mystery 2
+	[6331902150] = "282f82c5fbcf3b438888268a4a5fa201", -- Forsaken
+	[8316902627] = "282f82c5fbcf3b438888268a4a5fa201", -- Plant vs Brainrot
+	[7671049560] = "282f82c5fbcf3b438888268a4a5fa201", -- The Forge
+	[9649298941] = "282f82c5fbcf3b438888268a4a5fa201", -- Survive LAVA for Brainrots!
+	[9363735110] = "282f82c5fbcf3b438888268a4a5fa201", -- Escape Tsunami For Brainrot
 }
 
 for id, scriptid in pairs(GameList) do
