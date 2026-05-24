@@ -45,6 +45,10 @@ local GameList = {
 	[7671049560] = "282f82c5fbcf3b438888268a4a5fa201", -- The Forge
 	[9649298941] = "282f82c5fbcf3b438888268a4a5fa201", -- Survive LAVA for Brainrots!
 	[9363735110] = "282f82c5fbcf3b438888268a4a5fa201", -- Escape Tsunami For Brainrot
+	[9860860377] = "282f82c5fbcf3b438888268a4a5fa201", -- Anime Limitless
+	[9073513091] = "282f82c5fbcf3b438888268a4a5fa201", -- Anime Apocalypse
+	[9382839773] = "282f82c5fbcf3b438888268a4a5fa201", -- Lineage Piece
+	[9917246399] = "282f82c5fbcf3b438888268a4a5fa201", -- Pirate Piece
 }
 
 for id, scriptid in pairs(GameList) do
