@@ -49,6 +49,7 @@ local GameList = {
 	[9073513091] = "282f82c5fbcf3b438888268a4a5fa201", -- Anime Apocalypse
 	[9382839773] = "282f82c5fbcf3b438888268a4a5fa201", -- Lineage Piece
 	[9917246399] = "282f82c5fbcf3b438888268a4a5fa201", -- Pirate Piece
+	[10200395747] = "e21bc4d95b5db444bf19e8e03a664300", -- Grow A Garden 2
 }
 
 for id, scriptid in pairs(GameList) do
